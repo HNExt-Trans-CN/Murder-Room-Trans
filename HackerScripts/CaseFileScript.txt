@@ -30,8 +30,8 @@ delay 0.5 $#%#$
 
 writel Case $#%#$
 delay 0.1 $#%#$
-write_silent File $#%#$
+write_silent 文件 $#%#$
 delay 0.1 $#%#$
-write_silent updated. $#%#$
+write_silent 已更新 $#%#$
 
 disconnect $#%#$

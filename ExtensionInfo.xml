@@ -1,8 +1,8 @@
 <HacknetExtension>
   <!-- Max name length is 128 characters -->
-	<Name>Murder Room</Name>
+	<Name>[CN]Murder Room</Name>
 	<AllowSaves>true</AllowSaves>
-  
+  <Language>zh-cn</Language>
   <!-- a coma separated list of notes that start out as being visible-->
 	<StartingVisibleNodes></StartingVisibleNodes>
   
@@ -15,8 +15,8 @@
   <StartingActions>Actions/StartingActions.xml</StartingActions>
 
   <!-- Description that appears within Hacknet -->
-  <Description>Welcome, agent, to the Murder Room.
-Your job: To solve the unsolvable.</Description>
+  <Description>欢迎你来到Murder Room，特工。
+你的任务: 解决无法解决的问题。</Description>
   
   <!-- Factions involved in this extension! You can define as many or as few as you like -->
   <Faction>Factions/StartingFaction.xml</Faction>
@@ -57,40 +57,44 @@ Your job: To solve the unsolvable.</Description>
         public string WorkshopTags;
         public string WorkshopPreviewImagePath;
   -->
-  <WorkshopDescription>When government agencies fail, there is one last line of defense: Nova. A secretive organization with one goal:
-To solve the unsolvable. 
-As a Nova agent, you must work to solve cold cases deemed impossible without the help of advanced technology.
-Investigate case files, navigate through webs of personal lives and company secrets, and bring justice for all.
-Welcome, agent, to the Murder Room.
+  <WorkshopDescription>当政府被击垮之际，还有最后一道防线：一个只有一个目标的秘密组织——Nova。
+他们的目标是解决无法解决的问题。
+作为一名Nova特工，你必须努力解决被认为不可能解决的冷门案件，并且没有先进技术的帮助。
+调查案件，穿梭个人生活和公司秘密的网络，为所有人带来正义。
+欢迎你来到Murder Room，特工。
 
-Featuring:
-- Unique story missions never before seen in Hacknet
-- Brand-new tales of mystery and intrigue
-- New themes to collect
-- 1-2 hours of crime-solving fun
+特点:
+- Hacknet中从未见过的独特故事/任务。
+- 全新的神秘阴谋故事。
+- 数量惊人的可收集新主题。
+- 1-2小时的全流程时长
 
-Credits:
+作者:
 
-Music:
+中文版翻译:
+- gao_cai_sheng
+
+音乐:
 - Hacknet OST
 - Kwiper - Catalyst
 - Turbo - surreal sippin'
 
-Themes:
-All theme images found on wallpaperflare.com for non-commercial use
+主题:
+所有主题图片均来自wallpaperflare.com，用于非商业使用
 
-Attribution-free stock images used for certain assets.
-Everything else by me.
+部分图片采用非署名图片
+其他图片均归属作者本人
 
 #Hackerjam2
 
-DISCLAIMER: This extension features descriptions of deadly crimes and depictions of bloodied murder weapons. 
-While the extension doesn't go so far as to show any actual violence, nor any gratuitous gore, some player discretion is still advised.
-This is a work of fiction. Names, characters, businesses, places, events, locales, and incidents are either the products of the author's imagination or used in a fictitious manner. 
-Any resemblance to actual persons, living or dead, or actual events is purely coincidental.</WorkshopDescription>
+免责声明：本扩展内描述了血腥的谋杀武器与案件。
+虽然本扩展未表现任何实际的暴力，也没有任何的血腥内容，但还是建议玩家谨慎对待。
+本作为虚构作品。名字、人物、企业、地方、事件、地点和事件都是作者想象的产物或以虚构的方式使用。
+如有与真实事件、真实人物雷同之处，纯属于巧合。
+</WorkshopDescription>
 
   <!-- Language that this is set to. -->
-  <WorkshopLanguage>English</WorkshopLanguage>
+  <WorkshopLanguage>Chinese</WorkshopLanguage>
 
   <!-- Sets the visibility of this item on the workshop.
   0 = public
@@ -116,6 +120,6 @@ Any resemblance to actual persons, living or dead, or actual events is purely co
   When this happens, make sure that you keep that version of the file and store the ID somewhere - without it, you wont be able to push out updates to your extension,
   and if it's removed, publishing to the workshop will submit it as a new entry, and you'll lose all of your subscribers. Be careful!
   Do not manually modify this unless you already know your Publish ID from a previous submission. A new ID will only be generated if this says "NONE"-->
-  <WorkshopPublishID>2123621115</WorkshopPublishID>
+  <WorkshopPublishID>NONE</WorkshopPublishID>
   
 </HacknetExtension>

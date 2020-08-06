@@ -4,9 +4,9 @@ clearTerminal $#%#$
 
 delay 0.5 $#%#$
 
-writel Analyzing $#%#$
+writel 分析 $#%#$
 delay 0.1 $#%#$
-write_silent contents. $#%#$
+write_silent 文本中. $#%#$
 delay 0.1 $#%#$
 write_silent . $#%#$
 delay 0.1 $#%#$
@@ -28,10 +28,10 @@ delay 0.1 $#%#$
 writel_silent $#%#$
 delay 0.5 $#%#$
 
-writel Unscramble $#%#$
+writel 解扰 $#%#$
 delay 0.1 $#%#$
-write_silent algorithm $#%#$
+write_silent 算法 $#%#$
 delay 0.1 $#%#$
-write_silent accepted. $#%#$
+write_silent 已接受。 $#%#$
 
 disconnect $#%#$

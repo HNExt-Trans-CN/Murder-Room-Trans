@@ -5,101 +5,97 @@ connect $#%#$
 
 delay 2.0 $#%#$
 
-writel I $#%#$
+writel 我 $#%#$
 delay 0.1 $#%#$
-write trusted $#%#$
+write 信任 $#%#$
 delay 0.1 $#%#$
-write you. $#%#$
+write 你。 $#%#$
 
 delay 2.0 $#%#$
 
-writel I $#%#$
+writel 我 $#%#$
 delay 0.1 $#%#$
-write thought $#%#$
+write 曾经 $#%#$
 delay 0.1 $#%#$
-write I $#%#$
+write 觉得 $#%#$
 delay 0.1 $#%#$
-write could $#%#$
+write 你 $#%#$
 delay 0.1 $#%#$
-write get $#%#$
+write 可以 $#%#$
 delay 0.1 $#%#$
-write you $#%#$
+write 理解 $#%#$
 delay 0.1 $#%#$
-write to $#%#$
-delay 0.1 $#%#$
-write understand. $#%#$
+write 我。 $#%#$
 
 delay 2.0 $#%#$
 
-writel Apparently $#%#$
+writel 显然 $#%#$
 delay 0.1 $#%#$
-write not. $#%#$
+write 你 $#%#$
+delay 0.1 $#%#$
+write 没有! $#%#$
 
 delay 2.0 $#%#$
 
-writel I $#%#$
+writel 我 $#%#$
 delay 0.1 $#%#$
-write know $#%#$
+write 知道 $#%#$
 delay 0.1 $#%#$
-write there's $#%#$
+write 现在 $#%#$
 delay 0.1 $#%#$
-write no $#%#$
+write 没有 $#%#$
 delay 0.1 $#%#$
-write stopping $#%#$
+write 什么 $#%#$
 delay 0.1 $#%#$
-write Nova $#%#$
+write 能够 $#%#$
 delay 0.1 $#%#$
-write now. $#%#$
+write 阻止 $#%#$
+delay 0.1 $#%#$
+write Nova。 $#%#$
 
 delay 2.0 $#%#$
 
-writel That's $#%#$
+writel 没 $#%#$
 delay 0.1 $#%#$
-write ok. $#%#$
+write 关系。 $#%#$
 
 delay 2.0 $#%#$
 
-writel I $#%#$
+writel 至少 $#%#$
 delay 0.1 $#%#$
-write can $#%#$
+write 我 $#%#$
 delay 0.1 $#%#$
-write at $#%#$
+write 可以 $#%#$
 delay 0.1 $#%#$
-write least $#%#$
+write 在 $#%#$
 delay 0.1 $#%#$
-write deal $#%#$
+write 事情 $#%#$
 delay 0.1 $#%#$
-write one $#%#$
+write 结束 $#%#$
 delay 0.1 $#%#$
-write last $#%#$
+write 前 $#%#$
 delay 0.1 $#%#$
-write blow $#%#$
+write 给予 $#%#$
 delay 0.1 $#%#$
-write to $#%#$
+write 他们 $#%#$
 delay 0.1 $#%#$
-write their $#%#$
+write 最后 $#%#$
 delay 0.1 $#%#$
-write credibility $#%#$
-delay 0.1 $#%#$
-write before $#%#$
-delay 0.1 $#%#$
-write it's $#%#$
-delay 0.1 $#%#$
-write over. $#%#$
+write 一击。 $#%#$
 
 delay 2.0 $#%#$
 
 forkbomb$#%#$
-writel I $#%#$
+writel 我 $#%#$
 delay 0.1 $#%#$
-writel hope $#%#$
+writel 期盼着 $#%#$
 delay 0.1 $#%#$
-writel you $#%#$
+writel 你 $#%#$
 delay 0.1 $#%#$
-writel rot $#%#$
+writel 能在 $#%#$
 delay 0.1 $#%#$
-writel in $#%#$
+writel 地狱中 $#%#$
 delay 0.1 $#%#$
-writel hell. $#%#$
+writel 燃烧。 $#%#$
 
 disconnect $#%#$

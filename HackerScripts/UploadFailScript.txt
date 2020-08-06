@@ -4,9 +4,9 @@ clearTerminal $#%#$
 
 delay 0.5 $#%#$
 
-writel Analyzing $#%#$
+writel 分析 $#%#$
 delay 0.1 $#%#$
-write_silent contents. $#%#$
+write_silent 文本中. $#%#$
 delay 0.1 $#%#$
 write_silent . $#%#$
 delay 0.1 $#%#$
@@ -28,10 +28,10 @@ delay 0.1 $#%#$
 writel_silent $#%#$
 delay 0.5 $#%#$
 
-writel ERROR: Forensic $#%#$
+writel 错误: 取证 $#%#$
 delay 0.1 $#%#$
-write_silent analysis $#%#$
+write_silent 分析 $#%#$
 delay 0.1 $#%#$
-write_silent FAILED. $#%#$
+write_silent 失败。 $#%#$
 
 disconnect $#%#$
