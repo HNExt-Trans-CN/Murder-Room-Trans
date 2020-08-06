@@ -1,0 +1,17 @@
+<Computer id="ingridRouter"
+          name="Cysco Router C5522"
+          security="1"
+          icon="chip"
+          type="4">
+<!--This is the new way to find Christopher's computer-->
+
+<adminPass pass="admin"/>
+<ports>22,211</ports>
+<portsForCrack val="2"/>
+
+<dlink target="ingridComp"/>
+<dlink target="christopherComp"/>
+
+<file path="sys" name="Cysco_Network.dll">#BINARY#</file>
+
+</Computer>

@@ -1,0 +1,30 @@
+<mission id="chapter1EmailTut" activeCheck="true" shouldIgnoreSenderVerification="true">
+
+<goals>
+
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>G</sender>
+<subject>Re: Case File: HS-4</subject>
+<body>Hmm, doesn't look like we can find more from this end.
+
+Seems the murder weapon's a dead end, too. At least we managed to discover a more concrete time of death - January 9th or later.
+That means the girlfriend didn't kill him when she left his apartment January 7th. That doesn't completely clear her of suspicion yet, there's still January 10th she's unaccounted for.
+Based on this login log, someone got into Staleski's computer after he was killed.
+
+Since it doesn't look like we can get much more out of what we have here, let me show you another function of the Forensic Analyzer.
+Upload an email account file to the analyzer. If you don't have it on your netmap yet, the analyzer will determine the IP of the email server uploaded and add it to your netmap.
+
+Seems like Staleski had a couple email accounts on his phone. Try uploading them.
+-G
+</body>
+<attachments>
+</attachments>
+</email>
+</mission>
+
+<!--mstaleski@dlabs.com.act-->
+<!--staleski01@jmail.com.act-->

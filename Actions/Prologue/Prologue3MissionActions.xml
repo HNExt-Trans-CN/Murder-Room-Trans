@@ -1,0 +1,30 @@
+<ConditionalActions>
+
+<Instantly>
+<!--Debug-->
+<RunFunction FunctionName="addFlags:prologue3ActionLoaded"/>
+<RunFunction FunctionName="addFlags:prologue3ConnectLoop"/>
+</Instantly>
+
+<!--Fuck branch missions not loading so I have to do this broken shit.-->
+<OnAdminGained target="tutPhone1">
+<LoadMission MissionName="Missions/Prologue/Prologue3Branch1.xml"/>
+<AddConditionalActions Filepath="Actions/Prologue/Prologue3Loop1.xml"/>
+</OnAdminGained>
+
+<OnAdminGained target="tutPhone2">
+<LoadMission MissionName="Missions/Prologue/Prologue3Branch2.xml"/>
+<AddConditionalActions Filepath="Actions/Prologue/Prologue3Loop2.xml"/>
+</OnAdminGained>
+
+<OnAdminGained target="tutPhone3">
+<LoadMission MissionName="Missions/Prologue/Prologue3Branch3.xml"/>
+<AddConditionalActions Filepath="Actions/Prologue/Prologue3Loop3.xml"/>
+</OnAdminGained>
+
+<HasFlags requiredFlags="tut1,tut2,tut3">
+<LoadMission MissionName="Missions/Prologue/Prologue4.xml"/>
+<RunFunction FunctionName="removeFlags:prologue3ConnectLoop"/>
+</HasFlags>
+
+</ConditionalActions>

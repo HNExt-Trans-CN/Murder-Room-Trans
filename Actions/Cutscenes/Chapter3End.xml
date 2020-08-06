@@ -1,0 +1,41 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="playCustomSong:Music/Silence.ogg"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Black.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="0.0"/>
+<RunFunction FunctionName="removeFlags:chapter3"/>
+<RunFunction FunctionName="addFlags:chapter4"/>
+<HideAllNodes DelayHost="delay" Delay="0"/>
+<ShowNode DelayHost="delay" Delay="0.1" Target="playerComp"/>
+<ShowNode DelayHost="delay" Delay="0.1" Target="jmail"/>
+<ShowNode DelayHost="delay" Delay="0.1" Target="forensic"/>
+<ShowNode DelayHost="delay" Delay="0.1" Target="caseFile"/>
+<ShowNode DelayHost="delay" Delay="0.1" Target="novaGuide"/>
+<SetLock DelayHost="delay" Delay="0.0" Module="terminal" IsLocked="true" IsHidden="true"/>
+<SetLock DelayHost="delay" Delay="0.0" Module="ram" IsLocked="true" IsHidden="true"/>
+<SetLock DelayHost="delay" Delay="0.0" Module="netmap" IsLocked="true" IsHidden="true"/>
+<SetLock DelayHost="delay" Delay="0.0" Module="display" IsLocked="true" IsHidden="true"/>
+
+<SetLock DelayHost="delay" Delay="5.0" Module="terminal" IsLocked="false" IsHidden="false"/>
+<SetLock DelayHost="delay" Delay="5.3" Module="ram" IsLocked="false" IsHidden="false"/>
+<SetLock DelayHost="delay" Delay="5.5" Module="netmap" IsLocked="false" IsHidden="false"/>
+<SetLock DelayHost="delay" Delay="5.7" Module="display" IsLocked="false" IsHidden="false"/>
+<SwitchToTheme ThemePathOrName="Themes/Link.xml" FlickerInDuration="1.0" DelayHost="delay" Delay="5.0"/>
+<RunFunction FunctionName="playCustomSong:Music/Silence.ogg" DelayHost="delay" Delay="5.0"/>
+<RunFunction FunctionName="addRankSilent" FunctionValue="1" DelayHost="delay" Delay="5.5"/>
+
+<DeleteFile TargetComp="caseFile" FilePath="home" FileName="Case_Briefing.doc"/>
+<DeleteFile TargetComp="caseFile" FilePath="home/Evidence" FileName="Evidence_SC9-1.md"/>
+<DeleteFile TargetComp="caseFile" FilePath="home/Evidence" FileName="Evidence_SC9-2.md"/>
+<DeleteFile TargetComp="caseFile" FilePath="home/Evidence" FileName="Evidence_SC9-3.md"/>
+
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Crash_Track_Clipped.ogg" DelayHost="delay" Delay="2.0"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Sterling3.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="2.0"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Sterling1.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="2.2"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Sterling4.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="2.8"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Sterling2.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="3.0"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Sterling4.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="4.0"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Sterling2.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="4.2"/>
+</Instantly>
+
+</ConditionalActions>

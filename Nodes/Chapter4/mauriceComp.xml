@@ -1,0 +1,24 @@
+<Computer id="mauriceComp"
+          name="Maurice Graves Laptop"
+          ip="212.49.101.2"
+          security="3"
+          allowsDefaultBootModule="false"
+          icon="laptop">
+
+<ports>25, 6881, 22</ports>
+<portsForCrack val="3"/>
+<proxy time="-1"/>
+<firewall level="-1"/>
+
+<eosDevice name="Maurice Graves ePhone 5" id="mauricePhone" icon="ePhone2" empty="false">
+<mail username="agentM@nova.com" pass="gravedigger"/>
+</eosDevice>
+
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+<file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+<file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+<file path="bin" name="KBTPortTest.exe">#MEDICAL_PROGRAM#</file>
+
+</Computer>

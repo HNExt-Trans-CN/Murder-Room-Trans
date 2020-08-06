@@ -1,0 +1,72 @@
+<Computer id="policeMail"
+          name="96th Precinct Mail Server"
+          ip="225.23.98.51"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<adminPass pass="blueniform"/>
+
+<account username="lyara" password="janus" type="MAIL"/>
+<account username="arain" password="rainadain" type="MAIL"/>
+<account username="koliver" password="OliveSmolive" type="MAIL"/>
+<account username="jsmith" password="basic" type="MAIL"/>
+<account username="rholt" password="vindication" type="MAIL"/>
+<account username="lwren" password="n75OOOx" type="MAIL"/>
+<account username="ewhit" password="tens86" type="MAIL"/>
+<account username="imiles" password="Valkyrie" type="MAIL"/>
+<account username="sben" password="sben" type="MAIL"/>
+<account username="sreyes" password="likeawolf" type="MAIL"/>
+
+<ports>21, 22, 25, 80</ports>
+<portsForCrack val="4"/>
+<proxy time="-1"/>
+<firewall level="6" solution="JUSTICE"/>
+
+<mailServer name="NYPD" color="29,45,122" generateJunk="true">
+<email recipient="koliver" sender="NYPD Commuications" subject="NYPD Newsletter January 2020">Hello NYPD officers and staff,
+The time has come again for our monthly newsletter. Please take a look through as it details some new policy changes, new initiatives
+and exciting new career opporunities.
+
+- NYPD Communications
+</email>
+<email recipient="koliver" sender="Ingrid Miles" subject="Re: Case File MK-3 - Update">Officer Kara,
+Thank you for your update. The report has been processed and taken care of.
+
+Regards,
+Cap. Ingrid Miles
+Captain of the 96th Precinct
+Sent from my ePhone</email>
+
+<email recipient="koliver" sender="Lan Wren" subject="Database Password">
+Kara Oliver,
+
+Your request for a password reset has been approved. Your new password is V76Yg5!.
+
+- Lan Wren, Head of IT
+</email>
+<email recipient="koliver" sender="NYPD Communications" subject="NYPD Newsletter February 2020">Hello NYPD officers and staff,
+The time has come again for our monthly newsletter. Please take a look through as it details some new policy changes, new initiatives
+and exciting new career opporunities.
+
+- NYPD Communications</email>
+
+<email recipient="imiles" sender="NYPD Commuications" subject="NYPD Newsletter January 2020">Hello NYPD officers and staff,
+The time has come again for our monthly newsletter. Please take a look through as it details some new policy changes, new initiatives
+and exciting new career opporunities.
+
+- NYPD Communications
+</email>
+<email recipient="imiles" sender="Kara Oliver" subject="Case File MK-3 - Update">Dear Captain Miles,
+The updated information on the MK-3 case has been forwarded and attached to this document. Please take a look.
+
+Sincerely,
+Officer Kara Oliver</email>
+<email recipient="imiles" sender="NYPD Communications" subject="NYPD Newsletter February 2020">Hello NYPD officers and staff,
+The time has come again for our monthly newsletter. Please take a look through as it details some new policy changes, new initiatives
+and exciting new career opporunities.
+
+- NYPD Communications</email>
+</mailServer>
+
+</Computer>

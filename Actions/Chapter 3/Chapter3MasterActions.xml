@@ -1,0 +1,14 @@
+<ConditionalActions>
+<!--Chapter 3, let's go. This mission's got a lot less of that forensic analysis and case file shit, but in terms of the investigation itself, probably the deepest. Hopefully.-->
+<Instantly>
+
+<AddConditionalActions Filepath="Actions/Chapter 3/Chapter3SterlingGetAdmin.xml"/>
+<AddConditionalActions Filepath="Actions/Chapter 3/Chapter3ForensicActions.xml"/>
+<AddConditionalActions Filepath="Actions/Chapter 3/Chapter3RelayConnect.xml"/>
+<AddConditionalActions Filepath="Actions/Chapter 3/Chapter3FinaleConnect.xml"/>
+<AddConditionalActions Filepath="Actions/Chapter 3/Chapter3MailLoop.xml"/>
+<AddConditionalActions Filepath="Actions/Chapter 3/Chapter3DatabaseConnect.xml"/>
+</Instantly>
+
+
+</ConditionalActions>

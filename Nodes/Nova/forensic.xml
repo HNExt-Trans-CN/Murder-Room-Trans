@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="forensic"
+          name="Forensic Analyzer"
+          security="2"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4">
+
+<dlink target="caseFile"/>
+
+<uploadServerDaemon name="Forensic Analyzer" folder="Drop" needsAuth="false" color="3,157,252"/>
+
+</Computer>

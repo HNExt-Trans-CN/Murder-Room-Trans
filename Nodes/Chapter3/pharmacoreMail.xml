@@ -1,0 +1,23 @@
+<Computer id="pharmacoreMail"
+          name="Pharmacore Employee Mail"
+          security="3"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<account username="ivalma" password="Parmacore4411" type="MAIL"/>
+<account username="lrisinger" password="Parmacore7712" type="MAIL"/>
+<account username="trashid" password="Parmacore4101" type="MAIL"/>
+<account username="murich" password="Parmacore1491" type="MAIL"/>
+<account username="kying" password="Parmacore1412" type="MAIL"/>
+<account username="nrentarou" password="Parmacore1022" type="MAIL"/>
+
+<ports>6881,22,80,25</ports>
+<portsForCrack val="4"/>
+<proxy time="-1"/>
+
+<mailServer name="Pharmacore" color="235,155,52" generateJunk="true">
+
+
+</mailServer>
+
+</Computer>

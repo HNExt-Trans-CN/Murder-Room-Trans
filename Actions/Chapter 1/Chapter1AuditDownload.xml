@@ -1,0 +1,13 @@
+<ConditionalActions>
+
+<Instantly>
+<LaunchHackScript Filepath="HackerScripts/CaseFileScript.txt" DelayHost="delay" Delay="0.5" SourceComp="caseFile" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<RunFunction FunctionName="addFlags:chapter1Audit" DelayHost="delay" Delay="2.0"/>
+<DeleteFile TargetComp="playerComp" FilePath="home" FileName="logon_audit.dat" DelayHost="delay" Delay="0.0"/>
+<AppendToFile DelayHost="delay" Delay="2.0" TargetComp="caseFile" TargetFolderpath="home" TargetFilename="Case_Briefing.doc">- Last successful login performed January 9th. Unsuccessful login performed same day.</AppendToFile>
+<AppendToFile DelayHost="delay" Delay="2.0" TargetComp="caseFile" TargetFolderpath="home" TargetFilename="Case_Briefing.doc">- Remote login performed by unknown party January 12th.</AppendToFile>
+
+<LoadMission MissionName="Missions/Chapter 1/Chapter1FileDownload2.xml"/>
+</Instantly>
+
+</ConditionalActions>

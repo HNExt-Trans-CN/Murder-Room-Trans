@@ -1,0 +1,11 @@
+<ConditionalActions>
+
+<OnConnect target="christopherPhone">
+<LoadMission MissionName="Missions/Chapter 2/Chapter2GPSDownload.xml"/>
+</OnConnect>
+
+<OnDisconnect target="christopherPhone">
+<AddConditionalActions Filepath="Actions/Chapter 2/Chapter2ChristopherPhoneConnect.xml"/>
+</OnDisconnect>
+
+</ConditionalActions>

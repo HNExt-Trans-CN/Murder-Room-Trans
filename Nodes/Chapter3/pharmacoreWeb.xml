@@ -1,0 +1,15 @@
+<Computer id="pharmacoreWeb"
+          name="www.pharmacore.com"
+          ip="33.141.69.221"
+          security="2"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>21, 80, 1433</ports>
+<portsForCrack val="2"/>
+
+<dlink target="pharmacoreMail"/>
+<dlink target="pharmacoreDatabase"/>
+<!--Web stuff here-->
+
+</Computer>

@@ -1,0 +1,37 @@
+config playerComp caseFile 0.0 $#%#$
+
+clearTerminal $#%#$
+
+delay 0.5 $#%#$
+
+writel Analyzing $#%#$
+delay 0.1 $#%#$
+write_silent contents. $#%#$
+delay 0.1 $#%#$
+write_silent . $#%#$
+delay 0.1 $#%#$
+write_silent . $#%#$
+delay 0.1 $#%#$
+write_silent . $#%#$
+delay 0.1 $#%#$
+write_silent . $#%#$
+delay 0.1 $#%#$
+write_silent . $#%#$
+delay 0.1 $#%#$
+write_silent . $#%#$
+
+delay 0.1 $#%#$
+writel_silent $#%#$
+delay 0.1 $#%#$
+writel_silent $#%#$
+delay 0.1 $#%#$
+writel_silent $#%#$
+delay 0.5 $#%#$
+
+writel Case $#%#$
+delay 0.1 $#%#$
+write_silent File $#%#$
+delay 0.1 $#%#$
+write_silent updated. $#%#$
+
+disconnect $#%#$

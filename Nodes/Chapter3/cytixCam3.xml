@@ -1,0 +1,44 @@
+<Computer id="cytixCam3"
+          name="Cytix Cam C"
+          security="1"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4">
+
+<ports>22</ports>
+<portsForCrack val="0"/>
+
+<!--Put security cam images here-->
+<memoryDumpFile name="2020_03_24_1030C.md" path="home">
+<Memory>
+<Images>
+<Image>Images/Chapter3/Security_Cam_C_1.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+
+<memoryDumpFile name="2020_03_24_1130C.md" path="home">
+<Memory>
+<Images>
+<Image>Images/Chapter3/Security_Cam_C_2.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+
+<memoryDumpFile name="2020_03_24_1230C.md" path="home">
+<Memory>
+<Images>
+<Image>Images/Chapter3/Security_Cam_C_3.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+
+<memoryDumpFile name="2020_03_24_1330C.md" path="home">
+<Memory>
+<Images>
+<Image>Images/Chapter3/Security_Cam_C_4.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+
+</Computer>

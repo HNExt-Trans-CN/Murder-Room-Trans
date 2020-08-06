@@ -1,0 +1,22 @@
+<Computer id="novaCore"
+          name="Nova System Core"
+          ip="158.39.191.55"
+          security="5"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>21, 22, 25, 80, 1433, 6881, 443</ports>
+<portsForCrack val="7"/>
+<proxy time="1"/>
+<firewall level="6" solution="MURDERROOM"/>
+<trace time="-1"/>
+
+<file path="ARCHIVE/Nova" name="Overseer_Core.exe">#BINARY#</file>
+<file path="ARCHIVE/Nova" name="Case_File.dll">#BINARY#</file>
+<file path="ARCHIVE/Nova" name="Forensic_Analyzer.dll">#BINARY#</file>
+<file path="ARCHIVE/Hacknet/24-06" name="Hacknet_Content.xnb">#BINARYSMALL#</file>
+<file path="ARCHIVE/Hacknet/24-06" name="HacknetCore.dll">#BINARYSMALL#</file>
+<file path="ARCHIVE/Hacknet/24-06" name="Hacknet.exe">#HACKNET_EXE#</file>
+<file path="ARCHIVE/Hacknet/24-06" name="Hacknet_Source.zip">#BINARYSMALL#</file>
+
+</Computer>

@@ -1,0 +1,106 @@
+<Computer id="credits"
+          name="Murder Room Credits"
+          ip="192.168.1.1"
+          security="1"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4">
+
+<ports>22</ports>
+<portsForCrack val="1"/>
+
+<file path="home" name="CreditsData.txt">
+%--- Murder Room ---
+
+^An extension by Kwiper
+
+^Story by Kwiper
+
+
+
+%Music
+
+^Cinematrik
+Revolve
+
+^Matt Mclean
+Outrun the Wolves
+
+^Tonspender
+Irritations
+Slow Motion
+Broken Boy
+
+^OGRE
+snidelyWhiplash
+
+^Kwiper
+Catalyst
+
+^Turbo
+surreal sippin'
+
+
+
+^All backgrounds found on wallpaperflare.com
+Connection
+Crystal Peak
+Link
+Network
+Polymorphous
+Web Of Lies
+
+
+
+%Special thanks
+
+^Spiderbenb
+Hosting and streaming the HackerJam. Thank you for motivating me
+to get back into extension dev.
+
+^Aqua
+Preliminary testing and feedback. 
+
+^COVID-19
+Giving me time to work on this, even though I ended up crunching for time at the end.
+
+^Matt Trobbiani
+You should know why at this point.
+
+^And you
+For playing through this extension, and hopefully some of my other ones.
+You guys are the reason I keep doing this.
+
+
+
+This is a work of fiction. 
+Names, characters, businesses, places, events, locales, and
+incidents are either the products of the author's 
+imagination or used in a fictitious manner.
+Any resemblance to actual persons, living or dead, or 
+actual events is purely coincidental.
+
+</file>
+
+<file path="home" name="Message_from_the_dev.txt">So here we are at the end, and so begins another one of my long-winded messages I put at the end of my extensions.
+Murder Room was probably one of the most unique projects I've ever conceived. It's actually an extension idea I've had in mind for a couple of years now.
+I knew from the start I wanted to twist Hacknet's mechanics in some way, and the Case File and Forensic Analyzer systems, as well as the extension's general premise, were
+inspired by Osmotic Studios' Orwell. The extension's episodic/chapter-like structure was also inspired by Orwell, but the anthology narrative style of the different cases
+were inspired by two other detective games I hold near and dear to my heart: Ace Attorney and Danganronpa. The detective genre as a whole is one of my favourite narrative
+genres, and I was excited to expand upon it in Hacknet.
+
+Once again, I would like to thank Spiderbenb for hosting the HackerJam that allowed me to finally bring this project to fruition. As I'm writing this before the jam submission deadline,
+I have no way to know if I won or not, but this extension was fun to develop nonetheless. The competition was fierce, and seeing everyone create their own unique spins on Hacknet
+has been amazing. I hope people continue to bring more to this game. I am considering expanding upon this extension after the jam, adding some more content, adding custom music
+and overall adding more polish, so stay tuned for that!
+
+Anyways, I hope you enjoyed playing through Murder Room, and if you haven't already maybe consider checking out some of my other extensions!
+Any feedback you have or comments you would like to make are always appreciated.
+
+Until next time,
+- Kwiper</file>
+
+<CreditsDaemon Title="Murder Room Credits" ButtonText="Complete" ConditionalActionSetToRunOnButtonPressPath="Actions/CreditsActions.xml"/>
+
+
+</Computer>

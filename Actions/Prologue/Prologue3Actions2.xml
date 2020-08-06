@@ -1,0 +1,11 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="addFlags:tut2"/>
+<LaunchHackScript Filepath="HackerScripts/CaseFileScript.txt" DelayHost="delay" Delay="0.5" SourceComp="caseFile" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+
+<AppendToFile DelayHost="delay" Delay="2.0" TargetComp="caseFile" TargetFolderpath="home/Suspects" TargetFilename="Joseph_Goodwin.doc">- Owed $1000 to the victim</AppendToFile>
+<DeleteFile TargetComp="playerComp" FilePath="home" FileName="mmssmm.db" DelayHost="delay" Delay="1.0"/>
+</Instantly>
+
+</ConditionalActions>

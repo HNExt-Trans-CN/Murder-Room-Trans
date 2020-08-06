@@ -1,0 +1,8 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="removeFlags:shitpost"/>
+<LoadMission MissionName="Missions/Chapter 1/Chapter1FileDownload2.xml"/>
+</Instantly>
+
+</ConditionalActions>

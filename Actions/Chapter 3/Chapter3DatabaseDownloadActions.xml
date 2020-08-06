@@ -1,0 +1,12 @@
+<ConditionalActions>
+
+<Instantly>
+<LaunchHackScript Filepath="HackerScripts/CaseFileScript.txt" DelayHost="delay" Delay="0.5" SourceComp="caseFile" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<DeleteFile TargetComp="playerComp" FilePath="home" FileName="705632-085943.rec" DelayHost="delay" Delay="0.0"/>
+<AppendToFile DelayHost="delay" Delay="2.0" TargetComp="caseFile" TargetFolderpath="home" TargetFilename="Case_Briefing.doc">- Victim purchased own bottle of pills that contained the poison</AppendToFile>
+<AddAsset FileName="Decypher.exe" FileContents="#DECYPHER_PROGRAM#" TargetComp="playerComp" TargetFolderpath="bin"/>
+<RunFunction FunctionName="addFlags:chapter3Finale"/>
+</Instantly>
+
+
+</ConditionalActions>

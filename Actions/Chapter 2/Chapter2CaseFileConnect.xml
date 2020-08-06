@@ -1,0 +1,11 @@
+<ConditionalActions>
+
+<OnConnect target="policeCaseFile" requiredFlags="chapter2">
+<LoadMission MissionName="Missions/Chapter 2/Chapter2CaseFileDownload.xml"/>
+</OnConnect>
+
+<OnDisconnect target="policeCaseFile" requiredFlags="chapter2">
+<AddConditionalActions Filepath="Actions/Chapter 2/Chapter2CaseFileConnect.xml"/>
+</OnDisconnect>
+
+</ConditionalActions>

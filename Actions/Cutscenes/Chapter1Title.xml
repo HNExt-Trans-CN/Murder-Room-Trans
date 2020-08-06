@@ -1,0 +1,77 @@
+<ConditionalActions>
+
+<Instantly>
+<!--Fun stuff-->
+<RunFunction FunctionName="playCustomSong:Music/Silence.ogg"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Black.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="0.0"/>
+<HideNode DelayHost="delay" Delay="0.0" TargetComp="novaSpare"/>
+<HideNode DelayHost="delay" Delay="0.0" TargetComp="tutPhone1"/>
+<HideNode DelayHost="delay" Delay="0.0" TargetComp="tutPhone2"/>
+<HideNode DelayHost="delay" Delay="0.0" TargetComp="tutPhone3"/>
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Intro_Cutscene.ogg" DelayHost="delay" Delay="2.0"/>
+<SetLock DelayHost="delay" Delay="0.0" Module="terminal" IsLocked="true" IsHidden="true"/>
+<SetLock DelayHost="delay" Delay="0.0" Module="ram" IsLocked="true" IsHidden="true"/>
+<SetLock DelayHost="delay" Delay="0.0" Module="netmap" IsLocked="true" IsHidden="true"/>
+<SetLock DelayHost="delay" Delay="0.0" Module="display" IsLocked="true" IsHidden="true"/>
+
+<SetLock DelayHost="delay" Delay="12.0" Module="terminal" IsLocked="false" IsHidden="false"/>
+<SetLock DelayHost="delay" Delay="12.3" Module="ram" IsLocked="false" IsHidden="false"/>
+<SetLock DelayHost="delay" Delay="12.5" Module="netmap" IsLocked="false" IsHidden="false"/>
+<SetLock DelayHost="delay" Delay="12.7" Module="display" IsLocked="false" IsHidden="false"/>
+<SwitchToTheme ThemePathOrName="Themes/Connection.xml" FlickerInDuration="1.0" DelayHost="delay" Delay="12.0"/>
+<RunFunction FunctionName="changeSong" FunctionValue="7" DelayHost="delay" Delay="12.0"/>
+<RunFunction FunctionName="addRankSilent" FunctionValue="1" DelayHost="delay" Delay="12.5"/>
+<!--Theme switching-->
+
+<!--Glitch and switch at 2.5-->
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/CrimeScene2.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="2.5"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/CrimeScene3.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="2.7"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/CrimeScene1.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="2.9"/>
+<!--Switch and glitch at 3.8-->
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/CrimeScene4.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="3.8"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Hand2.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="4.0"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Hand1.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="4.2"/>
+<!--Switch and glitch at 4.5-->
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Hand3.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="4.5"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Hand4.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="4.7"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Evidence2.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="4.9"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Evidence1.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="5.2"/>
+<!--Glitch at 5.7-->
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Evidence3.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="5.5"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Evidence4.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="5.7"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Evidence2_3.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="5.9"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Evidence2_1.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="6.1"/>
+<!--Switch at 6.6-->
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Evidence2_2.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="6.6"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Evidence2_4.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="6.8"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Report2.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="7.2"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Report1.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="7.4"/>
+
+<!--Switch and glitch at 8.0-->
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Report2.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="8.0"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Report3.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="8.2"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Report4.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="8.7"/>
+<!--Final theme at 8.9-->
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/TitleFinal.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="8.9"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/TitleFinal2.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="9.5"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/TitleFinal.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="9.6"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/TitleFinal2.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="10.1"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/TitleFinal.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="10.2"/>
+
+<!--Initialize all relevant mission files-->
+<DeleteFile TargetComp="caseFile" FilePath="home" FileName="Case_Briefing.doc"/>
+<DeleteFile TargetComp="caseFile" FilePath="home/Suspects" FileName="Carl_Sutton.doc"/>
+<DeleteFile TargetComp="caseFile" FilePath="home/Suspects" FileName="Joseph_Goodwin.doc"/>
+<DeleteFile TargetComp="caseFile" FilePath="home/Suspects" FileName="Laura_Pierce.doc"/>
+<DeleteFile TargetComp="caseFile" FilePath="home/Evidence" FileName="Evidence_001.md"/>
+
+<CopyAsset DestFilePath="home" DestComp="caseFile" SourceComp="masterFile" SourceFileName="Case_Briefing.doc" SourceFilePath="home/Chapter1"/>
+<CopyAsset DestFilePath="home/Suspects" DestComp="caseFile" SourceComp="masterFile" SourceFileName="David_Mashun.doc" SourceFilePath="home/Chapter1"/>
+<CopyAsset DestFilePath="home/Suspects" DestComp="caseFile" SourceComp="masterFile" SourceFileName="Fern_Hardy.doc" SourceFilePath="home/Chapter1"/>
+<CopyAsset DestFilePath="home/Evidence" DestComp="caseFile" SourceComp="masterFile" SourceFileName="Evidence_HS4-1.md" SourceFilePath="home/Chapter1"/>
+<CopyAsset DestFilePath="home/Evidence" DestComp="caseFile" SourceComp="masterFile" SourceFileName="Evidence_HS4-2.md" SourceFilePath="home/Chapter1"/>
+
+<ChangeIP DelayHost="delay" Delay="1.0" TargetComp="staleskiPhone" NewIP="111.24.18.203" />
+</Instantly>
+
+</ConditionalActions>

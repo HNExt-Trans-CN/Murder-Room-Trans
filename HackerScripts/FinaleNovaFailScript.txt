@@ -1,0 +1,105 @@
+config playerComp mahlerCore 0.0 $#%#$
+
+clearTerminal $#%#$
+connect $#%#$
+
+delay 2.0 $#%#$
+
+writel I $#%#$
+delay 0.1 $#%#$
+write trusted $#%#$
+delay 0.1 $#%#$
+write you. $#%#$
+
+delay 2.0 $#%#$
+
+writel I $#%#$
+delay 0.1 $#%#$
+write thought $#%#$
+delay 0.1 $#%#$
+write I $#%#$
+delay 0.1 $#%#$
+write could $#%#$
+delay 0.1 $#%#$
+write get $#%#$
+delay 0.1 $#%#$
+write you $#%#$
+delay 0.1 $#%#$
+write to $#%#$
+delay 0.1 $#%#$
+write understand. $#%#$
+
+delay 2.0 $#%#$
+
+writel Apparently $#%#$
+delay 0.1 $#%#$
+write not. $#%#$
+
+delay 2.0 $#%#$
+
+writel I $#%#$
+delay 0.1 $#%#$
+write know $#%#$
+delay 0.1 $#%#$
+write there's $#%#$
+delay 0.1 $#%#$
+write no $#%#$
+delay 0.1 $#%#$
+write stopping $#%#$
+delay 0.1 $#%#$
+write Nova $#%#$
+delay 0.1 $#%#$
+write now. $#%#$
+
+delay 2.0 $#%#$
+
+writel That's $#%#$
+delay 0.1 $#%#$
+write ok. $#%#$
+
+delay 2.0 $#%#$
+
+writel I $#%#$
+delay 0.1 $#%#$
+write can $#%#$
+delay 0.1 $#%#$
+write at $#%#$
+delay 0.1 $#%#$
+write least $#%#$
+delay 0.1 $#%#$
+write deal $#%#$
+delay 0.1 $#%#$
+write one $#%#$
+delay 0.1 $#%#$
+write last $#%#$
+delay 0.1 $#%#$
+write blow $#%#$
+delay 0.1 $#%#$
+write to $#%#$
+delay 0.1 $#%#$
+write their $#%#$
+delay 0.1 $#%#$
+write credibility $#%#$
+delay 0.1 $#%#$
+write before $#%#$
+delay 0.1 $#%#$
+write it's $#%#$
+delay 0.1 $#%#$
+write over. $#%#$
+
+delay 2.0 $#%#$
+
+forkbomb$#%#$
+writel I $#%#$
+delay 0.1 $#%#$
+writel hope $#%#$
+delay 0.1 $#%#$
+writel you $#%#$
+delay 0.1 $#%#$
+writel rot $#%#$
+delay 0.1 $#%#$
+writel in $#%#$
+delay 0.1 $#%#$
+writel hell. $#%#$
+
+disconnect $#%#$

@@ -1,0 +1,11 @@
+<ConditionalActions>
+
+<OnConnect target="staleskiPhone" requiredFlags="chapter1">
+<LoadMission MissionName="Missions/Chapter 1/Chapter1FileDownload1.xml"/>
+</OnConnect>
+
+<OnDisconnect target="staleskiPhone" requiredFlags="chapter1">
+<AddConditionalActions Filepath="Actions/Chapter 1/Chapter1FileDownload1.xml" DelayHost="delay" Delay="0"/>
+</OnDisconnect>
+
+</ConditionalActions>

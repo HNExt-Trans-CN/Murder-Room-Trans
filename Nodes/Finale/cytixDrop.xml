@@ -1,0 +1,11 @@
+<Computer id="cytixDrop"
+          name="Cytix Sources Upload Server"
+          ip="52.129.50.1"
+          security="1"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<uploadServerDaemon name="Upload Dropbox" folder="Drop" 
+                      needsAuth="false" color="204,116,212"/>
+
+</Computer>

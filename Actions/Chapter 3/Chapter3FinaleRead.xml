@@ -1,0 +1,10 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="removeFlags:chapter3Finale"/>
+<RunFunction FunctionName="addFlags:chapter3MailLoop"/>
+<RunFunction FunctionName="changeSongDLC" FunctionValue="2"/>
+<AddConditionalActions Filepath="Actions/Chapter 3/Chapter3FinaleEmailSend.xml" DelayHost="delay" Delay="25"/>
+</Instantly>
+
+</ConditionalActions>

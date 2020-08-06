@@ -1,0 +1,24 @@
+<mission id="chapter3FinaleEmail" activeCheck="false">
+
+<goals>
+
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/Cutscenes/Chapter3End.xml</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>H</sender>
+<subject>Case File: SC-9 - Termination</subject>
+<body>What?!
+How did he know about us?! This is bad. Nova was meant to be kept secret, even from most of the government.
+It seems this was just one step in a greater plan to expose Nova's activities to the world. This is something that absolutely cannot happen under any circumstances.
+And Mahler... I know that name. That bastard must've planned things from the very beginning.
+You had better lay low for a while, operative. I do not want you getting involved in this under any circumstances. Are you understood?
+This will be the last time you hear from us for a while. At least until we manage to sort this situation out on our end.
+
+- H</body>
+<attachments>
+</attachments>
+</email>
+</mission>

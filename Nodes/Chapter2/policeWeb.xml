@@ -1,0 +1,16 @@
+<Computer id="policeWeb"
+          name="NYPD 96th Precinct Website"
+          security="3"
+          allowsDefaultBootModule="true"
+          type="4">
+
+<ports>22, 80, 443</ports>
+<portsForCrack val="2"/>
+<portRemap>web=8080</portRemap>
+
+<dlink target="policeMail"/>
+<dlink target="policeCaseFile"/>
+
+<!--I wanted to link the actual NYPD website but god damn, with Covid-19 and the protests going on as of writing this I didn't think it would be appropriate. Also the website is terrible.-->
+<!--If I do a Murder Room: Definitive Edition, then I'll update this with a proper website.-->
+</Computer>

@@ -1,0 +1,16 @@
+<mission id="chapter3FinalSend" activeCheck="false" shouldIgnoreSenderVerification="true">
+
+<goals>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/Cutscenes/Chapter3End.xml</missionEnd>
+<nextMission IsSilent="true">NONE</nextMission>
+
+<email>
+<sender>ERROR</sender>
+<subject>ERROR</subject>
+<body>ERROR</body>
+<attachments>
+</attachments>
+</email>
+</mission>

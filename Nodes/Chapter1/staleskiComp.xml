@@ -1,0 +1,116 @@
+<Computer id="staleskiComp"
+          name="mstaleski-laptop"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="laptop"
+          type="2">
+
+<adminPass pass="areuokay"/> 
+
+<ports>21, 22</ports>
+<portsForCrack val="0"/>
+
+<file path="home" name="report_draft.docx">#BINARY#</file>
+<file path="home" name="game_idea.doc">It's a space shooter called Star Force.
+You play as the pilot of an intergalactic space fighting crew, navigating through planets and stars trying to stop the forces of the evil Kazaq
+Gameplay pretty standard, focuses on tight navigation through star fields and enemy fleets, as well as flashy space guns.
+<!--This is a reference to the game I created for my intro game dev course. No link for now.-->
+</file>
+<file path="home" name="20200101_INTERNET_BILL.pdf">#BINARY#</file>
+<file path="home" name="20191201_INTERNET_BILL.pdf">#BINARY#</file>
+<file path="home" name="20191101_INTERNET_BILL.pdf">#BINARY#</file>
+<file path="home" name="an_analysis_on_wonderwall_draft.doc">Wonderwall by Oasis. It's one of those songs that's become so overplayed by people it's become a joke, much like Smoke on the Water and Stairway to Heaven.
+But despite that, Wonderwall is still a widely enjoyed piece of music; its chords are iconic and most everyone is able to instantly recognize it just from that simple four-chord progression.
+What makes it such an iconic piece of music? Why do we play it time and time again? These I attempt to analyze in this essay by looking at the song from a theoretical lens, and then by discussing its cultural impact.
+<!--I wonder how far I can go through with this before I stop feeling like doing it anymore.-->
+Wonderwall starts off with a simple F#min7 -> Am -> Esus4 - B7sus4 chord progression, otherwise known as the "Wonderwall chords." It's a pleasant sound, but also somewhat melancholic, giving us our first glimpse into the overall tone and message of the song. The 
+<!--Wow ok, very quickly it seems.-->
+</file>
+
+<file path="sys" name="logon_audit.dat">Event ID: 538 [User logout]
+Date: January 12, 2020 [09:46:29]
+
+Event ID: 10 [Remote login]
+Date: January 12, 2020 [09:29:12]
+
+Event ID: 529 [Login failure]
+Date: January 9, 2020 [10:32:59]
+
+Event ID: 538 [User logout]
+Date: January 9, 2020 [9:41:29]
+
+Event ID: 528 [Login success]
+Date: January 9, 2020 [9:20:21]
+
+Event ID: 538 [User logout]
+Date: January 8, 2020 [21:29:40]
+
+Event ID: 528 [Login success]
+Date: January 8, 2020 [17:21:32]
+</file>
+<!--All offense intended-->
+<memoryDumpFile name="pcgaymers.jpg" path="home">
+<Memory>
+<Images>
+<Image>Images/Shitposts/PCGaymers.jpg</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+
+<eosDevice name="mstaleski-ePhone 4" id="staleskiPhone" icon="ePhone" empty="false">
+<mail username="mstaleski@dlabs.com" pass="AreU0Kay?"/>
+<mail username="staleski01@jmail.com" pass="AreU0Kay?"/>
+<file path="eos/data" name="mmssmm.db">Number: +13327617848
+=====================================
+Contact: +13327257194
+Name: Fern
+
+2020_07_01
+------------
+13327257194: Oh shit, i think I left something at your place [10:01:20]
+13327617848: oh, what did you lose? [10:01:57]
+13327257194: nothing super important [10:02:31]
+13327257194: just my glasses [10:02:40]
+13327617848: won't you need them? [10:02:58]
+13327257194: i can just wear my contacts [10:03:18]
+13327257194: I don't really have time to head back, i'm already late enough for work as it is &gt;.&lt; [10:03:40]
+13327617848: wonder why :P [10:03:53]
+13327257194: lol [10:04:02]
+13327257194: i'll be busy during the week, so I'll get them when i come over for the weekend [10:04:23]
+13327617848: you sure you don't want me to swing by and give them to you? [10:04:47]
+13327257194: yeah it's fine. if I need them back sooner, I'll message you. [10:05:14]
+13327617848: ok [10:05:21]
+13327257194: have a good day, M! [10:05:35]
+13327617848: you know me [10:05:43]
+13327617848: i'm the best at having good days [10:05:59]
+13327257194: lol [10:06:10]
+13327617848: good luck at work, hardy [10:06:24]
+
+2020_09_01
+------------
+13327257194: so uhhh [13:02:59]
+13327257194: looks like i might need those glasses after all lol [13:03:14]
+13327257194: hello? [13:09:20]
+13327257194: M, you there? [13:09:51]
+13327257194: M?? [13:15:11]
+13327257194: fucking answer [13:15:39]
+13327257194: M??????? [14:21:20]
+
+2020_10_01
+------------
+13327257194: i'm coming over [10:29:41]
+13327257194: please just answer [10:29:59]
+13327257194: you were gone all day yesterday [10:30:15]
+13327257194: what the fuck, why aren't you answering the door? [10:44:29]
+13327257194: please [10:44:31]
+
+2020_11_01
+------------
+13327257194: this isn't funny [09:29:31]
+13327257194: what the hell [09:29:55]
+13327257194: if you don't answer me in the next day, we're done [09:30:14]
+13327257194: if this is your idea of a sick joke then congratufuckinglations [21:01:20]
+</file>
+</eosDevice>
+
+</Computer>

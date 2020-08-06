@@ -1,0 +1,23 @@
+<mission id="chapter1EndSend2" activeCheck="true">
+
+<goals>
+
+</goals>
+
+<nextMission IsSilent="false">Missions/Chapter 1/Chapter1EndSend.xml</nextMission>
+
+<email>
+<sender>G</sender>
+<subject>Case File: HS-4 - Termination</subject>
+<body>So Mashun hacked into Staleski's computer to steal $10,000 from his bank account?
+
+Wow, talk about a motive. I wonder how he found out about the money transfer? Did somebody tip him off?
+In any case, this is definitely all the proof we need to arrest Mashun. Great job tackling this case, agent.
+This couldn't have been solved without your help. Actually it could have, another agent would have been assigned to this case.
+
+Say the word whenever you're ready to convict.
+- G</body>
+<attachments>
+</attachments>
+</email>
+</mission>

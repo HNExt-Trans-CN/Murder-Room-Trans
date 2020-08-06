@@ -1,0 +1,24 @@
+<mission id="finaleNovaSuccessEmail" activeCheck="true">
+
+<goals>
+
+</goals>
+
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>H</sender>
+<subject>Success is Assured</subject>
+<body>Excellent work, operative.
+I have just received word that Gideon Mahler has been apprehended and is now in Nova's custody. We will make sure that traitor gets the punishment he deserves.
+You have done a great service to us, #PLAYERNAME#. Nova thanks you. This country thanks you.
+Get some rest, operative. You've earned it.
+I look forward to working with you in the future.
+
+- Director Hilda Riegan</body>
+<attachments>
+<link comp="credits"/>
+</attachments>
+</email>
+</mission>

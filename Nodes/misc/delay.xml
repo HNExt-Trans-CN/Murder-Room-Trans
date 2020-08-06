@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="delay"
+          name="Delay Host"
+          ip="168.192.1.1"
+          security="1"
+          allowsDefaultBootModule="false"
+          icon="chip"
+          type="4">
+
+<ports>21, 22</ports>
+<portsForCrack val="3"/>
+
+<FastActionHost />
+
+</Computer>

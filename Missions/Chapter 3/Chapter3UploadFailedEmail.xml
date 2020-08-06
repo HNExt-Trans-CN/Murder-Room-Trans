@@ -1,0 +1,18 @@
+<mission id="chapter3UploadFailEmail" activeCheck="true">
+
+<goals>
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>H</sender>
+<subject>Re: Sterling's Final Message</subject>
+<body>Interesting. The Forensic Analyzer has never failed like this.
+Very well. I shall look for a way to decrypt this file on my end. You keep investigating the victim's life and place of work.
+
+- H</body>
+<attachments>
+</attachments>
+</email>
+</mission>

@@ -1,0 +1,14 @@
+<Computer id="yularenPacemaker"
+          name="KBT-PM 2.44 REG#22914"
+          ip="222.44.125.49"
+          allowsDefaultBootModule="true"
+          security="1"
+          type="4">
+
+<ports>104</ports>
+<portsForCrack val="0"/>
+<file path="log" name="@37 67.29.191.22 Disconnected">@37 67.29.191.22 Disconnected</file>
+<file path="log" name="@21 Connection: from 67.29.191.22">@21 Connection: from 67.29.191.22</file>
+<HeartMonitor patient="G_Yularen"/>
+
+</Computer>

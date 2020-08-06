@@ -1,0 +1,15 @@
+<ConditionalActions>
+
+<HasFlags requiredFlags="forensicUpload">
+<DeleteFile TargetComp="forensic" FilePath="Drop/Uploads" FileName="Evidence_HS4-2.md"/>
+<RunFunction FunctionName="addFlags:evidence2"/>
+<LaunchHackScript Filepath="HackerScripts/UploadScript.txt" DelayHost="delay" Delay="1.0" SourceComp="forensic" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<DeleteFile TargetComp="caseFile" FilePath="home/Evidence" FileName="Evidence_HS4-2.md" DelayHost="delay" Delay="0.0"/>
+<DeleteFile TargetComp="playerComp" FilePath="home" FileName="Evidence_HS4-2.md" DelayHost="delay" Delay="0.0"/>
+
+<CopyAsset DestFilePath="home/Evidence" DestComp="caseFile" SourceComp="masterFile" SourceFileName="Evidence_HS4-2.md" SourceFilePath="home/Chapter1/Forensic"/>
+<!--<AddConditionalActions Filepath="Actions/Chapter 1/Chapter1EvidenceUploadBuffer.xml" DelayHost="delay" Delay="0.5"/>-->
+
+</HasFlags>
+
+</ConditionalActions>

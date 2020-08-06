@@ -1,0 +1,11 @@
+<ConditionalActions>
+
+<Instantly>
+<LaunchHackScript Filepath="HackerScripts/UploadFailScript.txt" DelayHost="delay" Delay="1.0" SourceComp="forensic" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<DeleteFile TargetComp="forensic" FilePath="Drop/Uploads" FileName="My_Final_Message.dec"/>
+<DeleteFile TargetComp="playerComp" FilePath="home" FileName="My_Final_Message.dec" DelayHost="delay" Delay="0.0"/>
+
+<LoadMission MissionName="Missions/Chapter 3/Chapter3UploadFailedEmail.xml"/>
+</Instantly>
+
+</ConditionalActions>

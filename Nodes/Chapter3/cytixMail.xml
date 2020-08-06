@@ -1,0 +1,118 @@
+<Computer id="cytixMail"
+          name="Cytix Mail Server"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4">
+
+<account username="NoahSterling" password="Pr4xis" type="MAIL"/>
+<account username="KimbleyLMarsh" password="Alphabetize" type="MAIL"/>
+<account username="IsmailAhmad" password="gyromite" type="MAIL"/>
+<account username="BenSmith" password="b4s1c" type="MAIL"/>
+<account username="NickSharpe" password="FaceTheRaven" type="MAIL"/>
+
+<ports>21,22,1433</ports>
+<portsForCrack val="3"/>
+<proxy time="1"/>
+<firewall level="-1"/>
+
+<dlink target="cytixHub"/>
+
+<mailServer name="Cytix" color="66,245,81" generateJunk="true">
+<email recipient="NoahSterling" sender="Kimbley L. Marsh" subject="Byrons Story - Update">Hey Noah,
+Do you still have contacts to that source for the Byrons fraud article? Ben's asked me to publish an update on that story.
+
+- Kimbley</email>
+<email recipient="NoahSterling" sender="Ben Smith" subject="Weekly Meeting Update">Hey all,
+Just letting you know about the weekly meeting on Saturday. Please remember to bring updates to the stories you're working on.
+
+Thanks,
+Ben</email>
+<email recipient="NoahSterling" sender="Ismail Ahmad" subject="Lunch">Yo Noah, we still on for lunch today?
+I realize I probably could've texted this to you but my phone was too far away. Anyways, let me know, email or text.</email>
+<email recipient="NoahSterling" sender="Mahler" subject="Important Source">Dear Sterling,
+
+I have received important information from that source I was talking about earlier. It's all attached in this email.
+
+Regards,
+Mahler</email>
+<email recipient="NoahSterling" sender="Ben Smith" subject="Noah Sterling Memorial Service">
+Dear all,
+
+I know we are all deeply saddened by the sudden and tragic loss of Noah. He was a truly hard worker, an excellent journalist, and above all, a real friend to us all.
+Ismail has been kind enough to host a memorial service for him after work on Saturday. Please do not feel obligated to attend, I realize everyone may process his passing
+in different ways. However, if you would like to honor his memory, perhaps say some final words, please come to the service.
+
+Sincerely,
+Ben Smith
+</email>
+
+<email recipient="KimbleyLMarsh" sender="Ben Smith" subject="Weekly Meeting Update">Hey all,
+Just letting you know about the weekly meeting on Saturday. Please remember to bring updates to the stories you're working on.
+
+Thanks,
+Ben</email>
+<email recipient="KimbleyLMarsh" sender="Noah Sterling" subject="Re: Byrons Story - Update">Hey Kimbley,
+For sure. It's in the attachment. Hope this helps.
+
+- Noah</email>
+<email recipient="KimbleyLMarsh" sender="Ben Smith" subject="Noah Sterling Memorial Service">
+Dear all,
+
+I know we are all deeply saddened by the sudden and tragic loss of Noah. He was a truly hard worker, an excellent journalist, and above all, a real friend to us all.
+Ismail has been kind enough to host a memorial service for him after work on Saturday. Please do not feel obligated to attend, I realize everyone may process his passing
+in different ways. However, if you would like to honor his memory, perhaps say some final words, please come to the service.
+
+Sincerely,
+Ben Smith
+</email>
+<email recipient="KimbleyLMarsh" sender="Nick Sharpe" subject="Re: Police">Are these guys for real?
+They think one of us killed Noah? Jesus Christ, can't they let us be for just a week?</email>
+
+<email recipient="IsmailAhmad" sender="Ben Smith" subject="Weekly Meeting Update">Hey all,
+Just letting you know about the weekly meeting on Saturday. Please remember to bring updates to the stories you're working on.
+
+Thanks,
+Ben</email>
+<email recipient="IsmailAhmad" sender="Noah Sterling" subject="Re: Lunch">LOL
+Yeah I'm still good for lunch. 12:30 at Chili's, yeah?
+
+Kidding. I'll see you there.</email>
+<email recipient="IsmailAhmad" sender="Ben Smith" subject="Noah Sterling Memorial Service">
+Dear all,
+
+I know we are all deeply saddened by the sudden and tragic loss of Noah. He was a truly hard worker, an excellent journalist, and above all, a real friend to us all.
+Ismail has been kind enough to host a memorial service for him after work on Saturday. Please do not feel obligated to attend, I realize everyone may process his passing
+in different ways. However, if you would like to honor his memory, perhaps say some final words, please come to the service.
+
+Sincerely,
+Ben Smith
+</email>
+
+<email recipient="NickSharpe" sender="Ben Smith" subject="Weekly Meeting Update">Hey all,
+Just letting you know about the weekly meeting on Saturday. Please remember to bring updates to the stories you're working on.
+
+Thanks,
+Ben</email>
+<email recipient="NickSharpe" sender="Kimbley L. Marsh" subject="Police">Holy shit, I heard the police were coming into the building. Apparently we're the only ones who could've possibly killed Noah.</email>
+<email recipient="NickSharpe" sender="Ben Smith" subject="Noah Sterling Memorial Service">
+Dear all,
+
+I know we are all deeply saddened by the sudden and tragic loss of Noah. He was a truly hard worker, an excellent journalist, and above all, a real friend to us all.
+Ismail has been kind enough to host a memorial service for him after work on Saturday. Please do not feel obligated to attend, I realize everyone may process his passing
+in different ways. However, if you would like to honor his memory, perhaps say some final words, please come to the service.
+
+Sincerely,
+Ben Smith
+</email>
+
+
+<email recipient="BenSmith" sender="Cytix Source Upload" subject="New Files Uploaded">1 new files have been uploaded to the source upload.</email>
+<email recipient="BenSmith" sender="Cytix Source Upload" subject="New Files Uploaded">2 new files have been uploaded to the source upload.</email>
+<email recipient="BenSmith" sender="Cytix Source Upload" subject="New Files Uploaded">3 new files have been uploaded to the source upload.</email>
+<email recipient="BenSmith" sender="Cytix Source Upload" subject="New Files Uploaded">2 new files have been uploaded to the source upload.</email>
+
+</mailServer>
+
+ 
+</Computer>

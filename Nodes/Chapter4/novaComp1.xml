@@ -1,0 +1,14 @@
+<Computer id="novaComp1"
+          name="Nova_agentK_20901"
+          security="3"
+          type="1">
+
+<ports>25,21,211,6881</ports>
+<portsForCrack val="4"/>
+
+<dlink target="gNova"/>
+<dlink target="novaComp2"/>
+<dlink target="novaComp3"/>
+<dlink target="yularenComp"/>
+
+</Computer>

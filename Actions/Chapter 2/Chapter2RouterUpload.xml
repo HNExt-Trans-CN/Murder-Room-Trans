@@ -1,0 +1,13 @@
+<ConditionalActions>
+
+<Instantly>
+<LaunchHackScript Filepath="HackerScripts/UploadScript.txt" DelayHost="delay" Delay="1.0" SourceComp="forensic" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<DeleteFile TargetComp="forensic" FilePath="Drop/Uploads" FileName="Cysco_Network_Link.dll"/>
+<DeleteFile TargetComp="playerComp" FilePath="home" FileName="Cysco_Network_Link.dll" DelayHost="delay" Delay="0.0"/>
+
+<ShowNode DelayHost="delay" Delay="1.5" Target="ingridRouter"/>
+<LoadMission MissionName="Missions/Chapter 2/Chapter2RouterEmail.xml"/>
+</Instantly>
+
+
+</ConditionalActions>

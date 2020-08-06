@@ -1,0 +1,21 @@
+<mission id="chapter3RelayConnectEmail" activeCheck="true">
+
+<goals>
+
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>H</sender>
+<subject>Security Relay</subject>
+<body>A security relay. Interesting.
+You may be able to dig up some security footage of the victim. Upload it to the Forensic Analyzer.
+Look for footage that shows a face we can identify, otherwise it's just useless. I am still looking on my end.
+
+- H
+</body>
+<attachments>
+</attachments>
+</email>
+</mission>

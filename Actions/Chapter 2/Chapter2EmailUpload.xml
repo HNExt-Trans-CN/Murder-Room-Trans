@@ -1,0 +1,12 @@
+<ConditionalActions>
+
+<Instantly>
+<LaunchHackScript Filepath="HackerScripts/UploadScript.txt" DelayHost="delay" Delay="1.0" SourceComp="forensic" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<DeleteFile TargetComp="forensic" FilePath="Drop/Uploads" FileName="Re:_Case_File_MK-3_-_Update"/>
+<DeleteFile TargetComp="playerComp" FilePath="home" FileName="Re:_Case_File_MK-3_-_Update" DelayHost="delay" Delay="0.0"/>
+
+<ShowNode DelayHost="delay" Delay="1.5" Target="ingridPhone"/>
+</Instantly>
+
+
+</ConditionalActions>

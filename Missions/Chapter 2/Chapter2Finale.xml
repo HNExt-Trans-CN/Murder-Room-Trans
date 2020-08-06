@@ -1,0 +1,22 @@
+<mission id="chapter2Finale" activeCheck="true">
+
+<goals>
+
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>G</sender>
+<subject>Case File JL-2 - Termination</subject>
+<body>Holy shit, the husband.
+Of course, Ingrid Miles got her husband to do it. They could cover for one another, and then Annette Coleman could confirm both of them weren't at her place to strengthen their alibi.
+We might be able to use this evidence to charge Ingrid as an accessory to the crime, too. This is excellent, agent.
+Feel free to look around more if you so choose, but I doubt you'll find anything else with regards to this case.
+
+Whenever you're ready, send the order.
+- G</body>
+<attachments>
+</attachments>
+</email>
+</mission>

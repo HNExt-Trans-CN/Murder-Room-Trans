@@ -1,0 +1,21 @@
+<mission id="tut1">
+
+<goals>
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Case File">The Case File is the most important tool in a Nova operative's arsenal.
+It is where all the current case data that an operative is working on is stored. Information such as the case briefing, suspect alibis and evidence gathered is stored here.
+Whenever an operative has downloaded a file the system deems important to the case, the Case File will be updated with any new information it detects. This can either be new information related to the case, the suspects, or new evidence gathered in the investigation.
+</posting>
+
+
+<email>
+<sender></sender>
+<subject></subject>
+<body></body>
+<attachments>
+</attachments>
+</email>
+</mission>

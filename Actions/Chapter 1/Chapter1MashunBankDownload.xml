@@ -1,0 +1,11 @@
+<ConditionalActions>
+
+<Instantly>
+<LaunchHackScript Filepath="HackerScripts/CaseFileScript.txt" DelayHost="delay" Delay="0.5" SourceComp="caseFile" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<DeleteFile TargetComp="playerComp" FilePath="home" FileName="2910018.rec" DelayHost="delay" Delay="0.0"/>
+<AppendToFile DelayHost="delay" Delay="2.0" TargetComp="caseFile" TargetFolderpath="home/Suspects" TargetFilename="David_Mashun.doc">- Received a money transfer from victim's account worth $10,000</AppendToFile>
+
+<LoadMission MissionName="Missions/Chapter 1/Chapter1MashunBank.xml"/>
+</Instantly>
+
+</ConditionalActions>

@@ -1,0 +1,25 @@
+<mission id="cytixNews1">
+
+<goals>
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Fears of global pandemic escalate further as SARS outbreak spreads to India">By Ismail Ahmad
+
+The world has their eyes on the ongoing SARS outbreak situation as its first confirmed case is detected in India.
+Roy Zhang, 24, traveled from his home town of Wuhan to Delhi, where he first started to notice symptoms. 
+
+As of now, there are over 10,400 cases within China, and it is rapidly spreading throughout the country. The Foreign Secretary of China has advised
+citizens to remain inside, and is in discussions with other nearby governments about limiting travel to and from the country.
+
+More on this story as it continues.</posting>
+
+<email>
+<sender>ERROR</sender>
+<subject>ERROR</subject>
+<body>ERROR</body>
+<attachments>
+</attachments>
+</email>
+</mission>

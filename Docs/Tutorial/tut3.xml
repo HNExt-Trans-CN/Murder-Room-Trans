@@ -1,0 +1,23 @@
+<mission id="tut3">
+
+<goals>
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Evidence">Evidence is information collected by the investigative authority for the cases before Nova takes them over.
+As Nova operatives are incapable of physically accessing crime scenes and evidence, precise scans of the evidence collected are created
+and compiled as data for the operative to analyze. All evidence is stored on the Case File, and new evidence may sometimes be uploaded to the Case File during an operative's investigation.
+At the start of an investigation, it is the operative's duty to look through the evidence and determine forensic information from them that may inform the direction of their investigation.
+Evidence scans are read using the Memory Forensics program provided to operatives.
+</posting>
+
+
+<email>
+<sender></sender>
+<subject></subject>
+<body></body>
+<attachments>
+</attachments>
+</email>
+</mission>

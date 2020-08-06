@@ -1,0 +1,16 @@
+<mission id="chapter4Hilda4" activeCheck="true">
+
+<goals>
+</goals>
+
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>H</sender>
+<subject>The Truth Revealed</subject>
+<body>Think of how much we help the nation!</body>
+<attachments>
+</attachments>
+</email>
+</mission>

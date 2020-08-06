@@ -1,0 +1,11 @@
+<ConditionalActions>
+
+<OnConnect target="pharmacoreDatabase">
+<LoadMission MissionName="Missions/Chapter 3/Chapter3DatabaseDownload.xml"/>
+</OnConnect>
+
+<OnDisconnect target="pharmacoreDatabase">
+<AddConditionalActions Filepath="Actions/Chapter 3/Chapter3DatabaseConnect.xml"/>
+</OnDisconnect>
+
+</ConditionalActions>

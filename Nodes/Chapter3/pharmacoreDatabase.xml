@@ -1,0 +1,69 @@
+<Computer id="pharmacoreDatabase"
+          name="Pharmacore Stocking Database"
+          security="4"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4">
+
+<ports>6881,211,80,22,1433</ports>
+<portsForCrack val="5"/>
+
+<DatabaseDaemon Permissions="private" DataType="TextRecord" Foldername="database" Color="235,155,52" AdminEmailAccount="ivalma@pharmacore.com" AdminEmailHostID="pharmacoreMail" Name="Pharmacore Purchase Records">
+<TextRecord>
+<Title>751014-519223</Title>
+<Data>Status: In Stock</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>748221-301294</Title>
+<Data>Status: In Stock</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>781920-098122</Title>
+<Data>Status: In Stock</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>751014-519223</Title>
+<Data>Status: Purchased
+Signature: Kyle Dewdney</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>791122-015793</Title>
+<Data>Status: Purchased
+Signature: Raine Winger</Data>
+</TextRecord>
+
+<!--This boi-->
+<TextRecord>
+<Title>705632-085943</Title>
+<Data>Status: Purchased
+Signature: Noah Sterling</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>751712-131232</Title>
+<Data>Status: In Stock</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>711022-410921</Title>
+<Data>Status: In Stock</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>761021-671929</Title>
+<Data>Status: Purchased
+Signature: Lita Lance</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>731045-138571</Title>
+<Data>Status: In Stock</Data>
+</TextRecord>
+
+</DatabaseDaemon>
+
+</Computer>

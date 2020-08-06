@@ -1,0 +1,25 @@
+<mission id="chapter4FinalCase" activeCheck="true">
+
+<goals>
+<goal type="fileupload" target="playerComp" file="Evidence_X.md" path="home" destTarget="forensic" destPath="Drop/Uploads"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/Chapter 4/Chapter4UploadActions1.xml</missionEnd>
+<nextMission IsSilent="false">Missions/Chapter 4/Chapter4FinalUpload.xml</nextMission>
+
+<email>
+<sender>H</sender>
+<subject>The Truth Revealed</subject>
+<body>So, at last the truth of our organization has been revealed.
+However, this is merely one truth of a greater whole. You see, while G managed to lead you on this wild goose chase to discover the truth about Nova, he conveniently forgot one crucial thing:
+
+Who is Mahler?
+
+I could give you the answer, however I feel as if your trust in me and Nova as a whole has been somewhat compromised with these recent events.
+Therefore, I present to you your final case: Who killed George Yularen?
+Your final piece of evidence has been uploaded to the Case File.
+- H</body>
+<attachments>
+</attachments>
+</email>
+</mission>

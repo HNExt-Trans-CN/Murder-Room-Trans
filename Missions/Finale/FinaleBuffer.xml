@@ -1,0 +1,15 @@
+<mission id="finaleBuffer" activeCheck="true">
+
+<goals>
+</goals>
+
+<nextMission IsSilent="true">NONE</nextMission>
+
+<email>
+<sender>ERROR</sender>
+<subject>ERROR</subject>
+<body>ERROR</body>
+<attachments>
+</attachments>
+</email>
+</mission>

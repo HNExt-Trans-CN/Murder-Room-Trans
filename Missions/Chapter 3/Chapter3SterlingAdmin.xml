@@ -1,0 +1,19 @@
+<mission id="chapter3SterlingAdmin" activeCheck="true">
+
+<goals>
+
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>H</sender>
+<subject>Sterling's Final Message</subject>
+<body>Hmm, his laptop only has one file on it. And it looks encrypted too.
+Try uploading it to the Forensic Analyzer. Hopefully it'll give us something.
+
+- H</body>
+<attachments>
+</attachments>
+</email>
+</mission>

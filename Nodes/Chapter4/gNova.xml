@@ -1,0 +1,58 @@
+<Computer id="gNova"
+          name="Nova_agentG_11022"
+          ip="54.128.9.123"
+          allowsDefaultBootModule="false"
+          security="3"
+          type="1">
+
+<ports>22,443,1433,6881</ports>
+<portsForCrack val="4"/>
+<proxy time="1"/>
+<firewall level="-1"/>
+
+<dlink target="novaComp1"/>
+<dlink target="novaComp2"/>
+<dlink target="novaComp3"/>
+<dlink target="yularenComp"/>
+
+<file path="home" name="Agent_Log.doc">Overseer: G
+Agent: #PLAYERNAME#
+
+Active Case Files: N/A
+
+Completed Case Files:
+
+    HS-4:
+    - Victim: Martin Staleski
+    - Culprit: David Mashun
+    - Verdict: CONDEMNED
+
+    JL-2:
+    - Victim: Kara Oliver
+    - Culprit: Ingrid Miles, Christopher Miles
+    - Verdict: CONDEMNED
+
+    SC-9:
+    - Victim: Noah Sterling
+    - Culprit: Noah Sterling
+    - Verdict: DECEASED
+    Note: Overseeing for this case was transferred to Vice Director H.
+
+Agent: Cloud
+
+Active Case Files: OU-3
+                   - Victim: Karl Barrett
+
+Completed Case Files:
+
+    IR-9:
+    - Victim: John Reese
+    - Culprit: Zoe MacIntyre
+    - Verdict: CONDEMNED
+
+</file>
+<file path="home" name="Nova_Analytics_Report.docx">#BINARY#</file>
+<file path="home" name="Unopened_Cold_Cases.xlsx">#BINARY#</file>
+<file path="sys" name="Overseer_Link.exe">#HACKNET_EXE#</file>
+
+</Computer>

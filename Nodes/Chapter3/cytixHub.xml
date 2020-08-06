@@ -1,0 +1,32 @@
+<Computer id="cytixHub"
+          name="Cytix News Hub Server"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4">
+
+<ports>21, 22, 25, 6881</ports>
+<portsForCrack val="3"/>
+<proxy time="-1"/>
+<firewall level="6" solution="CYTIXNEWS"/>
+
+<dlink target="cytixMail"/>
+<dlink target="cytixNews"/>
+<dlink target="cytixRelay"/>
+
+<file path="home" name="Network_Hub.txt">This is the network hub server for Cytix News.
+Please do not upload any unsolicited files to this server, as it is reserved for company management only.
+If you believe there is an error with the server, please contact Nick Sharpe @ NickSharpe@cytix.com.</file>
+<file path="home" name="server_runtime.dll">#BINARY#</file>
+
+
+<memoryDumpFile name="whyarewestillhere.png" path="home">
+<Memory>
+<Images>
+<Image>Images/Shitposts/whyarewestillhere.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+<file path="home" name="stop.txt">stop posting memes.</file>
+
+</Computer>

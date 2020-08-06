@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="prologue2" activeCheck ="true" shouldIgnoreSenderVerification="false">
+<goals>
+<goal type="delay" time="35.0"/>
+</goals>
+
+<nextMission IsSilent="false">Missions/Prologue/Prologue3.xml</nextMission>
+
+<email>
+<sender>G</sender>
+<subject>Case File</subject>
+<body>Welcome to the most important tool in your arsenal, the Case File. This is where all of your case data is stored, and anything important you come across gets uploaded to automatically. When you start a case you'll see the case briefing, a list of suspects and their profiles/alibis and all the evidence gathered in the initial investigation. Obviously you aren't able to access the evidence physically, so precise scans of the evidence have been created for you to use.
+
+Also, take a look at your programs on your computer. You'll see a bunch of different programs. Most of these are used for hacking into secure nodes. Nova doesn't exactly... ask for permission. We have legal authorization for this I suppose.
+
+You'll also see something called MemForensics. This program can be used to look at memory dumps of nodes, but we've also formatted things so you can read certain case files with them, such as evidence. Anything with a .md or image file extension like .png or .jpg, you can read with this program. Just be sure to look at images when you run the program.
+
+Anyways, take a look through some of the case files, and I'll get back to you in a bit.
+-G
+</body>
+<attachments>
+</attachments>
+</email>
+</mission>

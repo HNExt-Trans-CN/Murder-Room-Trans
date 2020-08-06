@@ -1,0 +1,53 @@
+<Computer id="yularenComp"
+          name="Director Yularen Computer"
+          security="5"
+          icon="DLCPC1"
+          type="1">
+
+<ports>22,25,80,1433,6881,443</ports>
+<portsForCrack val="5"/>
+<proxy time="1"/>
+<firewall level="6" solution="GRANDMASTER"/>
+
+<dlink target="gNova"/>
+<dlink target="novaComp1"/>
+<dlink target="novaComp2"/>
+<dlink target="novaComp3"/>
+
+<encryptedFile path="home" name="et-5.dec" extension=".rec" ip="192.168.1.1" header="Case File ET-5">[TextRecord]
+    [Title]ET-5[/Title]
+    [Data]CASE FILE ET-5
+Date: August 15, 2015
+Key Persons: George Yularen
+             David Leatrou
+             Ingrid Miles
+
+The ET-5 Incident, otherwise known as the "Hacknet Incident" occurred on August 15, 2015. The incident occurred after an anonymous group known as CSEC
+infiltrated, exposed and destroyed EnTech's file systems pertaining to the Hacknet project. The project was originally designed as a pentesting tool for cyber security,
+however one unnamed developer discovered its potential to penetrate and compromise most every network on the net.
+
+After the incident, security expert George Yularen acquired the remnants of EnTech's technology and worked with David Leatrou, at the time an employee at EnTech, and
+Ingrid Miles, an intelligence expert, to ensure the Hacknet Incident did not see the public eye. Employing a team of talented software developers from a variety of backgrounds,
+EnTech's original Hacknet project was repurposed into the Nova System, designed to uncover any previously overlooked evidence from police and federal murder cases.
+The Nova Project was a success, and was deployed for the first time on May 26th, 2019. Since then, Nova has employed the use of agents to investigate and solve cold cases from around the nation and the world.
+
+In exchange for their discretion, Nova disclosed to each contributor of the Nova project a sum of $10,000 to ensure Nova's continued operation in secrecy. The list of contributors has been
+made available:
+
+    |Daniel Petter
+    |Kanato Hiroyuki
+    |Khanh Nguyen
+    |Vladimir Pavlov
+    |Martin Staleski
+    |Minh Le
+    |Gabriel Henricksen
+    |Farida Abbas
+    |Aaron Porter 
+    |Raine Lethbridge[/Data]
+[/TextRecord]
+</encryptedFile>
+<eosDevice name="Yularen-phone" id="yularenPhone" icon="ePhone2" empty="false">
+<mail username="NovaDirector@nova.com" pass="grandmaster"/>
+</eosDevice>
+
+</Computer>

@@ -1,0 +1,12 @@
+<ConditionalActions>
+
+<Instantly>
+<LaunchHackScript Filepath="HackerScripts/CaseFileScript.txt" DelayHost="delay" Delay="0.5" SourceComp="caseFile" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<DeleteFile TargetComp="playerComp" FilePath="home" FileName="gps_sync.log" DelayHost="delay" Delay="0.0"/>
+<AppendToFile DelayHost="delay" Delay="2.0" TargetComp="caseFile" TargetFolderpath="home/Suspects" TargetFilename="Christopher_Miles.doc">- Was present at the scene of the crime at the time of the murder.</AppendToFile>
+<LoadMission MissionName="Missions/Chapter 2/Chapter2Finale.xml"/>
+<RunFunction FunctionName="addFlags:chapter2JmailLoop"/>
+</Instantly>
+
+
+</ConditionalActions>

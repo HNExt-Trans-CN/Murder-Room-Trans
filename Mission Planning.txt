@@ -1,0 +1,425 @@
+Greetings, dataminer!
+What you see here is the planning document I created for this extension that I referred to all the way throughout development.
+Some aspects were changed in the final version, but not drastically enough that it diverged from the plan.
+I considered deleting this before uploading, but I figured since I put the time and effort into it, it should stay as legacy content.
+So, enjoy my thought dump of stuff.
+- Kwiper
+
+
+Chapter 1 - Startup
+
+Case number HS-4
+Victim: Martin Staleski
+Cause of death: Blunt force trauma
+
+Culprit: David Mashun - Co-worker
+Other suspect: Fern Hardy - Girlfriend of victim
+Murder weapon: Bronze statuette. Contains fingerprints of victim and one partial print, and blood of victim. Also contains serial number. Analysis reveals girlfriend purchased it.
+Murder weapon leads to girlfriend's computer and 
+Other evidence: Staleski's mobile phone - connnected to his laptop. 
+
+Objectives the player must do:
+    - Determine an accurate time of death
+    - Match this time of death with alibis of the suspects
+    - Discover motive for murder
+
+- Murder weapon
+    - Reveals nothing of note to the player
+
+- Start from Staleski's phone
+    - Has text messages from girlfriend, confirms Staleski did not answer her replies. However, it is revealed she tried to visit him January 10.
+    - Has work email
+    - Links to his laptop
+
+- Laptop
+    - /home contains work documents, photos. None of these provide any information about his login time.
+    - In /sys, contains a log of all times laptop has been used.
+    - There is a three day gap between the last two logins - One locally, accessed January 9th, and one acessed remotely, January 12th.
+        - After uploading this, G speculates that Staleski was killed sometime during or after the 9th, and whoever killed him tried to access his laptop for some reason, but wasn't able to until the 12th.
+        - Whoever did hack into Staleski's laptop managed to cover their tracks well.
+
+- After discovering more concrete date of death:
+    - G messages the player saying there doesn't look to be anything else on Staleski's laptop. But the player is now one step closer to the true culprit.
+    - G mentions to the player another feature of the Forensic Analyzer - the ability to find IPs of email sites from email addresses.
+
+- After uploading emails
+    - Player gains access to DLabs' mail server. They can read Staleski's mail, but they don't reveal much outside of his absence.
+    - Player is also able to access their jmail. Jmail can't be hacked. Player sees emails about a recent transaction.
+
+- From here, the investigation is more open-ended. The player will still do both eventually, but in which order is up to the player.
+
+- Jmail branch
+    - Player finds emails about recent transactions performed from the account.
+    - Player finds the database with the transaction and discovers Mashun took the money
+    - Player can dig deeper and discover the account Staleski got the money from actually belonged to Nova.
+
+- Dlabs branch
+    - Mashun has an email sent from himself.
+    - G sends an email notifying the player about analyzing email headers.
+    - Scanning Mashun's email in the forensic analyzer
+
+- Mashun's computer
+    - Contains port crackers, leading to the conclusion that he was the one who hacked Staleski's laptop.
+
+David Mashun is found: CONDEMNED
+
+
+Chapter 2 - Complicit 
+
+Player gains SMTP and eOS
+
+Case number: JL-2
+Victim: Kara Oliver
+Cause of death: stabbing
+
+Culprits: Christopher Miles - Ingrid's wife. Acted on Ingrid's orders to kill Kara.
+          Ingrid Miles - Kara's captain on the police force. Was responsible for covering up the ET-5 case, which Kara was working on in secret.
+Other suspect: Annette Coleman - Kara's wife. 
+                
+Objectives: 
+    - Investigate victim's career
+    - Discover motive for murder
+    - Uncover the truth
+
+Evidence: 
+    - Bloodied knife.
+    - Bloody message on floor - ET5. 
+    - Kara's laptop.
+    - G also provides the player with the police department's website
+
+Bloody knife 
+    - Reveals nothing important.
+
+Picture of message on floor
+    - Reveals geolocation of the photo - coordinates (these will be important for later)
+
+Kara's laptop
+    - Synced with her phone. Phone has her work email details
+
+Police Department Website
+    - Linked to department mail
+    - Linked to case file system
+
+Department mail
+    - Can't be hacked immediately
+    - Contains mail for Kara
+    - Password to the case file system is given
+
+Case File System
+    - Contains case files Kara was looking through.
+    - ET-5 can be downloaded. G sends an email after this. Player can now hack the department mail system.
+    - ET-5 mentions Ingrid by name
+
+Department mail system
+    - Player downloads Ingrid's mail
+    - Specifically ones sent from her ePhone
+
+Ingrid's ePhone
+    - Links to her laptop
+
+After nothing can be found on her phone or laptop that suggests she was at the scene of the crime at the time of the murder, G is stumped.
+    - Player can keep searching Ingrid's computer
+    - Uploading text messages to forensic analyzer unlocks Christopher's computer.
+
+Christopher's computer
+    - Leads to his ePhone
+    - Contains location data that matches the scene and time of the crime.
+
+Christopher Miles and Ingrid Miles are found: CONDEMNED
+
+
+
+Chapter 3 - Locked 
+
+Player gains Torrent and SQL. Decypher is given at the end of the mission.
+
+Case number: SC-9
+Victim: Noah Sterling - Journalist. Former colleague of Gideon Mahler (G)
+Cause of death: Poison
+
+Culprit: Noah Sterling - Death was a suicide.
+Other suspects: 
+Kimbley L. Marsh - Co-worker of Sterling. Was in contact with him during the timeframe of his death.
+Ismail Ahmad - Co-worker of sterling. Was in contact with him during the timeframe of his death.
+
+For this mission, G does not direct this mission and is instead replaced by Vice Director Hilda Reigan (H)
+
+Objectives:
+    - Investigate victim's personal life
+    - Discover murder weapon
+    - Decode the victim's final message
+
+Evidence:
+    - Sterling's Laptop - Contains an encrypted note from Noah about why he committed suicide. Exposes Nova.
+
+Laptop
+    - H tells the player to try to upload the file to the forensic analyzer. The analyzer fails when it tries to decrypt the file.
+    - H leaves to figure out a way to decrypt this file, and tells the player in the meantime to investigate the victim's life and suspects.
+    - Laptop can be eOS scanned to reveal Sterling's phone
+
+Phone
+    - Contains email login for Sterling's place of work. Player can upload this to the forensic analyzer to reveal mail server
+
+Cytix Mail Server
+    - Player can read Sterling's emails, as well as the other suspects' by hacking into it, but nothing relevant to the case is presented.
+    - Connected to Cytix's network hub.
+
+Cytix Network Hub
+    - Links to mail server, security relay, news server
+
+Cytix News Server
+    - Literally nothing important here
+
+Cytix Security Camera Relay
+    - Links to security cameras within Cytix building.
+    - Most of them are useless but the security footage can be uploaded
+
+Cytix Security Cam C
+    - Contains a bunch of images, one of which identifies Sterling
+    - Uploading the one with Sterling uploads it to the case file
+    - H messages the player after a little bit and tells the player to wait a bit. The bottle Sterling is holding could be a clue.
+    - After waiting a while, H comes back with a scan of the bottle for evidence. The player can analyze this evidence.
+    - Analyzing the bottle provides chemical details about it, including the fact that it's poisoned.
+    - The bottle also contains a serial code, and a link to where it was purchased.
+
+Pharmacore Web Server
+    - Links to Pharmacore stocking database. Player cannot hack into it and must log in.
+    - Contains email link player must analyze.
+
+Pharmacore Mail server
+    - Player logs in and finds login details for database
+
+Pharmacore stocking database
+    - Player matches the serial code found on the bottle
+    - Noah Sterling purchased the bottle.
+    - H messages the player after downloading this database entry. If Sterling bought the bottle, then there's no one else who could have poisoned him.
+    - H tells the player she's found a way to decrypt Noah's last message now.
+
+Noah's laptop
+    - Decoding the note reveals Noah's entire plan to kill himself and expose Nova
+    - H makes a note to herself about "Mahler"
+
+Noah Sterling is found: DECEASED
+
+
+
+Chapter 4 - Framed
+
+Player gains no new programs, except MemDumpGenerator
+
+Case number: FN-6
+Victim: George Yularen - Director of Nova
+Cause of death: Heart attack from lack of life support
+
+Culprit: Gideon Mahler
+Suspect: Maurice Graves
+
+[NOTE: THE CASE FILE AND FORENSIC ANALYZER ARE MADE UNAVAILABLE FOR THIS MISSION]
+
+Objectives:
+    - Investigate the source of the attack
+    - Discover the truth about Nova
+    - Decide the fate of Nova, Mahler, and yourself.
+
+Nova Mail
+    - G sends an email to the player with a link to an IRC chat.
+
+IRC Chat
+    - G explains the situation to the player - The director of Nova is dead and their primary suspect is G himself
+    - However, G claims he is being framed, and asks the player to help him discover the truth.
+    - G explains the director was on a pacemaker life support system, and links the player to the medical database.
+
+Medical Database
+    - If the player searches for George Yularen, they'll find a link to his pacemaker
+
+Pacemaker
+    - The director is already dead.
+    - G sends a message to the player telling them to hack into the pacemaker and look for connection logs.
+    - Logs connect to G's computer
+
+G's computer
+    - G messages the player - "Wait. This is my computer."
+    - No logs or anything can be found on his node.
+    - After thinking for a bit, G gives the player MemDumpGenerator
+    - Running it on G's node reveals a memdump and that someone connected to his node.
+    - IP links to Maurice Graves
+
+Maurice Graves computer
+    - G mentions how Graves also works for Nova. He's always seemed... "unhappy"
+    - Scan for ePhone
+
+Graves ePhone
+    - Contains nova mail login details
+
+Nova Mail
+    - Login to Maurice's account
+    - You see exchanges between Maurice and Mahler.
+    - They talk about ET-5 and how only the director has access to the full case file.
+    - G suggests investigating the director's interactions 
+    - G links the player to his Nova computer as an entry point into Nova's network.
+
+G's Nova node
+    - Links to the Nova network
+
+Nova Network
+    - Links to a bunch of different nodes on the Nova network
+    - Player can hack into any one of them if they want, but the one they're looking for is George Yularen's
+
+George Yularen computer
+    - Links to phone. Phone has email details.
+    - Computer has memdump leading to the ET-5 case file. Links to Mahler node
+
+George Yularen email
+    - Bunch of Nova messages.
+    - One message from Graves - "I know what you've done. It's time to end this."
+
+Mahler node
+    - Contains the ET-5 document encrypted. After the player deciphers it, the endgame begins.
+    - Case file ET-5 details the Hacknet incident and the role of Nova in covering it up and adopting its technology.
+    - The player receives a message from H after this, noting the player has discovered the truth. 
+    - However, she also mentions that the whole truth is not yet revealed. G has only shown the player a partial truth, and that it will soon be revealed to the player.
+
+
+WRITE THIS SECTION OF THE MISSION.
+
+Hilda Email
+    - Hilda tells the player that despite all this, the player doesn't yet know who the real killer is. She tells the player that photographic evidence was left at
+    the scene of the crime showing the face of the true murderer. She tells the player that evidence has been uploaded to the Case File. The final piece of evidence.
+
+Case File
+    - A single image is shown. A man in a hospital bed with another man overlooking him. However, this image face is distorted. Some kind of interference.
+    - After uploading the file to the forensic analyzer, the identity cannot be confirmed. Hilda suspects whoever tampered with this left a trail.
+
+
+
+
+
+
+
+IRC Chat
+    - G feigns surprise. Hacknet? Nova was keeping such a dark secret?
+
+
+Graves:
+    Hello, agent. It's good to finally meet you.
+G:
+    That voice... it can't be
+Graves:
+    My name is Maurice Graves. As I understand it, you believe I am involved in the murder of the director of Nova.
+G:
+    Don't do it, Graves.
+Graves:
+    I don't think you're in a position to tell me what to do, especially after you tried framing me, G.
+    Or should I say
+    Gideon Mahler.
+Mahler:
+    ...
+Mail from Hilda:
+    At last, the truth has been revealed.
+Graves:
+    I was willing to support you in your cause. But I don't much appreciate being used as a scapegoat for your own crimes.
+    I especially don't appreciate being framed for the murder of the director.
+Mahler:
+    You don't understand. This was for the sake of exposing Nova.
+Hilda:
+    Don't you dare listen to him.
+Graves:
+    Is this why you gave the agent all the cases that would eventually lead him to this truth?
+Mahler:
+    It was for the good of this nation!
+Hilda:
+    He committed a crime and must be punished!
+Graves:
+    Listen to yourself. You're beginning to sound like the very institution you sought to destroy.
+Mahler:
+    #PLAYERNAME#, we can end this!
+Hilda:
+    Don't listen to him!
+Mahler:
+    We can expose Nova to the people!
+Hilda:
+    Think of how much we help the nation!
+Graves:
+    The choice is yours. Will you choose to be condemned for a crime you didn’t commit, running from society for a decision made by one you trusted? Or will you live to be a slave to the whims of a higher authority, all under the pretense of safety and security?
+Mahler:
+    BRING THEM DOWN! [Links to Nova's Core file system]
+Hilda:
+    HE MUST BE PUNSHED! [Links to Mahler's file system]
+
+If the player chooses Mahler:
+    Good choice. 
+    We don't have much time.
+    Nova will be trying to block us from entering its system, so we have to act quickly.
+    I need you to break into Nova's central core, and download everything that will reveal the truth.
+    Then, I need you to upload it all here.
+    It's time.
+    I'm counting on you.
+    Get ready
+    Set
+    GO!
+
+If the player chooses Hilda:
+    Good, agent.
+    We must act quickly now. I have a feeling Mahler will be trying everything he can to stop you, and stop us from preventing Nova from being exposed.
+    Gideon Mahler must be destroyed completely. I've dispatched agents to converge on his location and apprahend him, but you must prevent him from
+    damaging Nova any further.
+
+    Break into his system. Destroy that son of a bitch.
+
+If the player successfully uploads Hacknet and Nova files to Cytix drop server: [Freedom Ending]
+    @#PLAYERNAME# good job!
+    The files have been uploaded. It's time for Nova to be exposed to the world!
+    They'll probably be coming after us now.
+    I doubt Nova will be able to continue operating anymore
+    Not if the people turn against them.
+    I have faith they will.
+    Either way, we'll have to lay low for a while.
+    Cover your tracks.
+    Leave nothing behind.
+    I'm sorry it had to be this way, #PLAYERNAME#
+    But it was for the good of the nation
+    It was for the good of the world.
+    This is where we part ways.
+    Goodbye. 
+    [Links to credits server.]
+
+If the player deletes all the files on the Nova Core: [Fugitive Ending]
+    @#PLAYERNAME# No no no what are you doing?!
+    Gah!
+    Damn, it doesn't matter anymore.
+    We'll have to run now.
+    Run as fast as we can. 
+    Nova can rebuild and continue to operate within the shadows.
+    But at least we dealt a severe blow to them.
+    Listen, we shouldn't contact each other anymore for the time being.
+    Not while Nova has us in their crosshairs.
+    These are my last words to you, my friend.
+    Run.
+    [Links to credits server.]
+
+If the player fails to complete the mission: [Prisoner of the State Ending]
+    Mail from Hilda:
+    It's too late for you now, #PLAYERNAME#.
+    Gideon Mahler has been apprehended. We have your place surrounded.
+    Make things easier on us and surrender.
+
+    Good bye, traitor.
+    [Links to credits server.]
+
+If the player successfully defeats Gideon Mahler: [Safety and Security ending]
+    Excellent work, agent.
+    I've just received word that Mahler has been apprehended. We'll make sure that traitor gets the punishment he deserves.
+    You've done a service to us, #PLAYERNAME#. Nova thanks you. This country thanks you.
+    Get some rest, agent. You've earned it.
+    I look forward to working with you in the future.
+
+If the player fails to defeat Mahler: [Mutually Assured Destruction Ending]
+    I trusted you.
+    I thought I could get you to understand.
+    Apparently not.
+    I know there's no stopping Nova now.
+    That's ok.
+    I can at least deal one last blow to their credibility before it's over.
+    I hope you rot in hell.
+
+END OF MURDER ROOM.

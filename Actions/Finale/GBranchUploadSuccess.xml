@@ -1,0 +1,28 @@
+<ConditionalActions>
+
+<Instantly>
+<LoadMission MissionName="Missions/Finale/FinaleBuffer.xml"/>
+<CancelScreenBleedEffect DelayHost="delay" Delay="0.0" />
+<RunFunction FunctionName="changeSongDLC" FunctionValue="7"/>
+<AppendToFile DelayHost="delay" Delay="0.0" TargetComp="credits" TargetFolderpath="home" TargetFilename="CreditsData.txt">%You got the Freedom ending</AppendToFile>
+<AppendToFile DelayHost="delay" Delay="0.0" TargetComp="credits" TargetFolderpath="home" TargetFilename="CreditsData.txt"></AppendToFile>
+<AppendToFile DelayHost="delay" Delay="0.0" TargetComp="credits" TargetFolderpath="home" TargetFilename="CreditsData.txt">%FIN</AppendToFile>
+
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="5.0">@#PLAYERNAME# The files have been uploaded!</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="8.0">Cytix is prepared to push the story!</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="11.0">Nova will probably be coming after us now</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="14.0">But I doubt they'll be able to for long.</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="17.0">Not if the people turn against them.</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="20.0">I have faith they will...</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="25.0">Either way, we'll have to lay low for a while.</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="28.0">Cover your tracks.</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="30.0">Leave nothing behind.</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="33.0">I'm sorry it had to be this way, #PLAYERNAME#</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="36.0">But it was for the good of the nation.</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="39.0">It was for the good of the world.</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="44.0">This is where we part ways.</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="47.0">Good bye, #PLAYERNAME#.</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="50.0">!ATTACHMENT:link#%#Murder Room Credits#%#192.168.1.1</AddIRCMessage>
+</Instantly>
+
+</ConditionalActions>

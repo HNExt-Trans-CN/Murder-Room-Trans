@@ -1,0 +1,34 @@
+<Computer id="finaleCam"
+          name="Security_Cam_221"
+          ip="21.94.29.112"
+          allowsDefaultBootModule="true"
+          security="1"
+          icon="chip"
+          type="4">
+
+<ports>22,211</ports>
+<portsForCrack val="0"/>
+
+<Memory>
+<Commands>
+<Command>cd /home</Command>
+<Command>rm *</Command>
+<Command>cd ..</Command>
+<Command>cd /log</Command>
+<Command>rm *</Command>
+<Command>dc</Command>
+</Commands>
+<Data>
+<Block>2020_06_04_1030.md</Block>
+<Block>2020_06_04_1130.md</Block>
+<Block>2020_06_04_1230.md</Block>
+<Block>2020_06_04_1330.md</Block>
+<Block>
+@34 Connection: from 158.29.187.3
+@64 158.29.187.3 Disconnected
+</Block>
+</Data>
+
+</Memory>
+
+</Computer>

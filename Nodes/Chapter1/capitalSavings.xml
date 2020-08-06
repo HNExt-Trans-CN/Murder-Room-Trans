@@ -1,0 +1,237 @@
+<Computer id="capitalSavings"
+          name="Capital Savings Bank"
+          ip="43.29.100.223"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4">
+
+<ports>21, 22, 25, 80, 443</ports>
+<portsForCrack val="3"/>
+<proxy time="-1"/>
+<firewall level="-1"/>
+
+<!--Database Daemon-->
+<DatabaseDaemon Permission="private" DataType="TextRecord" Foldername="database" Color="235,158,52" Name="Capital Savings Bank Database">
+<TextRecord>
+<Title>2400132</Title>
+<Data>Name: Lisa Reyes
+
+07/01/20: -$6.79 POINT OF SALE TERMINAL
+06/01/20: -$122.33 POINT OF SALE TERMINAL
+06/01/20: -$22.13 POINT OF SALE TERMINAL
+05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>1872091</Title>
+<Data>Name: Cara Mia
+
+10/01/20: -$6.74 POINT OF SALE TERMINAL
+06/01/20: -$52.33 POINT OF SALE TERMINAL
+06/01/20: -$2.13 POINT OF SALE TERMINAL
+05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>1328471</Title>
+<Data>Name: Julian Broly
+
+07/01/20: -$6.79 POINT OF SALE TERMINAL
+06/01/20: -$152.33 POINT OF SALE TERMINAL
+06/01/20: -$22.13 POINT OF SALE TERMINAL
+05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>2019423</Title>
+<Data>Name: Adrian Mahsoo
+
+07/01/20: -$6.79 POINT OF SALE TERMINAL
+06/01/20: -$152.33 POINT OF SALE TERMINAL
+06/01/20: -$22.13 POINT OF SALE TERMINAL
+05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>1562813</Title>
+<Data></Data>
+</TextRecord>
+<!--Martin Staleski-->
+<TextRecord>
+<Title>2290192</Title>
+<Data>Name: Martin Staleski
+
+12/01/20: -$10,000.00 MONEY TRANSFER
+07/01/20: -$6.79 POINT OF SALE TERMINAL
+06/01/20: -$152.33 POINT OF SALE TERMINAL
+06/01/20: -$22.13 POINT OF SALE TERMINAL
+05/01/20: -$23.55 POINT OF SALE TERMINAL
+04/01/20: +$10,000.00 MONEY TRANSFER
+03/01/20: -$3.25 POINT OF SALE TERMINAL
+01/01/20: -$178.29 POINT OF SALE TERMINAL</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>1770131</Title>
+<Data>Name: Saki Yoshida
+
+07/01/20: -$6.79 POINT OF SALE TERMINAL
+06/01/20: -$152.33 POINT OF SALE TERMINAL
+06/01/20: -$22.13 POINT OF SALE TERMINAL
+05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>1692947</Title>
+<Data>Name: Jane Redmond
+
+07/01/20: -$6.79 POINT OF SALE TERMINAL
+06/01/20: -$152.33 POINT OF SALE TERMINAL
+06/01/20: -$22.13 POINT OF SALE TERMINAL
+05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>2210421</Title>
+<Data>Name: Mark Falman
+
+07/01/20: -$6.79 POINT OF SALE TERMINAL
+06/01/20: -$152.33 POINT OF SALE TERMINAL
+06/01/20: -$22.13 POINT OF SALE TERMINAL
+05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>2209886</Title>
+<Data>Name: Roy Chang
+
+07/01/20: -$6.79 POINT OF SALE TERMINAL
+06/01/20: -$152.33 POINT OF SALE TERMINAL
+06/01/20: -$22.13 POINT OF SALE TERMINAL
+05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>1002213</Title>
+<Data>Name: Lucas Young
+
+07/01/20: -$6.79 POINT OF SALE TERMINAL
+06/01/20: -$152.33 POINT OF SALE TERMINAL
+06/01/20: -$22.13 POINT OF SALE TERMINAL
+05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+</TextRecord>
+<!--David Mashun-->
+<TextRecord>
+<Title>2910018</Title>
+<Data>Name: David Mashun
+
+12/01/20: +$10,000.00 MONEY TRANSFER
+10/01/20: -$22.41 POINT OF SALE TERMINAL
+09/01/20: -$4.52 POINT OF SALE TERMINAL
+07/01/20: -$66.39 POINT OF SALE TERMINAL
+05/01/20: -$5.22 POINT OF SALE TERMINAL
+02/01/20: -$133.24 POINT OF SALE TERMINAL</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>1925512</Title>
+<Data>Name: John Stalvern
+
+07/01/20: -$6.79 POINT OF SALE TERMINAL
+06/01/20: -$152.33 POINT OF SALE TERMINAL
+06/01/20: -$22.13 POINT OF SALE TERMINAL
+05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>2204137</Title>
+<Data>Name: Tyrese Jones
+
+07/01/20: -$6.79 POINT OF SALE TERMINAL
+06/01/20: -$152.33 POINT OF SALE TERMINAL
+06/01/20: -$22.13 POINT OF SALE TERMINAL
+05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>2145728</Title>
+<Data>Name: Quendra McCusker
+
+07/01/20: -$6.79 POINT OF SALE TERMINAL
+06/01/20: -$152.33 POINT OF SALE TERMINAL
+06/01/20: -$22.13 POINT OF SALE TERMINAL
+05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>1982001</Title>
+<Data>Name:</Data>
+</TextRecord>
+<!--Nova-->
+<TextRecord>
+<Title>1004921</Title>
+<Data>Name: Nova Holdings Corp.
+
+04/01/20: -$100,000.00 MONEY TRANSFER</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>1051228</Title>
+<Data>Name: Macrosoft Holdings Corp.
+
+07/01/20: -$6.79 POINT OF SALE TERMINAL
+06/01/20: -$152.33 POINT OF SALE TERMINAL
+06/01/20: -$22.13 POINT OF SALE TERMINAL
+05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>1092281</Title>
+<Data>Name: Craig Pelton
+
+07/01/20: -$6.79 POINT OF SALE TERMINAL
+06/01/20: -$152.33 POINT OF SALE TERMINAL
+06/01/20: -$22.13 POINT OF SALE TERMINAL
+05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>2112212</Title>
+<Data>Name: Cytix News Inc.
+
+07/01/20: -$6.79 POINT OF SALE TERMINAL
+06/01/20: -$152.33 POINT OF SALE TERMINAL
+06/01/20: -$22.13 POINT OF SALE TERMINAL
+05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>2015158</Title>
+<Data>Name: Matthew Trobbiani
+
+15/01/20: +$150.00 MONEY TRANSFER
+14/01/20: -$24.10 POINT OF SALE TERMINAL
+13/01/20: -$65.22 POINT OF SALE TERMINAL
+12/01/20: -$5.24 POINT OF SALE TERMINAL
+11/01/20: -$12.24 POINT OF SALE TERMINAL
+09/01/20: -$188.22 POINT OF SALE TERMINAL
+07/01/20: -$22.10 POINT OF SALE TERMINAL
+06/01/20: +$81.00 MONEY TRANSFER
+05/01/20: -$20.10 POINT OF SALE TERMINAL
+</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>2281142</Title>
+<Data>Name: Porter Smith
+
+07/01/20: -$6.79 POINT OF SALE TERMINAL
+06/01/20: -$152.33 POINT OF SALE TERMINAL
+06/01/20: -$22.13 POINT OF SALE TERMINAL
+05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+</TextRecord>
+
+</DatabaseDaemon>
+
+</Computer>

@@ -1,0 +1,43 @@
+<Computer id="sterlingComp"
+          name="Noah Sterling Laptop"
+          ip="78.221.59.2"
+          security="4"
+          allowsDefaultBootModule="false"
+          icon="DLCLaptop"
+          type="2">
+
+
+<ports>22, 21, 80, 443</ports>
+<portsForCrack val="4"/>
+<proxy time="-1"/>
+<firewall level="6" solution="PRAXIS"/>
+
+<encryptedFile path="home" name="My_Final_Message.dec" extension=".txt" ip="192.168.1.1" header="My final message">Hi.
+My name is Noah Sterling, though if you're reading this you probably already knew that.
+
+The reason I've encrypted this message so heavily was to prove a point. The reason I've encrypted this message was so there would be only one group
+who would be able to decipher it. The reason I've encrypted this message was so I could expose a hidden threat lurking in the shadows of this nation.
+
+You are that threat.
+
+In the past several months, I came to know of an organization acting without scrutiny, free to operate without liability, under the false banner of "safety" and "security."
+
+Its name is Nova.
+
+With their seemingly unlimited surveillance, Nova is able to bypass any security measure and take a peek into everyone's private lives, no matter their age, race, or creed.
+And given how much the internet is expanding, their sphere of influence only grows bigger with every passing day.
+Sure, they haven't done anything bad with our information yet, but who's to stop them from doing that in the future?
+
+This is why I encrypted this message. This is why I organized my suicide. I created a mystery only Nova could solve. And so begins the endgame.
+Already the seeds of doubt have been sown within your own organization. It's only a matter of time before the public finds out about this.
+
+Mahler, if you're reading this, I am merely the catalyst. It's up to you now.
+
+- Noah
+</encryptedFile>
+
+<eosDevice name="noah-ePhone" id="noahPhone" icon="ePhone2" empty="false">
+<mail username="NoahSterling@cytix.com" pass="Pr4xis"/>
+</eosDevice>
+
+</Computer>

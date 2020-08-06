@@ -1,0 +1,13 @@
+<ConditionalActions>
+
+<Instantly>
+<LaunchHackScript Filepath="HackerScripts/UploadScript.txt" DelayHost="delay" Delay="1.0" SourceComp="forensic" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<DeleteFile TargetComp="forensic" FilePath="Drop/Uploads" FileName="NoahSterling@cytix.com.act"/>
+<DeleteFile TargetComp="playerComp" FilePath="home" FileName="NoahSterling@cytix.com.act" DelayHost="delay" Delay="0.0"/>
+<GivePlayerUserAccount DelayHost="delay" Delay="0.1" TargetComp="cytixMail" Username="NoahSterling"/>
+
+<ShowNode DelayHost="delay" Delay="1.5" Target="cytixMail"/>
+</Instantly>
+
+
+</ConditionalActions>

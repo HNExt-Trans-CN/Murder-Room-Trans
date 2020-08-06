@@ -1,0 +1,18 @@
+<mission id="chapter2ForensicUpload2" activeCheck="true">
+
+<goals>
+<goal type="fileupload" target="playerComp" file="Evidence_JL2-2.md" path="home" destTarget="forensic" destPath="Drop/Uploads"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/Chapter 2/Chapter2EvidenceUpload2.xml</missionEnd>
+<nextMission IsSilent="true">Missions/Chapter 2/Chapter2ForensicUpload3.xml</nextMission>
+
+
+<email>
+<sender>ERROR</sender>
+<subject>ERROR</subject>
+<body>ERROR</body>
+<attachments>
+</attachments>
+</email>
+</mission>

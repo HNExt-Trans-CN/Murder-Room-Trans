@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="prologue3" activeCheck="true" shouldIgnoreSenderVerification="true">
+<goals>
+
+</goals>
+
+<branchMissions>
+<branch>Missions/Prologue/Prologue3Branch1.xml</branch>
+</branchMissions>
+
+<missionStart>loadConditionalActions:Actions/Prologue/Prologue3MissionActions.xml</missionStart>
+<nextMission IsSilent="false">Missions/Prologue/Prologue3Branch1.xml</nextMission>
+
+<email>
+<sender>G</sender>
+<subject>Case File cotd.</subject>
+<body>That should've given you enough time to skim the case file. It's nothing complicated, and certainly solvable without our help. But we're here to learn.
+As I said, anything important you come across gets uploaded to the Case File automatically. Let me link you to the suspects' phones. Hack or log in to the phones, I don't care. When you get into them, download anything you feel is important to their profiles. Anything like text messages, emails, personal comments, etc. Downloading them will automatically update them in the Case File.
+
+-G</body>
+<attachments>
+<link comp="tutPhone1"/>
+<link comp="tutPhone2"/>
+<link comp="tutPhone3"/>
+</attachments>
+</email>
+</mission>

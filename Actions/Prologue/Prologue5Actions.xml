@@ -1,0 +1,7 @@
+<ConditionalActions>
+
+<Instantly>
+<LoadMission MissionName="Missions/Prologue/Prologue5.xml"/>
+</Instantly>
+
+</ConditionalActions>

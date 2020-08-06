@@ -1,0 +1,7 @@
+<ConditionalActions>
+
+<OnAdminGained target="sterlingComp">
+<LoadMission MissionName="Missions/Chapter 3/Chapter3SterlingAdmin.xml"/>
+</OnAdminGained>
+
+</ConditionalActions>

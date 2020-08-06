@@ -1,0 +1,18 @@
+<mission id="chapter3FinalMessage" activeCheck="true">
+
+<goals>
+<goal type="filechange" target="sterlingComp" file="My_Final_Message.txt" path="home"/>
+<goal type="hasflag" target="chapter3Finale"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/Chapter 3/Chapter3FinaleRead.xml</missionEnd>
+<nextMission IsSilent="true">NONE</nextMission>
+
+<email>
+<sender>ERROR</sender>
+<subject>ERROR</subject>
+<body>ERROR</body>
+<attachments>
+</attachments>
+</email>
+</mission>

@@ -1,0 +1,23 @@
+<mission id="chapter4Init" activeCheck="true">
+
+<goals>
+
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/Chapter 4/Chapter4IRCConnect1.xml</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>G</sender>
+<subject>I need your help.</subject>
+<body>Hey, agent.
+Maybe I should refer to you by #PLAYERNAME# instead. That's how much trouble I'm in right now.
+
+Talking about this through Nova mail isn't safe. I'll link you to somewhere more private so we can talk there.
+
+- G</body>
+<attachments>
+<link comp="finaleIRC"/>
+</attachments>
+</email>
+</mission>

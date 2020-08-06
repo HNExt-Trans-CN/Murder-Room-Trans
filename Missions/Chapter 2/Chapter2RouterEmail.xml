@@ -1,0 +1,23 @@
+<mission id="chapter2RouterEmail" activeCheck="true">
+
+<goals>
+
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>G</sender>
+<subject>Routers</subject>
+<body>Wait, that's genius. I didn't think of that.
+Or maybe you also didn't think of it and were just trying to upload random things to the Forensic Analyzer to see what worked. I wouldn't know.
+You might be able to get into their entire home network from their router now. The only issue is the getting into it part.
+
+Here, let me link you to a database of router passwords. You should be able to find what you need there.
+Excellent work, agent.
+- G</body>
+<attachments>
+<link comp="routerPasswords"/>
+</attachments>
+</email>
+</mission>

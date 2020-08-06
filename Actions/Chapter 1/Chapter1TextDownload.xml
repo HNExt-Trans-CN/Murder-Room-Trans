@@ -1,0 +1,10 @@
+<ConditionalActions>
+
+<Instantly>
+<LaunchHackScript Filepath="HackerScripts/CaseFileScript.txt" DelayHost="delay" Delay="0.5" SourceComp="caseFile" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<RunFunction FunctionName="addFlags:chapter1Girlfriend" DelayHost="delay" Delay="2.0"/>
+<AppendToFile DelayHost="delay" Delay="2.0" TargetComp="caseFile" TargetFolderpath="home/Suspects" TargetFilename="Fern_Hardy.doc">- Confirmed victim did not answer her messages starting January 9th</AppendToFile>
+<DeleteFile TargetComp="playerComp" FilePath="home" FileName="mmssmm.db" DelayHost="delay" Delay="1.0"/>
+</Instantly>
+
+</ConditionalActions>

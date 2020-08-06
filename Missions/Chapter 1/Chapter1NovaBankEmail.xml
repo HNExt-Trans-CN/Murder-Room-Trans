@@ -1,0 +1,21 @@
+<mission id="chapter1NovaBankEmail" activeCheck="true">
+
+<goals>
+
+</goals>
+
+<nextMission IsSilent="false">Missions/Chapter 1/Chapter1FileDownload3.xml</nextMission>
+
+<email>
+<sender>G</sender>
+<subject>Nova Payment</subject>
+<body>Wait, Staleski received payment from Nova?
+
+What would someone like him have to do with Nova? Are they hiding something?
+Doesn't seem we can dig deeper into this thread for the time being.
+
+- G</body>
+<attachments>
+</attachments>
+</email>
+</mission>

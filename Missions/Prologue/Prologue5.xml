@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="prologue5" activeCheck ="false" shouldIgnoreSenderVerification="false">
+<goals>
+<goal type="getstring" target="Joseph Goodwin"/>
+</goals>
+
+<nextMission IsSilent="false">Missions/Prologue/PrologueFinal.xml</nextMission>
+
+<branchMissions>
+<branch>Missions/Prologue/Prologue5Branch1.xml</branch>
+<branch>Missions/Prologue/Prologue5Branch2.xml</branch>
+</branchMissions>
+
+<email>
+<sender>G</sender>
+<subject>Final steps</subject>
+<body>Cool, right?
+Now take a look at the Case File. You should be able to see any info regarding the metal bar in it.
+
+Now comes the time when you look through the evidence and determine a culprit. In all your future cases, I will be there to tell you if enough evidence has been gathered to convict a suspect. Usually the suspect becomes pretty clear during the investigation.
+
+This doesn't mean there won't be more evidence to find after that time, so as an investigator it's important you be as thorough as you can be before submitting your final verdict. After that, a sentence will be passed, and our work will be done. There would be a public outcry if word got out of this system, but as Nova puts it, it's essential for the well-being of the nation.
+
+Anyways, take a look through the evidence one last time and email me who you believe the culprit is.
+-G
+</body>
+<attachments>
+</attachments>
+</email>
+</mission>

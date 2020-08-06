@@ -1,0 +1,7 @@
+<ConditionalActions>
+
+<Instantly>
+<LoadMission MissionName="Missions/Finale/FinaleNovaBranch.xml"/>
+</Instantly>
+
+</ConditionalActions>

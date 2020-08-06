@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="prologue4branch1" activeCheck="false">
+<goals>
+<goal type="getstring" target="Carl Sutton"/>
+</goals>
+
+<nextMission IsSilent="true">Missions/Prologue/PrologueFinalB.xml</nextMission>
+
+<email>
+<sender>G</sender>
+<subject>Final steps</subject>
+<body>Cool, right?
+Now take a look at the Case File. You should be able to see any info regarding the metal bar in it.
+
+Now comes the time when you look through the evidence and determine a culprit. In all your future cases, you'll be doing that through the initial briefing email. However, to prevent you from just picking a culprit at random, the system will lock you out from doing so until it has determined you have collected enough evidence.
+
+This doesn't mean there won't be more evidence to find after that time, so as an investigator it's important you be as thorough as you can be before submitting your final verdict. After that, a sentence will be passed, regardless of if you got the culprit right or not. There would be a public outcry if word got out of this, but as Nova puts it, it's essential for the well-being of the nation.
+
+Anyways, take a look through the evidence one last time and email me who you believe the culprit is.
+-G
+</body>
+<attachments>
+</attachments>
+</email>
+</mission>

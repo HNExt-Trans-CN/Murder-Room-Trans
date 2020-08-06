@@ -1,0 +1,21 @@
+<mission id="finaleGFail" activeCheck="true">
+
+<goals>
+</goals>
+
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>H</sender>
+<subject>Resistance is Futile</subject>
+<body>It's too late for you now, #PLAYERNAME#.
+Gideon Mahler has been apprehended. We have your place surrounded.
+Make things easier for us and surrender.
+
+Goodbye, traitor.</body>
+<attachments>
+<link comp="credits"/>
+</attachments>
+</email>
+</mission>

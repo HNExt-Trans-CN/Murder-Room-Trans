@@ -1,0 +1,16 @@
+<mission id="chapter1ShitpostReply" activeCheck="true">
+
+<goals>
+
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>G</sender>
+<subject>...</subject>
+<body>-_-</body>
+<attachments>
+</attachments>
+</email>
+</mission>

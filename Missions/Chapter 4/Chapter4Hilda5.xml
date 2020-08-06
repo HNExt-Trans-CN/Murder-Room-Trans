@@ -1,0 +1,17 @@
+<mission id="chapter4Hilda5" activeCheck="true">
+
+<goals>
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>H</sender>
+<subject>The Truth Revealed</subject>
+<body>HE MUST BE PUNISHED!</body>
+<attachments>
+<link comp="mahlerCore"/>
+</attachments>
+
+</email>
+</mission>

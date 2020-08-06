@@ -1,0 +1,27 @@
+<mission id="chapter3Init" activeCheck="true">
+
+<goals>
+
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/Chapter 3/Chapter3MasterActions.xml</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>H</sender>
+<subject>Case File: SC-9</subject>
+<body>Greetings, operative.
+I am Vice Director H. Overseer G has notified us that he has a personal matter to attend to, so I have filled his place as your overseer on this case.
+G speaks very highly of your skills, so I don't believe my guidance will be very necessary in this case. I shall give you a quick overview of this case.
+
+On March 24th, 2020 at 6:33 PM, the body of Noah Sterling was found in his apartment dead. Sterling had called emergency medical services saying he was feeling ill prior to his death.
+A toxicology report revealed his cause of death to be tetrodotoxin poisoning, a poison that takes a few hours to take effect, thus narrowing down all potential suspects to those who had interacted with the victim in the hours before his death. However, this has proven difficult for obvious reasons, as Sterling was confirmed to have been at his place of work.
+Therefore, as of now, there are no concrete suspects to this case.
+
+You know what to do, operative.
+- H
+</body>
+<attachments>
+</attachments>
+</email>
+</mission>

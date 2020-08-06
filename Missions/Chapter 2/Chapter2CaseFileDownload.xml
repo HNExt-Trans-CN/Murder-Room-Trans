@@ -1,0 +1,17 @@
+<mission id="chapter2CaseFileDownload" activeCheck="true">
+
+<goals>
+<goal type="filedownload" target="policeCaseFile" file="et-5.rec" path="casefiles"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/Chapter 2/Chapter2CaseFileDownloadActions.xml</missionEnd>
+<nextMission IsSilent="true">Missions/Chapter 2/Chapter2CaseFileEmail.xml</nextMission>
+
+<email>
+<sender>ERROR</sender>
+<subject>ERROR</subject>
+<body>ERROR</body>
+<attachments>
+</attachments>
+</email>
+</mission>

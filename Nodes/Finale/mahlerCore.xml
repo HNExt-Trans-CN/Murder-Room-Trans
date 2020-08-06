@@ -1,0 +1,37 @@
+<Computer id="mahlerCore"
+          name="Gideon Mahler Core"
+          ip="78.29.89.3"
+          allowsDefaultBootModule="true"
+          security="5"
+          type="4">
+
+<ports>22,25,21,443,6881,1433</ports>
+<portsForCrack val="6"/>
+<proxy time="2"/>
+<firewall level="6" solution="MAHLER"/>
+
+<trace time="-1"/>
+
+<CustomConnectDisplayDaemon />
+
+<file path="home" name="List_of_Nova_Agents.docx">#BINARY#</file>
+<file path="home" name="David_Mashun_Info.pdf">#BINARY#</file>
+<file path="home" name="Kara_Oliver_Info.pdf">#BINARY#</file>
+<file path="home" name="Noah_Sterling_Info.pdf">#BINARY#</file>
+<file path="home" name="Maurice_Graves_Info.pdf">#BINARY#</file>
+
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+  <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+  <file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+  <file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+  <file path="bin" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+  <file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+
+  <file path="sys" name="Overseer_Link.exe">#HACKNET_EXE#</file>
+
+</Computer>

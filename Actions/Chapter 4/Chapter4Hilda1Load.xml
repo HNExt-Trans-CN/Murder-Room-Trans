@@ -1,0 +1,7 @@
+<ConditionalActions>
+
+<Instantly>
+<LoadMission MissionName="Missions/Chapter 4/Chapter4Hilda1.xml"/>
+</Instantly>
+
+</ConditionalActions>

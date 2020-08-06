@@ -1,0 +1,17 @@
+<mission id="chapter1FileUploads4" activeCheck="true">
+
+<goals>
+<goal type="fileupload" target="playerComp" file="thing_for_work_I_have_to_send_myself_from_home_because_i'm_lazy" path="home" destTarget="forensic" destPath="Drop/Uploads"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/Chapter 1/Chapter1EmailUpload3.xml</missionEnd>
+<nextMission IsSilent="true">NONE</nextMission>
+
+<email>
+<sender>ERROR</sender>
+<subject>ERROR</subject>
+<body>ERROR</body>
+<attachments>
+</attachments>
+</email>
+</mission>

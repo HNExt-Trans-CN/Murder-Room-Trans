@@ -1,0 +1,92 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="novaSpare"
+          name="Nova Testing Node"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="chip">
+
+<ports>21,22</ports>
+<portsForCrack val="2"/>
+<proxy time="-1"/>
+<firewall level="-1"/>
+
+<eosDevice name="Carl's ePhone" id="tutPhone1" icon="ePhone2" empty="false">
+<file path="eos/data" name="mmssmm.db">
+Number: +19702841724
+=====================================
+Contact: +19702814834
+Name: Laura &lt;3
+
+2019_21_12
+------------
+19702841724: hey, you need me to pick you up? [17:03:41]
+19702814834: nah, i'm getting a ride from my dad. [17:04:19]
+19702841724: ok, just wondering if I needed to head out earlier [17:04:34]
+19702841724: i'll see you soon [17:04:58]
+19702814834: love you! [17:05:12] 
+</file>
+</eosDevice>
+<eosDevice name="Goodwin Machine" id="tutPhone2" icon="ePhone2" empty="false">
+<file path="eos/data" name="mmssmm.db">
+Number: +19702911232
+=====================================
+Contact: +19703312120
+Name: Lucas Young
+
+2019_21_12
+------------
+19703312120: you still owe me bro [16:20:12]
+19702911232: man, I'm still on my way [16:20:57]
+19702911232: can we not do this today? [16:21:14]
+19703312120: you've been saying that for months [16:21:59]
+19703312120: I did you a favor because Im a good friend [16:22:32]
+19703312120: hell, tell me anybody else who would willingly loan you 1000 to help you move state [16:22:59]
+19703312120: you said you would pay me back in a month, it's been way longer than that. [16:23:41]
+19702911232: i'll get you the money when I have it [16:24:02]
+19703312120: i need that money too. [16:24:32]
+=====================================
+Contact: +19702814834
+Name: Laura Pierce
+
+2019_21_12
+------------
+19702814834: heyyyyyyy [18:23:54]
+19702814834: how close are you? [18:24:12]
+19702911232: about half an hour today, the traffic in this damn city haha [18:25:01]
+19702814834: alright, get here soon [18:25:42]
+19702814834: Carl and I haven't seen you in so longgggg! [18:25:58]
+19702911232: yeah I can't wait [18:26:24]
+</file>
+</eosDevice>
+<eosDevice name="Laura Pierce ePhone 5S" id="tutPhone3" icon="ePhone" empty="false">
+<file path="eos/data" name="mmssmm.db">
+Number: +19702814834
+=====================================
+Contact: +19702911232
+Name: Joseph Goodwin
+
+2019_21_12
+------------
+19702814834: heyyyyyyy [18:23:54]
+19702814834: how close are you? [18:24:12]
+19702911232: about half an hour today, the traffic in this damn city haha [18:25:01]
+19702814834: alright, get here soon [18:25:42]
+19702814834: Carl and I haven't seen you in so longgggg! [18:25:58]
+19702911232: yeah I can't wait [18:26:24]
+=====================================
+Contact: +19702841724
+Name: Caaaaaaarl
+
+2019_21_12
+------------
+19702841724: hey, you need me to pick you up? [17:03:41]
+19702814834: nah, i'm getting a ride from my dad. [17:04:19]
+19702841724: ok, just wondering if I needed to head out earlier [17:04:34]
+19702841724: i'll see you soon [17:04:58]
+19702814834: love you! [17:05:12] 
+</file>
+</eosDevice>
+
+<customThemeFile path="sys" name="Web_of_Lies_x-server.sys" themePath="Themes/WebOfLies.xml"/>
+
+</Computer>

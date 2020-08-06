@@ -1,0 +1,11 @@
+<ConditionalActions>
+
+<OnConnect target="sterlingComp" requiredFlags="chapter3Finale">
+<LoadMission MissionName="Missions/Chapter 3/Chapter3FinalMessage.xml"/>
+</OnConnect>
+
+<OnDisconnect target="sterlingComp" requiredFlags="chapter3Finale">
+<AddConditionalActions Filepath="Actions/Chapter 3/Chapter3FinaleConnect.xml"/>
+</OnDisconnect>
+
+</ConditionalActions>

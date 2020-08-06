@@ -1,0 +1,57 @@
+<ConditionalActions>
+
+<OnConnect target="novaCore" requiredFlags="finaleConnect">
+<LoadMission MissionName="Missions/Finale/FinaleGUpload.xml"/>
+<RunFunction FunctionName="removeFlags:finaleConnect"/>
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Crash_Track_Clipped.ogg"/>
+<HideNode DelayHost="delay" Delay="0.0" TargetComp="mahlerCore"/>
+<HideNode DelayHost="delay" Delay="0.0" TargetComp="jmail"/>
+<HideNode DelayHost="delay" Delay="15.0" TargetComp="novaCore"/>
+<CrashComputer TargetComp="novaCore" CrashSource="delay" DelayHost="delay" Delay="0.0" />
+<ChangeAlertIcon Target="finaleIRC" Type="irchub" DelayHost="delay" Delay="0.0"/>
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Catalyst_Clipped.ogg" DelayHost="delay" Delay="5.0"/>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="5.0">@#PLAYERNAME# Good choice.</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="9.0">We don't have a lot of time</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="12.0">Nova will be trying to block us from entering its network</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="15.0">So we have to act quickly.</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="18.0">I need you to break into Nova's central core</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="21.0">Download everything that will reveal the truth.</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="24.0">Then I need you to upload it all here:</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="24.1">!ATTACHMENT:link#%#Cytix Sources Upload#%#52.129.50.1</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="27.0">I'm counting on you.</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="30.0">GO!</AddIRCMessage>
+<ShowNode DelayHost="delay" Delay="30.0" Target="novaCore"/>
+<HideNode DelayHost="delay" Delay="30.3" TargetComp="novaCore"/>
+<ShowNode DelayHost="delay" Delay="30.6" Target="novaCore"/>
+<HideNode DelayHost="delay" Delay="30.9" TargetComp="novaCore"/>
+<ShowNode DelayHost="delay" Delay="31.2" Target="novaCore"/>
+<StartScreenBleedEffect AlertTitle="EXPOSE NOVA" CompleteAction="Actions/Finale/GBranchScreenbleedComplete.xml" TotalDurationSeconds="208.9" DelayHost="delay" Delay="30.3">Hack into central server
+Download everything related to Nova and Hacknet
+Upload to Cytix Sources Upload</StartScreenBleedEffect>
+
+
+</OnConnect>
+
+
+<OnConnect target="mahlerCore" requiredFlags="finaleConnect">
+<RunFunction FunctionName="removeFlags:finaleConnect"/>
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Crash_Track_Clipped.ogg"/>
+<HideNode DelayHost="delay" Delay="0.0" TargetComp="novaCore"/>
+<HideNode DelayHost="delay" Delay="0.0" TargetComp="finaleIRC"/>
+<HideNode DelayHost="delay" Delay="0.0" TargetComp="mahlerCore"/>
+<CrashComputer TargetComp="mahlerCore" CrashSource="delay" DelayHost="delay" Delay="0.0" />
+<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="delay" Delay="0.0"/>
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Catalyst_Clipped.ogg" DelayHost="delay" Delay="5.0"/>
+<AddConditionalActions Filepath="Actions/Finale/NovaBranchMissionLoad.xml" DelayHost="delay" Delay="5.0"/>
+<ShowNode DelayHost="delay" Delay="30.0" Target="mahlerCore"/>
+<HideNode DelayHost="delay" Delay="30.3" TargetComp="mahlerCore"/>
+<ShowNode DelayHost="delay" Delay="30.6" Target="mahlerCore"/>
+<HideNode DelayHost="delay" Delay="30.9" TargetComp="mahlerCore"/>
+<ShowNode DelayHost="delay" Delay="31.2" Target="mahlerCore"/>
+<StartScreenBleedEffect AlertTitle="DESTROY MAHLER" CompleteAction="Actions/Finale/NovaBranchScreenbleedComplete.xml" TotalDurationSeconds="208.9" DelayHost="delay" Delay="30.3">Hack into Mahler's node
+Delete everything
+Prevent any further attacks to Nova</StartScreenBleedEffect>
+
+</OnConnect>
+
+</ConditionalActions>

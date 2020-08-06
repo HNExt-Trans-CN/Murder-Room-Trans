@@ -1,0 +1,55 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="playCustomSong:Music/Silence.ogg"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Black.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="0.0"/>
+<RunFunction FunctionName="removeFlags:chapter1"/>
+<RunFunction FunctionName="addFlags:chapter2"/>
+<HideAllNodes DelayHost="delay" Delay="0"/>
+<ShowNode DelayHost="delay" Delay="0.1" Target="playerComp"/>
+<ShowNode DelayHost="delay" Delay="0.1" Target="jmail"/>
+<ShowNode DelayHost="delay" Delay="0.1" Target="forensic"/>
+<ShowNode DelayHost="delay" Delay="0.1" Target="caseFile"/>
+<ShowNode DelayHost="delay" Delay="0.1" Target="novaGuide"/>
+<SetLock DelayHost="delay" Delay="0.0" Module="terminal" IsLocked="true" IsHidden="true"/>
+<SetLock DelayHost="delay" Delay="0.0" Module="ram" IsLocked="true" IsHidden="true"/>
+<SetLock DelayHost="delay" Delay="0.0" Module="netmap" IsLocked="true" IsHidden="true"/>
+<SetLock DelayHost="delay" Delay="0.0" Module="display" IsLocked="true" IsHidden="true"/>
+
+<DeleteFile TargetComp="playerComp" FilePath="bin" FileName="eosDeviceScan.exe" DelayHost="delay" Delay="0.0"/>
+<AddAsset FileName="eosDeviceScan.exe" FileContents="#EOS_SCANNER_EXE#" TargetComp="playerComp" TargetFolderpath="bin"/>
+
+<SetLock DelayHost="delay" Delay="5.0" Module="terminal" IsLocked="false" IsHidden="false"/>
+<SetLock DelayHost="delay" Delay="5.3" Module="ram" IsLocked="false" IsHidden="false"/>
+<SetLock DelayHost="delay" Delay="5.5" Module="netmap" IsLocked="false" IsHidden="false"/>
+<SetLock DelayHost="delay" Delay="5.7" Module="display" IsLocked="false" IsHidden="false"/>
+<SwitchToTheme ThemePathOrName="Themes/Polymorphous.xml" FlickerInDuration="1.0" DelayHost="delay" Delay="5.0"/>
+<RunFunction FunctionName="changeSong" FunctionValue="8" DelayHost="delay" Delay="5.0"/>
+<RunFunction FunctionName="addRankSilent" FunctionValue="1" DelayHost="delay" Delay="5.5"/>
+
+<DeleteFile TargetComp="caseFile" FilePath="home" FileName="Case_Briefing.doc"/>
+<DeleteFile TargetComp="caseFile" FilePath="home/Suspects" FileName="David_Mashun.doc"/>
+<DeleteFile TargetComp="caseFile" FilePath="home/Suspects" FileName="Fern_Hardy.doc"/>
+<DeleteFile TargetComp="caseFile" FilePath="home/Evidence" FileName="Evidence_HS4-1.md"/>
+<DeleteFile TargetComp="caseFile" FilePath="home/Evidence" FileName="Evidence_HS4-2.md"/>
+
+<CopyAsset DestFilePath="home" DestComp="caseFile" SourceComp="masterFile" SourceFileName="Case_Briefing.doc" SourceFilePath="home/Chapter2"/>
+<CopyAsset DestFilePath="home/Suspects" DestComp="caseFile" SourceComp="masterFile" SourceFileName="Annette_Coleman.doc" SourceFilePath="home/Chapter2"/>
+<CopyAsset DestFilePath="home/Suspects" DestComp="caseFile" SourceComp="masterFile" SourceFileName="Ingrid_Miles.doc" SourceFilePath="home/Chapter2"/>
+<CopyAsset DestFilePath="home/Suspects" DestComp="caseFile" SourceComp="masterFile" SourceFileName="Christopher_Miles.doc" SourceFilePath="home/Chapter2"/>
+
+<CopyAsset DestFilePath="home/Evidence" DestComp="caseFile" SourceComp="masterFile" SourceFileName="Evidence_JL2-1.md" SourceFilePath="home/Chapter2"/>
+<CopyAsset DestFilePath="home/Evidence" DestComp="caseFile" SourceComp="masterFile" SourceFileName="Evidence_JL2-2.md" SourceFilePath="home/Chapter2"/>
+<CopyAsset DestFilePath="home/Evidence" DestComp="caseFile" SourceComp="masterFile" SourceFileName="Evidence_JL2-3.md" SourceFilePath="home/Chapter2"/>
+
+<RunFunction FunctionName="playCustomSongImmediatley:Music/Crash_Track_Clipped.ogg" DelayHost="delay" Delay="2.0"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Mashun3.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="2.0"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Mashun1.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="2.2"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Mashun4.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="2.8"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Mashun2.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="3.0"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Mashun4.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="4.0"/>
+<SwitchToTheme ThemePathOrName="Themes/Cutscenes/Mashun2.xml" FlickerInDuration="0.0" DelayHost="delay" Delay="4.2"/>
+
+</Instantly>
+
+</ConditionalActions>

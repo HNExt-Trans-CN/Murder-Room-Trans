@@ -1,0 +1,17 @@
+<mission id="chapter2GPSDownload" activeCheck="true">
+
+<goals>
+<goal type="filedownload" target="christopherPhone" file="gps_sync.log" path="eos/data"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/Chapter 2/Chapter2GPSDownloadActions.xml</missionEnd>
+<nextMission IsSilent="true">NONE</nextMission>
+
+<email>
+<sender>ERROR</sender>
+<subject>ERROR</subject>
+<body>ERROR</body>
+<attachments>
+</attachments>
+</email>
+</mission>

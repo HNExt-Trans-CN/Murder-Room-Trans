@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="prologue1" activeCheck ="false" shouldIgnoreSenderVerification="false">
+<goals>
+
+</goals>
+
+<missionStart>loadConditionalActions:Actions/Prologue/Prologue1Actions.xml</missionStart>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>G</sender>
+<subject>Re: Welcome</subject>
+<body>Alright, awesome. Glad you're on board.
+The scenario is as follows:
+
+On December 21, 2019, at 10:21 PM, the body of Lucas Young was found at the end of an alleyway. The autopsy report determined his cause of death to be blunt force trauma at around 10 PM. According to a coworker of his, Young had been going out for drinks with some close friends at a nearby pub. The bar owner reports seeing Young leave the bar alone at around quarter to 10. 
+
+The suspected murder weapon is a small metal bar found in a dumpster ten feet from Young's body. Trace amounts of blood were found on the bar matching Young's.
+
+At present, there are three murder suspects:
+Carl Sutton
+Joseph Goodwin
+Laura Pierce
+
+Connect to the attached link and we can get started.
+-G</body>
+<attachments>
+<!--Case File node and login-->
+<link comp="caseFile"/>
+<account comp="caseFile" user="admin" pass="nv99!9lSa"/>
+</attachments>
+</email>
+
+</mission>

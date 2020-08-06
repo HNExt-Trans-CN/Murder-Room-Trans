@@ -1,0 +1,235 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<!--This is the master node for all the case files that get uploaded or can be uploaded.-->
+<Computer id="masterFile"
+          ip="1.1.1.1"
+          name="Master File System"
+          security="2"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4">
+
+<!--Since this node can't be accessed, just leave defaults.-->
+<!--Fuck, this is gonna be a huge-ass node.-->
+<!--Prologue Files-->
+<memoryDumpFile name="Evidence_001.md" path="home/Prologue">
+<Memory>
+<Images>
+<Image>Images/Prologue/Evidence_001_2.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+
+<!--Chapter 1 Files-->
+<file path="home/Chapter1" name="Case_Briefing.doc">Case number HS-4
+Victim: Martin Staleski
+Cause of death: Blunt force trauma
+
+On January 14, 2020, the body of Martin Staleski was discovered in his apartment. Forensic analysis determined the cause of death to be blunt force trauma to the head.
+Staleski's body was discovered by his neighbour, who "complained about a strange smell" coming from his apartment. Staleski was likely dead in his apartment for several days before being discovered.
+As a result of decomposition, a precise date and time of death is uncertain, however coroners estimate this time to be between January 7 and January 11. No DNA evidence was recovered from the scene besides Staleski's.
+According to the victim's place of work, Staleski had taken a sick leave for a week for as of now unknown reasons.
+
+At the moment, we have determined two potential suspects who had contact with the victim within this timeframe, however due to the nature of the discovery, we have been unable to verify their alibis with the case:
+    - Fern Hardy
+    - David Mashun</file>
+<file path="home/Chapter1" name="David_Mashun.doc">Name: David Mashun
+Age: 32
+Nationality: Indonesian
+
+- Co-worker at victim's company
+- Visited the victim's apartment January 9th to drop off some work files. This alibi is supported by his place of employment.
+- Claims victim did not answer the door when he visited.
+</file>
+<file path="home/Chapter1" name="Fern_Hardy.doc">Name: Fern Hardy
+Age: 27
+Nationality: British/American
+
+- Was in a relationship with the victim
+- Visited the victim January 7 and January 10.
+- Was with the victim overnight January 6 and left his apartment the morning of January 7. Neighbour claims they were "very loud until the morning."
+- Claims victim did not answer any of her messages for days since.
+</file> 
+<memoryDumpFile name="Evidence_HS4-1.md" path="home/Chapter1">
+<Memory>
+<Images>
+<Image>Images/Chapter1/Chapter1_Phone1.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+
+<memoryDumpFile name="Evidence_HS4-1.md" path="home/Chapter1/Forensic">
+<Memory>
+<Images>
+<Image>Images/Chapter1/Chapter1_Phone2.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+
+<memoryDumpFile name="Evidence_HS4-2.md" path="home/Chapter1">
+<Memory>
+<Images>
+<Image>Images/Chapter1/Chapter1_Statue1.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+
+<memoryDumpFile name="Evidence_HS4-2.md" path="home/Chapter1/Forensic">
+<Memory>
+<Images>
+<Image>Images/Chapter1/Chapter1_Statue2.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+
+<!--Chapter 2 Files-->
+<file path="home/Chapter2" name="Case_Briefing.doc">Case number JL-2
+Victim: Kara Oliver
+Cause of death: Bleeding out from a single stab wound to the abdomen
+
+On February 6th, 2020, at 11:42 PM, the body of Kara Oliver was discovered in her house by her wife, Annette Coleman. The body was found on the ground
+of the couple's kitchen floor bleeding out. By the time authorities had arrived, Oliver was already deceased. Crime scene analysts discovered a bloodied knife next to the body, believed to be the murder wepon.
+On the evening of the murder, it was reported the couple had guests over for a dinner party; Ingrid Miles and her husband Christopher Miles. Kara Oliver worked as a police officer in the NYPD, with Ingrid Miles acting as her captain.
+Given a lack of evidence for the case, a culprit is unable to be determined at this time. No signs of forced entry were found, leading us to believe only those who knew the victim personally were capable of performing this murder.
+
+As such, we have determined three suspects who had contact with the subject within a reasonable timeframe of the murder:
+    - Annette Coleman
+    - Ingrid Miles
+    - Christopher Miles</file>
+
+<file path="home/Chapter2" name="Annette_Coleman.doc">Name: Annette Coleman
+Age: 31
+Nationality: American
+
+- Married to the victim.
+- Was supposedly in the shower at the time of the victim's murder.</file>
+<file path="home/Chapter2" name="Ingrid_Miles.doc">Name: Ingrid Miles
+Age: 36
+Nationality: Canadian/American
+
+- Police captain of the victim.
+- Visited the victim's place the evening of the murder for a dinner party.
+- Left with her husband for her home at roughly 10:00 PM. Corroborated by victim's wife.</file>
+<file path="home/Chapter2" name="Christopher_Miles.doc">Name: Christopher Miles
+Age: 39
+Nationality: American
+
+- Visited the victim's place the evening of the murder for a dinner party.
+- Left with his wife for his home at roughly 10:00 PM. Corroborated by victim's wife.</file>
+
+<memoryDumpFile name="Evidence_JL2-1.md" path="home/Chapter2">
+<Memory>
+<Images>
+<Image>Images/Chapter2/Chapter2_Knife1.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+<memoryDumpFile name="Evidence_JL2-1.md" path="home/Chapter2/Forensic">
+<Memory>
+<Images>
+<Image>Images/Chapter2/Chapter2_Knife2.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+
+<memoryDumpFile name="Evidence_JL2-2.md" path="home/Chapter2">
+<Memory>
+<Images>
+<Image>Images/Chapter2/Chapter2_Blood1.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+<memoryDumpFile name="Evidence_JL2-2.md" path="home/Chapter2/Forensic">
+<Memory>
+<Images>
+<Image>Images/Chapter2/Chapter2_Blood2.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+
+<memoryDumpFile name="Evidence_JL2-3.md" path="home/Chapter2">
+<Memory>
+<Images>
+<Image>Images/Chapter2/Chapter2_Laptop1.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+<memoryDumpFile name="Evidence_JL2-3.md" path="home/Chapter2/Forensic">
+<Memory>
+<Images>
+<Image>Images/Chapter2/Chapter2_Laptop2.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+
+<!--Chapter 3 Files-->
+<file path="home/Chapter3" name="Case_Briefing.doc">Case number SC-9
+Victim: Noah Sterling
+Cause of death: Poisoning
+
+On March 24th, 2020, at 6:33 PM, Noah Sterling was found in his apartment dead. A toxicology report detailed the cause of death to be tetrodotoxin, commonly found in
+pufferfish and other poisonous fish. While looking through his receipts, no evidence was found that Sterling had consumed any of these types of fish, leading
+investigators to believe he was poisoned by a third party. As tetrodotoxin takes several hours from ingestion to take effect, the only people who could have poisoned
+Sterling were those at his work. Unfortunately, investigations have yet to determine any concrete suspects. Sterling called the authorities himself stating that he
+wasn't feeling well. By the time paramedics had arrived at his place, Sterling was already deceased.
+</file>
+<memoryDumpFile name="Evidence_SC9-1.md" path="home/Chapter3">
+<Memory>
+<Images>
+<Image>Images/Chapter3/Chapter3_Laptop1.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+<memoryDumpFile name="Evidence_SC9-1.md" path="home/Chapter3/Forensic">
+<Memory>
+<Images>
+<Image>Images/Chapter3/Chapter3_Laptop2.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+<memoryDumpFile name="Evidence_SC9-2.md" path="home/Chapter3">
+<Memory>
+<Images>
+<Image>Images/Chapter3/Security_Cam_Uploaded.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+<memoryDumpFile name="Evidence_SC9-3.md" path="home/Chapter3">
+<Memory>
+<Images>
+<Image>Images/Chapter3/Chapter3_Pills1.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+<memoryDumpFile name="Evidence_SC9-3.md" path="home/Chapter3/Forensic">
+<Memory>
+<Images>
+<Image>Images/Chapter3/Chapter3_Pills2.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+
+<!--Chapter 4 Files (Might not end up using this since Chapter 4's gonna be like a normal Hacknet investigation.)-->
+<!--nvm I am using this-->
+<memoryDumpFile name="Evidence_X.md" path="home/Chapter4">
+<Memory>
+<Images>
+<Image>Images/Chapter4/Finale_Image_1.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+<memoryDumpFile name="Evidence_X.md" path="home/Chapter4/Forensic">
+<Memory>
+<Images>
+<Image>Images/Chapter4/Finale_Image_2.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+<memoryDumpFile name="Evidence_X.md" path="home/Chapter4/Finale">
+<Memory>
+<Images>
+<Image>Images/Chapter4/Finale_Image_3.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+
+</Computer>

@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="false">
+  <goals>
+
+  </goals>
+ 
+  <nextMission>Missions/Prologue/Prologue1.xml</nextMission>
+
+  <email>
+    <sender>G</sender>
+    <subject>Welcome</subject>
+    <body>Welcome, agent, to the United Federation of America's very own private covert crimes division, Nova. As you know, we are this nation's final line of defense when it comes to keeping its citizens safe. 
+
+Your job: To solve the unsolvable.
+
+The FBI, CIA, NSA, DIA, you name it. Any cold cases they can't solve, they hand over to us. We employ state of the art technology to penetrate systems and navigate hidden networks that even the government doesn't have access to, all thanks to our partnership with EnTech.
+
+Before we get you started on your first case, let's give you a practice case.
+
+Reply back when you're ready.
+-G
+
+</body>
+    <attachments>
+
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,37 @@
+<Computer id="gComp"
+          name="G Workstation"
+          ip="67.29.191.22"
+          allowsDefaultBootModule="false"
+          security="3"
+          type="4">
+
+<ports>21, 25, 80, 443</ports>
+<portsForCrack val="4"/>
+<proxy time="-1"/>
+<firewall level="6" solution="AGENTG"/>
+
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+<file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+<file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+<file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+<file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+<file path="bin" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+<file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+
+<Memory>
+<Commands>
+<Command>cd /log</Command>
+<Command>rm *</Command>
+<Command>dc</Command>
+</Commands>
+<Data>
+<Block>@34 Connection: from 212.49.101.2
+@64 212.49.101.2 Disconnected
+</Block>
+</Data>
+</Memory>
+
+
+</Computer>

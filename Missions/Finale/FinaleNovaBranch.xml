@@ -1,0 +1,25 @@
+<mission id="finaleNovaBranch" activeCheck="true">
+
+<goals>
+<goal type="clearfolder" target="mahlerCore" path="home"/>
+<goal type="clearfolder" target="mahlerCore" path="log"/>
+<goal type="clearfolder" target="mahlerCore" path="bin"/>
+<goal type="clearfolder" target="mahlerCore" path="sys"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/Finale/NovaBranchSuccess.xml</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>H</sender>
+<subject>Stopping Mahler</subject>
+<body>Good choice, operative.
+We must act quickly now. Mahler will be trying everything he can to stop you, me, and Nova. His goal is to expose Nova to the world. He must be stopped.
+Gideon Mahler must be destroyed completely. You must break into his computer and delete everything if you want any chance of preventing any damage to Nova.
+I have dispatched field agents to converge on his location. It is up to you to halt any attacks he may try to perform and delay him until the agents get to him.
+
+Break into his system. Destroy that son of a bitch.</body>
+<attachments>
+</attachments>
+</email>
+</mission>

@@ -1,0 +1,17 @@
+<mission id="finaleGDelete" activeCheck="true">
+
+<goals>
+<goal type="clearfolder" target="novaCore" path="ARCHIVE/Nova"/>
+<goal type="clearfolder" target="novaCore" path="ARCHIVE/Hacknet/24-06"/>
+</goals>
+
+<nextMission IsSilent="true">NONE</nextMission>
+
+<email>
+<sender>ERROR</sender>
+<subject>ERROR</subject>
+<body>ERROR</body>
+<attachments>
+</attachments>
+</email>
+</mission>

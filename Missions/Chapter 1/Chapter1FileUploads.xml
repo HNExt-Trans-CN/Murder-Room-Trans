@@ -1,0 +1,23 @@
+<mission id="chapter1FileUploads" activeCheck="true" shouldIgnoreSenderVerification="true">
+
+<goals>
+<goal type="fileupload" target="caseFile" file="Evidence_HS4-1.md" path="home/Evidence" destTarget="forensic" destPath="Drop/Uploads"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/Chapter 1/Chapter1EvidenceUpload1.xml</missionEnd>
+<nextMission IsSilent="true">Missions/Chapter 1/Chapter1FileUploads1.xml</nextMission>
+
+<branchMissions>
+<branch>Missions/Chapter 1/Chapter1FileUploads1.xml</branch>
+<!--<branch>Missions/Chapter 1/Chapter1FileUploads2.xml</branch>--> <!--so apparently having these branches breaks the system. fucking hell.-->
+<!--<branch>Missions/Chapter 1/Chapter1FileUploads3.xml</branch>-->
+</branchMissions>
+
+<email>
+<sender>ERROR</sender>
+<subject>ERROR</subject>
+<body>ERROR</body>
+<attachments>
+</attachments>
+</email>
+</mission>

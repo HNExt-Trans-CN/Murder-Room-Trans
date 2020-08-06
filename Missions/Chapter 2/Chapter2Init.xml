@@ -1,0 +1,31 @@
+<mission id="chapter2Init" activeCheck="true">
+
+<goals>
+
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/Chapter 2/Chapter2MasterActions.xml</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>G</sender>
+<subject>Case File: JL-2</subject>
+<body>Hello, agent.
+It's another beautiful day. Unfortunately for us, that also means it's another day to solve a murder.
+This case is a bit more straightforward. Lucky for us, not straightforward enough for the regular authorities to solve.
+
+The murder occured on February 6th, 2020. The body of Kara Oliver was found bleeding out on her kitchen floor by her wife, Annette Coleman.
+The time of death was determined to be around 11:40 PM. The wife was supposedly in the shower when the murder happened, however there were no
+signs of a break-in. Foul play is suspected, but authorities were unable to surmise by whom.
+
+The victim happened to be an officer on the NYPD. It might be a good idea to look there.
+
+Oh, and one more thing. I've uploaded a new tool to your computer. It should be useful for finding mobile devices. You might have spotted it in the previous case.
+
+As always, I'll be here to help you.
+- G</body>
+<attachments>
+<link comp="policeWeb"/>
+</attachments>
+</email>
+</mission>

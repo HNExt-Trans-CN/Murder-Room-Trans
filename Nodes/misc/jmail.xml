@@ -1,0 +1,61 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="jmail"
+          name="Nova Mail System"
+          security="2"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4">
+
+<account username="#PLAYERNAME#" password="rosebud" type="MAIL"/>
+<account username="agentM" password="gravedigger" type="MAIL"/>
+<account username="NovaDirector" password="grandmaster" type="MAIL"/>
+
+<ports>21, 22, 25, 80, 1433, 211</ports>
+
+<portsForCrack val="6"/>
+<trace time="100"/>
+<proxy time="1"/>
+<firewall level="-1"/>
+<admin type="fast" resetPassword="true" isSuper="true"/>
+
+<mailServer name="Nova Mail" color="200,200,200" generateJunk="true">
+<email recipient="agentM" sender="L" subject="Case File IU-6">Hello, agent.
+As usual, it's time for another case. You know the drill. Check your case file for the case details.
+
+- L</email>
+<email recipient="agentM" sender="Mahler" subject="Final steps">Maurice,
+Sterling's case just got opened up again, which means it's time to set things in motion.
+What I need you to do is to set a trail from the good director's pacemaker. Time is of the essence here.
+It's time to expose Nova for their transgressions once and for all.
+
+- Mahler</email>
+<email recipient="agentM" sender="George Yularen" subject="Re: The truth">I have no idea what you're talking about.
+Your empty threats mean nothing to me.</email>
+<email recipient="agentM" sender="Mahler" subject="Re: Final steps">Excellent.
+With his death, Nova should be scrambling to pin someone as a suspect. They have no reason
+to suspect you, however they will be going after me.
+Before I leave, you should know I've finally decrypted the ET-5 case. Finally the truth about these bastards will be revealed.
+
+- Mahler</email>
+
+<email recipient="NovaDirector" sender="Maurice Graves" subject="The truth">I know what you've done.
+It's time to end this.</email>
+<email recipient="NovaDirector" sender="Hilda Riegan" subject="Re: Substitute overseer">Understood, sir.
+I will oversee Agent #PLAYERNAME# for the time being. However, I do wonder, am I really best suited for this task? Couldn't you ask one of the other overseers?
+</email>
+<email recipient="NovaDirector" sender="Luke Skylar" subject="Monthly Agent Report">Good day, sir,
+Attached is the latest report on all currently active Nova agents. Please look through the report at your earliest convenience.
+
+Sincerely, Luke Skylar
+Head of Analytics, Nova</email>
+<email recipient="NovaDirector" sender="EnTech International" subject="Contract Update 2020">Greetings, George
+As you are aware, EnTech has recently pushed an update to its investigation suite. As you rely on this partnership, we have felt these
+recent developments require an update to our original agreement. We believe this will benefit both of our organizations.
+
+Yours sincerely,
+David Leatrou</email>
+
+</mailServer>
+
+
+</Computer>

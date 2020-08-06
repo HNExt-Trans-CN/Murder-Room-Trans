@@ -1,0 +1,11 @@
+<ConditionalActions>
+
+<OnConnect target="jmail" requiredFlags="chapter2,chapter2JmailLoop">
+<LoadMission MissionName="Missions/Chapter 2/Chapter2FinalConfirm.xml"/>
+</OnConnect>
+
+<OnDisconnect target="jmail" requiredFlags="chapter2">
+<AddConditionalActions Filepath="Actions/Chapter 2/Chapter2MailLoop.xml"/>
+</OnDisconnect>
+
+</ConditionalActions>

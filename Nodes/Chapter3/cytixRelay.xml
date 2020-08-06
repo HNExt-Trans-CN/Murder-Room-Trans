@@ -1,0 +1,20 @@
+<Computer id="cytixRelay"
+          name="Cytix Security Relay"
+          security="2"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4">
+
+<ports>22,80</ports>
+<portsForCrack val="2"/>
+<proxy time="-1"/>
+
+<dlink target="cytixCam1"/>
+<dlink target="cytixCam2"/>
+<dlink target="cytixCam3"/>
+<dlink target="cytixCam4"/>
+
+<file path="home" name="Security_Relay.txt">This is the Cytix Security Relay. It links all the security cameras installed within the Cytix building to a centralized node.
+Please do not tamper with this server.</file>
+
+</Computer>

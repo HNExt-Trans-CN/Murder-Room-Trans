@@ -1,0 +1,14 @@
+<Computer id="cytixNews"
+          name="Cytix News"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4">
+
+<ports>21, 22, 211</ports>
+<portsForCrack val="1"/>
+
+<!--News articles here-->
+<variableMissionListingServer name="Cytix News" iconPath="Images/Logos/Cytix.png" articleFolderPath="Docs/News" color="87,207,137" assigner="false" public="true" title="Cytix News - Citing Before Reporting"/>
+
+</Computer>

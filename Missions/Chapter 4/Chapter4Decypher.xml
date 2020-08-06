@@ -1,0 +1,17 @@
+<mission id="chapter4Decypher" activeCheck="true">
+
+<goals>
+<goal type="filechange" target="yularenComp" file="et-5.rec" path="home"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/Chapter 4/Chapter4DecypherActions.xml</missionEnd>
+<nextMission IsSilent="true">NONE</nextMission>
+
+<email>
+<sender>ERROR</sender>
+<subject>ERROR</subject>
+<body>ERROR</body>
+<attachments>
+</attachments>
+</email>
+</mission>

@@ -1,0 +1,12 @@
+<ConditionalActions>
+
+<OnConnect target="ingridPhone">
+<LoadMission MissionName="Missions/Chapter 2/Chapter2PhoneDownloads.xml"/>
+</OnConnect>
+
+
+<OnDisconnect target="ingridPhone">
+<AddConditionalActions Filepath="Actions/Chapter 2/Chapter2PhoneConnect.xml"/>
+</OnDisconnect>
+
+</ConditionalActions>

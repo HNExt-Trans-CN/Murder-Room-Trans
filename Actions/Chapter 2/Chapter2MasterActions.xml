@@ -1,0 +1,16 @@
+<ConditionalActions>
+<!--Wow, so this mission is significantly shorter than the last one. I did not anticipate that. Chapter 3 is so much longer though, believe me.-->
+<!--To be fair, when I was writing the extension, I had originally planned for this mission to be the first one, but later on in development I switched the first two
+for a bit more natural story progression.-->
+<Instantly>
+
+<AddConditionalActions Filepath="Actions/Chapter 2/Chapter2ForensicActions.xml"/>
+<AddConditionalActions Filepath="Actions/Chapter 2/Chapter2CaseFileConnect.xml"/>
+<AddConditionalActions Filepath="Actions/Chapter 2/Chapter2PhoneConnect.xml"/>
+<AddConditionalActions Filepath="Actions/Chapter 2/Chapter2IngridConnect.xml"/>
+<AddConditionalActions Filepath="Actions/Chapter 2/Chapter2MailLoop.xml"/>
+<AddConditionalActions Filepath="Actions/Chapter 2/Chapter2ChristopherPhoneConnect.xml"/>
+</Instantly>
+
+
+</ConditionalActions>

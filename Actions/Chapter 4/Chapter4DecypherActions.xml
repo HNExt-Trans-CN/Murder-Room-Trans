@@ -1,0 +1,10 @@
+<ConditionalActions>
+
+<Instantly>
+<RunFunction FunctionName="changeSongDLC" FunctionValue="7"/>
+<ChangeAlertIcon Target="jmail" Type="mail" DelayHost="delay" Delay="15.0"/>
+<AddConditionalActions Filepath="Actions/Chapter 4/Chapter4FinaleCaseLoad.xml" DelayHost="delay" Delay="15.0"/>
+</Instantly>
+
+
+</ConditionalActions>

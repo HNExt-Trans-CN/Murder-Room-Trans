@@ -1,0 +1,17 @@
+<mission id="chapter4FinalUpload" activeCheck="true">
+
+<goals>
+<goal type="fileupload" target="playerComp" file="Face_Scramble.dll" path="home" destTarget="forensic" destPath="Drop/Uploads"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/Chapter 4/Chapter4UploadActions2.xml</missionEnd>
+<nextMission IsSilent="true">NONE</nextMission>
+
+<email>
+<sender>ERROR</sender>
+<subject>ERROR</subject>
+<body>ERROR</body>
+<attachments>
+</attachments>
+</email>
+</mission>

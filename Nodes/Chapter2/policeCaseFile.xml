@@ -1,0 +1,78 @@
+<Computer id="policeCaseFile"
+          name="96th Precinct Case File System"
+          ip="46.39.112.55"
+          security="5"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4">
+
+<account username="koliver1" password="V76Yg5!" type="ADMIN"/>
+<ports>21, 22, 6881, 443</ports>
+<portsForCrack val="4"/>
+
+<DatabaseDaemon Permissions="public" DataType="TextRecord" Foldername="casefiles" Color="29,45,122" AdminEmailAccount="lwren@nypd.gov" AdminEmailHostID="policeMail" Name="NYPD Case File Database">
+<TextRecord>
+<Title>BO-8</Title>
+<Data>CASE FILE BO-8
+Date: July 24, 2018
+Key Persons: Vic Bristol
+             James Buchan
+
+On July 23, 2018 at 2:21 PM, Vic Bristol and James Buchan, ex-spouses, found themselves in an altercation.
+Earlier in the day, the couple had argued about child custody matters, which resulted in Buchan leaving the premises.
+However, at 2:00 PM, Buchan had returned, reportedly to reclaim some personal belongings of his. Bristol had gone up to
+her bedroom to fetch his items, however Buchan locked the door behind her, making her unable to leave the room.
+After phoning 911, Officer Deitmore and myself were dispatched to the premises. Buchan was arrested on the grounds of false imprisonment.</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>MK-3</Title>
+<Data>CASE FILE MK-3
+Date: September 13, 2017
+Key Persons: Alan Perez
+             Julian Dorne
+             
+On September 12, 2017, at approximately 10:30 PM, two masked males entered a 7-Eleven convenience store and stole $233 from the register at gunpoint.
+The store's security cameras recorded the incident. One man pointed a gun at the clerk at the time, Alan Perez and demanded he fill the bag with money.
+The second took another man, Julian Dorne, hostage as it appeared he spotted the incident from outside the store. Before being forcibly taken into the store,
+Dorne had called emergency services and a dispatch was sent promptly. By the time officers had arrived, the two masked men had already left the store.
+No evidence was left at the scene, however the two witnesses of the event have described the men as average build, average height, roughly 5'8. One of them
+was also wearing a pair of white Nikes.</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>ET-5</Title>
+<Data>CASE FILE ET-5
+Date: August 20, 2015
+Key Persons: George Yularen
+             David Leatrou
+             Ingrid Miles
+            
+[REDACTED]</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>QL-1</Title>
+<Data>CASE FILE QL-1
+Date: March 2, 2019
+Key Persons: Jason Mardred
+
+On March 2, 2019 at 10:03 PM, James Mardred reported his car stolen. It was a red Pontiac with license plate number KOP221. No security footage of the
+incident was found. This theft is believed to be the work of the as of yet unidentified Pontiac Bandit.</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>SL-9</Title>
+<Data>CASE FILE SL-9
+Date: February 19, 2015
+Key Persons: Joe Darke
+             Neil Marshall
+
+On February 19, 2015, after a long interrogation of serial murderer Joe Darke, a power outage had struct the entire area near the precinct.
+While emergency power was restored quickly, Darke managed to escape the interrogation room. Darke ended up finding himself in the office of Detectives Gant and Skye.
+Prosecutor Neil Marshall pursued Darke and quickly apprehended him, but not before Darke pushed Marshall into a suit of armour and killed him. Darke was quickly
+arrested again and sentenced to death for his crimes.</Data>
+</TextRecord>
+</DatabaseDaemon>
+
+</Computer>

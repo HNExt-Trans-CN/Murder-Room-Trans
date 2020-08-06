@@ -1,0 +1,14 @@
+<ConditionalActions>
+
+<Instantly>
+<LaunchHackScript Filepath="HackerScripts/UploadScript.txt" DelayHost="delay" Delay="1.0" SourceComp="forensic" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<DeleteFile TargetComp="forensic" FilePath="Drop/Uploads" FileName="2020_03_24_1030C.md"/>
+<DeleteFile TargetComp="playerComp" FilePath="home" FileName="2020_03_24_1030C.md" DelayHost="delay" Delay="0.0"/>
+<CopyAsset DestFilePath="home/Evidence" DestComp="caseFile" SourceComp="masterFile" SourceFileName="Evidence_SC9-2.md" SourceFilePath="home/Chapter3"/>
+</Instantly>
+
+<OnConnect target="caseFile" requiredFlags="chapter3">
+<AddConditionalActions Filepath="Actions/Chapter 3/Chapter3SecurityUploadEmailDelay.xml" DelayHost="delay" Delay="15.0"/>
+</OnConnect>
+
+</ConditionalActions>

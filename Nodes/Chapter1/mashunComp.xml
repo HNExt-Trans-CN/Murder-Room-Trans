@@ -1,0 +1,24 @@
+<Computer id="mashunComp"
+          name="dmashun machine"
+          security="2"
+          allowsDefaultBootModule="true"
+          icon="laptop"
+          type="2">
+
+<ports>21, 22</ports>
+<portsForCrack val="1"/>
+<firewall level="6" solution="PERLIN" additionalTime="0.2"/>
+
+<file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+<file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+<file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+<customthemefile path="sys" name="Network_x-server.sys" themePath="Themes/Network.xml"/>
+<eosDevice name="dmashun ePhone 5S" id="mashunPhone" icon="ePhone2" empty="false">
+<mail username="dmashun@dlabs.com" password="P3rlin"/>
+<mail username="dmashun@jmail.com" password="P3rlin"/>
+</eosDevice>
+
+<CustomConnectDisplayDaemon />
+
+</Computer>
+          

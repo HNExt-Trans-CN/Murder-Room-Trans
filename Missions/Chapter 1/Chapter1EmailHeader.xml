@@ -1,0 +1,20 @@
+<mission id="chapter1EmailHeader" activeCheck="true">
+
+<goals>
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>G</sender>
+<subject>Email Headers</subject>
+<body>This is the victim's work email, huh?
+Doesn't seem like it connects to the rest of the DLabs network. Not that I think you'll need to.
+But you might be able to find a connection from another node here. Remember how you uploaded Staleski's email address and it revealed the email node IP?
+Well, the Forensic Analyzer can take things a step above that and analyze email headers and reveal the source IPs of emails. This is apparently useful for finding nodes outside of a certain network. Give it a go, see what you can dig up.
+
+-G</body>
+<attachments>
+</attachments>
+</email>
+</mission>

@@ -1,0 +1,11 @@
+<ConditionalActions>
+
+<Instantly>
+<LaunchHackScript Filepath="HackerScripts/UploadScript.txt" DelayHost="delay" Delay="1.0" SourceComp="forensic" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<DeleteFile TargetComp="playerComp" FilePath="home" FileName="thing_for_work_I_have_to_send_myself_from_home_because_i'm_lazy" DelayHost="delay" Delay="0.0"/>
+<DeleteFile TargetComp="forensic" FilePath="Drop/Uploads" FileName="thing_for_work_I_have_to_send_myself_from_home_because_i'm_lazy"/>
+<ShowNode DelayHost="delay" Delay="1.5" Target="mashunComp"/>
+</Instantly>
+
+
+</ConditionalActions>

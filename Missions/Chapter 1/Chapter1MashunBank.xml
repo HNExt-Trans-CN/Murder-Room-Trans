@@ -1,0 +1,21 @@
+<mission id="chapter1MashunBank" activeCheck="true">
+
+<goals>
+<delay time="2"/>
+</goals>
+
+<missionStart>addFlags:chapter1MashunBank</missionStart>
+<missionEnd>loadConditionalActions:Actions/Chapter 1/Chapter1EndSendActions.xml</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>G</sender>
+<subject>Mashun's Bank</subject>
+<body>Where'd he get that $10,000 from, hmm?
+
+Seems it was stolen from Staleski's account. This could be what we need to implicate Mashun for this crime.
+</body>
+<attachments>
+</attachments>
+</email>
+</mission>

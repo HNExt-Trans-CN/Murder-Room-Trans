@@ -1,0 +1,11 @@
+<CustomTheme>
+
+<themeLayoutName>white</themeLayoutName>
+<backgroundImagePath>Themes/Backgrounds/Network.jpg</backgroundImagePath>
+
+<defaultHighlightColor>70,128,227</defaultHighlightColor>
+<defaultTopBarColor>166,31,31,255</defaultTopBarColor>
+
+<moduleColorBacking>5,6,7,150</moduleColorBacking>
+
+</CustomTheme>

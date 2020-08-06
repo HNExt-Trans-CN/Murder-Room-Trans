@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="prologuefinal" activeCheck="false" shouldIgnoreSenderVerification="false">
+<goals>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/Cutscenes/Chapter1Title.xml</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>G</sender>
+<subject>Next Steps</subject>
+<body>Nice job, you should be familiar with the system now. Though if you still need help, I have attached a guide for all Nova operatives for you to view.
+
+Your future cases are gonna be much longer and more complicated than this one, this was just to show you the ropes to get you ready for the real stuff. I won't tell you how to do the rest of your job since... well, that’s why we hired you. Reply when you're ready to get started for real.
+
+I look forward to working with you, agent. Good luck, and welcome to the murder room. 
+-G
+</body>
+<attachments>
+<link comp="novaGuide"/>
+</attachments>
+</email>
+</mission>

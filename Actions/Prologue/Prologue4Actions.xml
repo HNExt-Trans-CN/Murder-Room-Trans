@@ -1,0 +1,13 @@
+<ConditionalActions>
+
+<Instantly>
+<LaunchHackScript Filepath="HackerScripts/UploadScript.txt" DelayHost="delay" Delay="1.0" SourceComp="forensic" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+
+<DeleteFile TargetComp="caseFile" FilePath="home/Evidence" FileName="Evidence_001.md" DelayHost="delay" Delay="0.0"/>
+<DeleteFile TargetComp="playerComp" FilePath="home" FileName="Evidence_001.md" DelayHost="delay" Delay="0.0"/>
+<CopyAsset DestFilePath="home/Evidence" DestComp="caseFile" SourceComp="masterFile" SourceFileName="Evidence_001.md" SourceFilePath="home/Prologue"/>
+
+<AddConditionalActions Filepath="Actions/Prologue/Prologue5Actions.xml" DelayHost="delay" Delay="2.0"/>
+</Instantly>
+
+</ConditionalActions>

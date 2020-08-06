@@ -1,0 +1,173 @@
+<Computer id="dlabsMail"
+          name="DLabs.com"
+          ip="21.242.134.119"
+          security="3"
+          allowsDefaultBootModule="true"
+          icon="DLCServer"
+          type="4">
+
+<account username="dreynolds" password="v7YuiLs@" type="2"/>
+<account username="lpark" password="prince58" type="2"/>
+<account username="eyang" password="GAMeR" type="2"/>
+<account username="mstaleski" password="AreU0Kay?" type="2"/>
+<account username="cjohnson" password="aperture" type="2"/>
+<account username="jstalvern" password="SEcURE1" type="2"/>
+<account username="lstewart" password="artif1cer" type="2"/>
+<account username="dmashun" password="P3rlin" type="2"/>
+<account username="bperkins" password="porky" type="2"/>
+<account username="tmurdock" password="Murdock1" type="2"/>
+<account username="bjoonho" password="sn0wpierc3" type="2"/>
+<account username="kbeauchamp" password="AgmgTW123" type="2"/>
+<account username="xtong" password="zoomzoom" type="2"/>
+<account username="wren" password="wr3nd" type="2"/>
+<account username="akurusu" password="persona" type="2"/>
+<account username="sstone" password="3m3r4ld" type="2"/>
+<account username="bchang" password="changnesiac" type="2"/>
+<account username="mmoss" password="01189998819991197253" type="2"/>
+<!--Some references in here, see if you can spot them.-->
+<!--Almost all of them are useless though.-->
+<!--Wish we were able to remove folders, so these would be the only people on the mail server.-->
+<ports>21, 22, 25, 80, 443</ports>
+<portsForCrack val="3"/>
+<proxy time="0.75"/>
+<firewall level="-1"/>
+
+<mailServer name="DLabs" color="38,212,255" generateJunk="true">
+<!--Staleski stuff-->
+<email recipient="mstaleski" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
+Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
+Do try to make space for it. I will not be posting slides. This isn't college.
+
+Regards,
+Derek Reynolds</email>
+<email recipient="mstaleski" sender="Lana Stewart" subject="master branch updated">hey martin,
+I've pushed a new update to the master branch, mind taking a look when you have the time?
+Get well soon,
+Lana</email>
+<email recipient="mstaleski" sender="Eric Yang" subject="DLabs Mixer">Hey hey,
+Don't forget, mixer tonight at 8PM. Shaw's Bar, don't be late!
+
+-Eric</email>
+<email recipient="mstaleski" sender="Derek Reynolds" subject="Re: Inactivity Notice">Hey Martin,
+Just emailing you checking in. Haven't heard from you in days, you doing alright?
+I know I sent David over to give you some files but he said you weren't there and just dropped them in your mail.
+
+Please respond,
+Derek Reynolds</email>
+<email recipient="mstaleski" sender="Derek Reynolds" subject="Re: Re: Inactivity Notice">Hey Martin,
+Still haven't heard from you. We're all getting worried here. David hasn't said a thing. Lisa also called your girlfriend, she has no idea either.
+I also hate to be "that guy" but you're gonna need to come back soon or I'll have no choice but to fire you, bud.
+
+Derek</email>
+<!--Mashun stuff-->
+<email recipient="dmashun" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
+Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
+Do try to make space for it. I will not be posting slides. This isn't college.
+
+Regards,
+Derek Reynolds</email>
+<email recipient="dmashun" sender="Tina Murdock" subject="Re: ;)">After work, we'll take separate rides. Make sure nobody's following.</email>
+<email recipient="dmashun" sender="Eric Yang" subject="Stop.">Dude, IT can see your emails. We know you're nailing Tina. 
+Please for the love of god stop making us read this.</email>
+<email recipient="dmashun" sender="David Mashun" subject="thing for work I have to send myself from home because i'm lazy">
+!ATTACHMENT:dlabs_report_spreadsheet_Q1_2020.xlsx</email>
+<email recipient="dmashun" sender="Derek Reynolds" subject="Files for Martin">Hmm, he wasn't there?
+Weird. And you're sure you checked?
+
+Get back to me ASAP.
+Derek</email>
+<!--everyone else because I have to pay attention to details to not ruin some poor sap's immersion. Also it'll likely net me more points. Spider doesn't datamine, he ain't gonna read this.-->
+<email recipient="lpark" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
+Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
+Do try to make space for it. I will not be posting slides. This isn't college.
+
+Regards,
+Derek Reynolds</email>
+<email recipient="eyang" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
+Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
+Do try to make space for it. I will not be posting slides. This isn't college.
+
+Regards,
+Derek Reynolds</email>
+<email recipient="cjohnson" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
+Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
+Do try to make space for it. I will not be posting slides. This isn't college.
+
+Regards,
+Derek Reynolds</email>
+<email recipient="jstalvern" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
+Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
+Do try to make space for it. I will not be posting slides. This isn't college.
+
+Regards,
+Derek Reynolds</email>
+<email recipient="lstewart" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
+Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
+Do try to make space for it. I will not be posting slides. This isn't college.
+
+Regards,
+Derek Reynolds</email>
+<email recipient="bperkins" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
+Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
+Do try to make space for it. I will not be posting slides. This isn't college.
+
+Regards,
+Derek Reynolds</email>
+<email recipient="tmurdock" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
+Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
+Do try to make space for it. I will not be posting slides. This isn't college.
+
+Regards,
+Derek Reynolds</email>
+<email recipient="tmurdock" sender="David Mashun" subject=";)">you down?</email>
+<email recipient="bjoonho" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
+Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
+Do try to make space for it. I will not be posting slides. This isn't college.
+
+Regards,
+Derek Reynolds</email>
+<email recipient="kbeauchamp" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
+Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
+Do try to make space for it. I will not be posting slides. This isn't college.
+
+Regards,
+Derek Reynolds</email>
+<email recipient="xtong" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
+Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
+Do try to make space for it. I will not be posting slides. This isn't college.
+
+Regards,
+Derek Reynolds</email>
+<email recipient="wren" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
+Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
+Do try to make space for it. I will not be posting slides. This isn't college.
+
+Regards,
+Derek Reynolds</email>
+<email recipient="akurusu" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
+Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
+Do try to make space for it. I will not be posting slides. This isn't college.
+
+Regards,
+Derek Reynolds</email>
+<email recipient="sstone" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
+Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
+Do try to make space for it. I will not be posting slides. This isn't college.
+
+Regards,
+Derek Reynolds</email>
+<email recipient="bchang" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
+Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
+Do try to make space for it. I will not be posting slides. This isn't college.
+
+Regards,
+Derek Reynolds</email>
+<email recipient="mmoss" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
+Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
+Do try to make space for it. I will not be posting slides. This isn't college.
+
+Regards,
+Derek Reynolds</email>
+</mailServer>
+
+</Computer>

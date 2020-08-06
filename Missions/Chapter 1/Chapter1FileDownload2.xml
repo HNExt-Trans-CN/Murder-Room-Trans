@@ -1,0 +1,21 @@
+<mission id="chapter1FileDownload2" activeCheck="true">
+
+<goals>
+<goal type="filedownload" target="staleskiComp" file="logon_audit.dat" path="sys"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/Chapter 1/Chapter1AuditDownload.xml</missionEnd>
+<nextMission IsSilent="true">NONE</nextMission>
+
+<branchMissions>
+<branch>Missions/Chapter 1/Chapter1FileDownload2Branch.xml</branch>
+</branchMissions>
+
+<email>
+<sender>ERROR</sender>
+<subject>ERROR</subject>
+<body>ERROR</body>
+<attachments>
+</attachments>
+</email>
+</mission>

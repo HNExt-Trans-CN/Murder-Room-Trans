@@ -1,0 +1,17 @@
+<mission id="chapter3DatabaseDownload" activeCheck="true">
+
+<goals>
+<goal type="filedownload" target="pharmacoreDatabase" file="705632-085943.rec" path="database"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/Chapter 3/chapter3DatabaseDownloadActions.xml</missionEnd>
+<nextMission IsSilent="true">Missions/Chapter 3/Chapter3DecypherEmail.xml</nextMission>
+
+<email>
+<sender>ERROR</sender>
+<subject>ERROR</subject>
+<body>ERROR</body>
+<attachments>
+</attachments>
+</email>
+</mission>

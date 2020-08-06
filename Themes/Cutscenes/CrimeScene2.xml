@@ -1,0 +1,17 @@
+<CustomTheme>
+
+<themeLayoutName>mint</themeLayoutName>
+
+<backgroundImagePath>Themes/Backgrounds/Cutscenes/Crime_Scene_2.jpg</backgroundImagePath>
+
+<defaultHighlightColor>0,0,0</defaultHighlightColor>
+  <defaultTopBarColor>0,0,0,0</defaultTopBarColor>
+  <!-- This is used for the outlines of the module windows -->
+  <moduleColorSolidDefault>0,0,0,0</moduleColorSolidDefault>
+  <moduleColorStrong>0,0,0,0</moduleColorStrong>
+  <moduleColorBacking>0,0,0,0</moduleColorBacking>
+
+  <exeModuleTopBar>0,0,0,0</exeModuleTopBar>
+  <exeModuleTitleText>0,0,0,0</exeModuleTitleText>
+
+</CustomTheme>

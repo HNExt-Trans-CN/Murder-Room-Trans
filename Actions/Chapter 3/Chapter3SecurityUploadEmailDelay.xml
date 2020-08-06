@@ -1,0 +1,12 @@
+<ConditionalActions>
+
+<Instantly>
+<LoadMission MissionName="Missions/Chapter 3/Chapter3SecurityUpload.xml"/>
+</Instantly>
+
+<OnConnect target="jmail">
+<AddConditionalActions Filepath="Actions/Chapter 3/Chapter3PillsEmail.xml" DelayHost="delay" Delay="30.0"/>
+</OnConnect>
+
+
+</ConditionalActions>

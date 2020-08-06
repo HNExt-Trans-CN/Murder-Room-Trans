@@ -1,0 +1,21 @@
+<mission id="chapter1MashunEmail" activeCheck="true">
+
+<goals>
+<delay time="10"/>
+</goals>
+
+<missionStart>addFlags:chapter1MashunAdmin</missionStart>
+<missionEnd>loadConditionalActions:Actions/Chapter 1/Chapter1EndSendActions.xml</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>G</sender>
+<subject>Mashun's Laptop</subject>
+<body>Woah. Look at these tools. How did Mashun get his hands on these?
+Seems we know who broke into Staleski's laptop. But why? 
+
+- G</body>
+<attachments>
+</attachments>
+</email>
+</mission>

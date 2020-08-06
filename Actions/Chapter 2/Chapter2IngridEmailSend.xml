@@ -1,0 +1,7 @@
+<ConditionalActions>
+
+<Instantly>
+<LoadMission MissionName="Missions/Chapter 2/Chapter2IngridEmail.xml"/>
+</Instantly>
+
+</ConditionalActions>

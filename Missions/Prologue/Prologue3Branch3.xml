@@ -1,0 +1,18 @@
+<mission id="prologue3Branch3" activeCheck="true">
+
+<goals>
+<goal type="filedownload" target="tutPhone3" file="mmssmm.db" path="eos/data"/>
+</goals>
+
+
+<missionEnd>loadConditionalActions:Actions/Prologue/Prologue3Actions3.xml</missionEnd>
+<nextMission IsSilent="true">NONE</nextMission>
+
+<email>
+<sender>error</sender>
+<subject>error</subject>
+<body>body</body>
+<attachments>
+</attachments>
+</email>
+</mission>

@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="prologue4" activeCheck ="true" shouldIgnoreSenderVerification="false">
+<goals>
+<goal type="fileupload" target="caseFile" file="Evidence_001.md" path="home/Evidence" destTarget="forensic" destPath="Drop/Uploads"/>
+</goals>
+
+
+<missionEnd>loadConditionalActions:Actions/Prologue/Prologue4Actions.xml</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>G</sender>
+<subject>Forensic Analyzer</subject>
+<body>Hopefully you've acquainted yourself with the Case File by now. The next thing you're going to need is the Forensic Analyzer. Not to be confused with MemForensics.
+
+The Forensic Analyzer allows you to upload anything that's in your Case File, and it'll update it in the Case File with information such as DNA, material, serial numbers, etc. It's a very advanced system.
+
+Try uploading the metal bar's evidence file to the Forensic Analyzer and see what comes up. You'll have to download it onto your own computer first before uploading, but once it gets uploaded it'll automatically be deleted from your system to avoid clutter.
+-G
+</body>
+<attachments>
+<link comp="forensic"/>
+</attachments>
+</email>
+</mission>

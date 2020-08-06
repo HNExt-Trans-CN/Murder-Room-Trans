@@ -1,0 +1,21 @@
+<mission id="chapter2IngridEmail" activeCheck="true">
+
+<goals>
+
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>G</sender>
+<subject>Re: Case File JL-2</subject>
+<body>What the hell...?
+There's nothing here nor on her phone to suggest Ingrid was anywhere near the murder scene at the time of the murder.
+There's the GPS log on her phone, but that doesn't match the evidence. Was this the wrong thread? But she's the only one with any motive to do it that we could find.
+I don't even know where to go from here. Hopefully you're able to dig something up, agent.
+
+- G</body>
+<attachments>
+</attachments>
+</email>
+</mission>

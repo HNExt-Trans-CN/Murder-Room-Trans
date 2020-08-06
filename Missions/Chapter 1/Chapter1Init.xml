@@ -1,0 +1,26 @@
+<mission id="chapter1init" activeCheck="true" shouldIgnoreSenderVerification="false">
+
+<goals>
+<goal type="delay" time="0.5"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/Chapter 1/Chapter1MasterActions.xml</missionEnd>
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>G</sender>
+<subject>Case File: HS-4</subject>
+<body>Good day, agent.
+This case is a bit of a mystery, since it's hard to pinpoint a timeline of events. I'll just cut to the chase.
+
+On January 14, 2020, the body of Martin Staleski was discovered in his apartment. Forensic evidence could not determine a definite time of death, making it harder to determine a timeframe and compare alibis.
+Needless to say, this ended up becoming a cold case pretty quickly. 
+
+The first thing we should do is try to establish a concrete time of death before we proceed. Take a look through the Case File and see what you can dig up.
+-G
+</body>
+<attachments>
+
+</attachments>
+</email>
+</mission>

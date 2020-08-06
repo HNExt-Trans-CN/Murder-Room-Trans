@@ -1,0 +1,9 @@
+<ConditionalActions>
+
+<HasFlags requiredFlags="chapter1EndSend">
+<RunFunction FunctionName="removeFlags:chapter1EndSend"/>
+<RunFunction FunctionName="addFlags:chapter1EmailLoop"/>
+<LoadMission MissionName="Missions/Chapter 1/Chapter1EndSend1.xml"/>
+</HasFlags>
+
+</ConditionalActions>

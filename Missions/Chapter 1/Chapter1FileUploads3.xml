@@ -1,0 +1,18 @@
+<mission id="chapter1FileUploads3" activeCheck="true" shouldIgnoreSenderVerification="true">
+
+<goals>
+<goal type="fileupload" target="staleskiPhone" file="staleski01@jmail.com.act" path="home" destTarget="forensic" destPath="Drop/Uploads"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/Chapter 1/Chapter1EmailUpload2.xml</missionEnd>
+<nextMission IsSilent="true">Missions/Chapter 1/Chapter1FileUploads2.xml</nextMission>
+
+
+<email>
+<sender>ERROR</sender>
+<subject>ERROR</subject>
+<body>ERROR</body>
+<attachments>
+</attachments>
+</email>
+</mission>

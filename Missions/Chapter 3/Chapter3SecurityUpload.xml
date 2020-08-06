@@ -1,0 +1,21 @@
+<mission id="chapter3SecurityUpload" activeCheck="true">
+
+<goals>
+
+</goals>
+
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>H</sender>
+<subject>Security Footage</subject>
+<body>Excellent find, operative. That is definitely the victim. However, interestingly there is nobody around him.
+I am curious about that thing he is holding. It's some kind of white bottle.
+
+Please stand by while I contact some agents to dig through Cytix's trash. Hopefully they'll be able to dig up something that matches this profile.
+- H</body>
+<attachments>
+</attachments>
+</email>
+</mission>

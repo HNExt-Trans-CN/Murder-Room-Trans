@@ -1,0 +1,8 @@
+<ConditionalActions>
+
+<OnConnect target="dlabsMail">
+<LoadMission MissionName="Missions/Chapter 1/Chapter1EmailHeader.xml"/>
+</OnConnect>
+
+
+</ConditionalActions>

@@ -1,0 +1,8 @@
+<ConditionalActions>
+
+<Instantly>
+<LoadMission MissionName="Missions/Chapter 4/Chapter4FinalCase.xml"/>
+<CopyAsset DestFilePath="home/Evidence" DestComp="caseFile" SourceComp="masterFile" SourceFileName="Evidence_X.md" SourceFilePath="home/Chapter4"/>
+</Instantly>
+
+</ConditionalActions>

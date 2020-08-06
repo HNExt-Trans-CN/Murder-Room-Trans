@@ -1,0 +1,20 @@
+<mission id="chapter2CaseFileEmail" activeCheck="true">
+
+<goals>
+
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>G</sender>
+<subject>Case File ET-5</subject>
+<body>Ingrid Miles was involved in a case file the victim was investigating?
+That's incredibly suspicious. Well done on finding this so quickly. If we can just link her to the time of the murder, we've got her dead to rights.
+By the way, I have just uploaded another program for you to use. You might be able to access things you weren't able to before now.
+
+- G</body>
+<attachments>
+</attachments>
+</email>
+</mission>

@@ -1,0 +1,8 @@
+<ConditionalActions>
+
+<OnAdminGained target="mashunComp">
+<AddConditionalActions Filepath="Actions/Chapter 1/Chapter1MashunEmail.xml" DelayHost="delay" Delay="5.0"/>
+</OnAdminGained>
+
+
+</ConditionalActions> 

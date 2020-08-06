@@ -1,0 +1,23 @@
+<mission id="chapter1EndSend1" activeCheck="true">
+
+<goals>
+
+</goals>
+
+<nextMission IsSilent="false">Missions/Chapter 1/Chapter1EndSend.xml</nextMission>
+
+<email>
+<sender>G</sender>
+<subject>Re: Case File: HS-4</subject>
+<body>Good job, agent. This might be everything we need.
+
+Whenever you're ready, I can give the go ahead and call for the arrest of David Mashun.
+If you feel there's still more to uncover, you can keep looking. Honestly, the more you
+can dig up, the better.
+
+Say the word, and I'll send the order.
+- G</body>
+<attachments>
+</attachments>
+</email>
+</mission>

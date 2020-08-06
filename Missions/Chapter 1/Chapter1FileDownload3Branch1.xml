@@ -1,0 +1,21 @@
+<mission id="chapter1FileDownload3Branch1" activeCheck="true">
+
+<goals>
+<goal type="filedownload" target="capitalSavings" file="1004921.rec" path="database"/>
+</goals>
+
+<missionEnd>loadConditionalActions:Actions/Chapter 1/Chapter1NovaBankDownload.xml</missionEnd>
+<nextMission IsSilent="true">Missions/Chapter 1/Chapter1FileDownload3.xml</nextMission>
+
+<branchMissions>
+
+</branchMissions>
+
+<email>
+<sender>ERROR</sender>
+<subject>ERROR</subject>
+<body>ERROR</body>
+<attachments>
+</attachments>
+</email>
+</mission>

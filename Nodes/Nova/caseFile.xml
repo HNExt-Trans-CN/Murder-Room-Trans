@@ -1,0 +1,52 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="caseFile"
+          name="Case File"
+          security="2"
+          allowsDefaultBootModule="true"
+          icon="chip"
+          type="4">
+<adminPass pass="nv99!9lSa"/>
+<ports>21,22,443</ports>
+<portsForCrack val="2"/>
+<proxy time="-1"/>
+
+<file path="home" name="Case_Briefing.doc">On December 21, 2019, at 10:21 PM, the body of Lucas Young was found at the end of an alleyway. The autopsy report determined his cause of death to be blunt force trauma at around 10 PM. According to a coworker of his, Young had been going out for drinks with some close friends at a nearby pub. The bar owner reports seeing Young leave the bar alone at around quarter to 10.
+The suspected murder weapon is a small metal bar found in a dumpster ten feet from Young's body. Trace amounts of blood were found on the bar matching Young's.
+
+At present, there are three murder suspects:
+Carl Sutton
+Joseph Goodwin
+Laura Pierce</file>
+<file path="home/Suspects" name="Carl_Sutton.doc">Name: Carl Sutton
+Age: 23
+Nationality: American
+
+- Went drinking with the victim and two friends on December 21
+- Reportedly left early at around 9:30 PM
+- Roommate confirmed Sutton returned to his apartment at 10:30 PM
+- Apartment a roughly 30 minute walk from the bar
+</file>
+<file path="home/Suspects" name="Joseph_Goodwin.doc">Name: Joseph Goodwin
+Age: 22
+Nationality: American
+
+- Went drinking with the victim and two friends on December 21
+- According to the bar owner, Goodwin was seen leaving the bar at around 10 PM
+- Goodwin was visiting the city from his home state of Ohio and checked into his hotel at 10:21 PM</file>
+<file path="home/Suspects" name="Laura_Pierce.doc">Name: Laura Pierce
+Age: 23
+Nationality: British/American
+
+- Went drinking with the victim and two other friends on December 21
+- Reportedly left early at around 9:30 PM
+- Lives alone in her apartment, testified she returned at around 10 PM. Nobody to confirm this alibi.</file>
+
+<memoryDumpFile name="Evidence_001.md" path="home/Evidence">
+<Memory>
+<Images>
+<Image>Images/Prologue/Evidence_001_1.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+
+</Computer>

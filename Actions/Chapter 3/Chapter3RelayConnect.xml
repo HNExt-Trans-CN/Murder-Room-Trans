@@ -1,0 +1,7 @@
+<ConditionalActions>
+
+<OnConnect target="cytixRelay">
+<LoadMission MissionName="Missions/Chapter 3/Chapter3RelayConnectEmail.xml"/>
+</OnConnect>
+
+</ConditionalActions>

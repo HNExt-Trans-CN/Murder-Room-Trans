@@ -1,0 +1,7 @@
+<ConditionalActions>
+
+<OnAdminGained target="ingridComp">
+<AddConditionalActions Filepath="Actions/Chapter 2/Chapter2IngridEmailSend.xml" DelayHost="delay" Delay="6.0"/>
+</OnAdminGained>
+
+</ConditionalActions>

@@ -1,0 +1,24 @@
+<mission id="chapter3DecypherEmail" activeCheck="true">
+
+<goals>
+</goals>
+
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>H</sender>
+<subject>Pills Receipt</subject>
+<body>What...?
+If Sterling purchased the bottle of pills, then that means...
+No, we still can't be sure yet. There must be something we're missing. Perhaps someone slipped the poison in when he wasn't looking?
+But based on the security footage, he was holding onto the bottle of pills.
+Perhaps his final message will finally shed some light on this situation. After contacting some sources, I have finally uncovered a way for us to decrypt the message.
+It has been uploaded to your computer. Run it on the encrypted file, and let us discover the truth of this case once and for all, operative.
+
+- H</body>
+<attachments>
+</attachments>
+</email>
+
+</mission>

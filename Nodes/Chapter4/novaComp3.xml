@@ -1,0 +1,28 @@
+<Computer id="novaComp3"
+          name="Nova_agentC_08177"
+          security="3"
+          type="1">
+
+<ports>25,21,1433,6881</ports>
+<portsForCrack val="4"/>
+
+<dlink target="gNova"/>
+<dlink target="novaComp2"/>
+<dlink target="novaComp3"/>
+<dlink target="yularenComp"/>
+
+<file path="home" name="Agent_Log.doc">Overseer: C
+Agent: Janus [Status: UNINITIATED]
+
+Active Case Files: N/A
+
+Completed Case Files: N/A
+
+</file>
+
+<file path="bin" name="ComShell.exe">#SHELL_CONTROLLER_EXE#</file>
+<file path="home" name="Nova_Analytics_Report.docx">#BINARY#</file>
+<file path="home" name="Unopened_Cold_Cases.xlsx">#BINARY#</file>
+<file path="sys" name="Overseer_Link.exe">#HACKNET_EXE#</file>
+
+</Computer>

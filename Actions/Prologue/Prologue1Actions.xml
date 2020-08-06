@@ -1,0 +1,21 @@
+<ConditionalActions>
+
+<OnConnect target="caseFile">
+<LoadMission MissionName="Missions/Prologue/Prologue2.xml"/>
+<RunFunction FunctionName="setHubServer:caseFile"/>
+<RunFunction FunctionName="setAssetServer:forensic"/>
+<RunFunction FunctionName="setFaction:nova"/>
+
+</OnConnect>
+
+<Instantly>
+<AppendToFile DelayHost="delay" Delay="0.0" TargetComp="notJmail" TargetFolderpath="mail/accounts/staleski01/inbox" TargetFilename="Money_Transfer_Confirmation">@*&amp;^#%@)_!_)*#^@!&amp;*)(#^&amp;</AppendToFile>
+<AppendToFile DelayHost="delay" Delay="0.0" TargetComp="notJmail" TargetFolderpath="mail/accounts/staleski01/inbox" TargetFilename="Money_Transfer_Confirmation">link#%#Capital Savings Bank#%#43.29.100.223</AppendToFile>
+
+<AppendToFile DelayHost="delay" Delay="0.0" TargetComp="policeMail" TargetFolderpath="mail/accounts/koliver/inbox" TargetFilename="Database_Password">@*&amp;^#%@)_!_)*#^@!&amp;*)(#^&amp;</AppendToFile>
+<AppendToFile DelayHost="delay" Delay="0.0" TargetComp="policeMail" TargetFolderpath="mail/accounts/koliver/inbox" TargetFilename="Database_Password">account#%#96th Precinct Case File System#%#46.39.112.55#%#koliver1#%#V76Yg5!</AppendToFile>
+
+<RunFunction FunctionName="addFlags:G_Yularen:DEAD"/>
+</Instantly>
+
+</ConditionalActions>

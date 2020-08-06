@@ -1,0 +1,21 @@
+<mission id="tut4">
+
+<goals>
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<posting title="Hacking">During an investigation, an operative may be forced to hack into a node they are otherwise unable to access.
+Port cracking tools are provided to the operative, and running the tools on a node with the target port number will open the ports and allow
+an operative to penetrate the computer using the PortHack command. However, it is important to note that not all ports have available port crackers.
+</posting>
+
+
+<email>
+<sender></sender>
+<subject></subject>
+<body></body>
+<attachments>
+</attachments>
+</email>
+</mission>

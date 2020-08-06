@@ -1,0 +1,14 @@
+<ConditionalActions>
+
+<Instantly>
+<LaunchHackScript Filepath="HackerScripts/UploadScript.txt" DelayHost="delay" Delay="1.0" SourceComp="forensic" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+<DeleteFile TargetComp="playerComp" FilePath="home" FileName="staleski01@jmail.com.act" DelayHost="delay" Delay="0.0"/>
+<DeleteFile TargetComp="forensic" FilePath="Drop/Uploads" FileName="staleski01@jmail.com.act"/>
+<GivePlayerUserAccount DelayHost="delay" Delay="0.1" TargetComp="notJmail" Username="staleski01"/>
+
+<ShowNode DelayHost="delay" Delay="1.5" Target="notJmail"/>
+<RunFunction FunctionName="addFlags:chapter1Email2"/>
+</Instantly>
+
+
+</ConditionalActions>

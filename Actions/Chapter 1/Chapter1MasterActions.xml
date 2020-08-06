@@ -1,0 +1,48 @@
+<ConditionalActions>
+<!--To whomever is datamining this extension:
+Welcome to the chapter's master file. This is basically how the entire extension functions. 
+One master file that loads a bunch of other files that load missions for each action performed within the case.
+Since branch missions just suddenly decided not to work for me, this is the most elegant solution I could come up with.
+Of course, branch missions for these missions *specifically* could end up working.
+I think it's a neat solution. Maybe not the most elegant, but neither is Hacknet.
+Have fun dissecting.
+- Kwiper --> 
+
+<Instantly>
+<RunFunction FunctionName="addFlags:chapter1"/>
+<RunFunction FunctionName="addFlags:forensicUpload"/>
+<RunFunction FunctionName="addFlags:chapter1uploadPart1"/>
+<RunFunction FunctionName="addFlags:shitpost"/>
+<RunFunction FunctionName="addFlags:chapter1EndSend"/>  
+
+<AddConditionalActions Filepath="Actions/Chapter 1/Chapter1ForensicMissions.xml" DelayHost="delay" Delay="0"/>
+<AddConditionalActions Filepath="Actions/Chapter 1/Chapter1FileDownload1.xml" DelayHost="delay" Delay="0"/>
+<AddConditionalActions Filepath="Actions/Chapter 1/Chapter1FileDownload2.xml" DelayHost="delay" Delay="0"/>
+<AddConditionalActions Filepath="Actions/Chapter 1/Chapter1FileDownload3.xml" DelayHost="delay" Delay="0"/>
+<AddConditionalActions Filepath="Actions/Chapter 1/Chapter1EmailDownloadMission.xml" DelayHost="delay" Delay="0"/>
+<AddConditionalActions Filepath="Actions/Chapter 1/Chapter1DlabsAdmin.xml" DelayHost="delay" Delay="0"/>
+<AddConditionalActions Filepath="Actions/Chapter 1/Chapter1MashunAdmin.xml" DelayHost="delay" Delay="0"/>
+<AddConditionalActions Filepath="Actions/Chapter 1/Chapter1EmailLoop.xml" DelayHost="delay" Delay="0"/>
+<!--2290192.rec Staleski-->
+<!--2910018.rec Mashun-->
+<!--1004921.rec Nova-->
+
+</Instantly>
+
+<HasFlags requiredFlags="evidence1,evidence2">
+<RunFunction FunctionName="removeFlags:forensicUpload"/>
+<RunFunction FunctionName="removeFlags:chapter1uploadPart1"/>
+<RunFunction FunctionName="addFlags:chapter1uploadPart2"/>
+</HasFlags>
+
+<HasFlags requiredFlags="chapter1Email1,chapter1Email2">
+<RunFunction FunctionName="removeFlags:chapter1uploadPart2"/>
+<RunFunction FunctionName="addFlags:chapter1uploadPart3"/>
+</HasFlags>
+
+<!--HasFlags condition here when enough evidence has been collected for a verdict.-->
+<HasFlags requiredFlags="chapter1MashunAdmin,chapter1MashunBank">
+<AddConditionalActions Filepath="Actions/Chapter 1/Chapter1EndSendActions2.xml" DelayHost="delay" Delay="5.0"/>
+</HasFlags>
+
+</ConditionalActions>

@@ -1,0 +1,20 @@
+<mission id="chapter3PillsEmail" activeCheck="true">
+
+<goals>
+
+</goals>
+
+<nextMission IsSilent="false">NONE</nextMission>
+
+<email>
+<sender>H</sender>
+<subject>Evidence Uploaded</subject>
+<body>Good news, operative.
+Some field agents managed to locate a bottle that matched the description. Whether or not this is the bottle Sterling was holding will be revealed to us soon.
+A scan has been made and uploaded to your Case File.
+
+- H</body>
+<attachments>
+</attachments>
+</email>
+</mission>

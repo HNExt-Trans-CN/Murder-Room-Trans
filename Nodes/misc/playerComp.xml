@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id = "playerComp"
+          name = "#PLAYERNAME# Workstation"
+          security = "5"
+          allowsDefaultBootModule = "true"
+          icon = "DLCPC1"
+          type = "4">
+
+<ports>21, 22, 25, 80, 1433</ports>
+<proxy time = "0.5"/>
+<portsForCrack val = "5"/>
+
+<file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+<file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+<file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+<file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+<file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+<file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+<file path="bin" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+
+<CustomConnectDisplayDaemon />
+
+</Computer>

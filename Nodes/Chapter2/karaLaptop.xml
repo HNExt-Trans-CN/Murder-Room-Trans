@@ -1,0 +1,42 @@
+<Computer id="karaLaptop"
+          name="Kara Oliver Laptop"
+          ip="167.29.44.118"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="laptop"
+          type="2">
+
+<ports>21,22,443</ports>
+<portsForCrack val="2"/>
+<firewall level="6" solution="OLIVER"/>
+
+<file path="home" name="what_to_watch.txt">Bloodlines of Conquest (annette likes this one, but she's telling me not to watch the 8th season)
+Inspector Spacetime
+Meth and Mayhem
+The Man Without Fear
+Mutants and Masterminds
+What We Do Under the Moonlight
+Larry
+We are Legion
+Community (six seasons and a movie)
+Path to Humanity
+IT Department
+My Immortal
+
+god i have so much to watch</file>
+<file path="home" name="NYPD_Newsletter_Feb2020.pdf">#BINARY#</file>
+<file path="home" name="song_lyrics_draft.doc">The</file>
+<memoryDumpFile name="canadian_go_weee.png" path="home">
+<Memory>
+<Images>
+<Image>Images/Shitposts/canadian_go_weeee.png</Image>
+</Images>
+</Memory>
+</memoryDumpFile>
+
+<eosDevice name="Kara ePhone 5S" id="karaPhone" icon="ePhone2" empty="false">
+<mail username="koliver@nypd.gov" pass="OliveSmolive"/>
+</eosDevice>
+
+
+</Computer>

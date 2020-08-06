@@ -1,0 +1,12 @@
+<ConditionalActions>
+
+<OnConnect target="forensic" requiredFlags="chapter2">
+<RunFunction FunctionName="addFlags:chapter2ForensicConnected"/>
+<LoadMission MissionName="Missions/Chapter 2/Chapter2ForensicUpload1.xml"/>
+</OnConnect>
+
+<OnDisconnect target="forensic" requiredFlags="chapter2">
+<AddConditionalActions Filepath="Actions/Chapter 2/Chapter2ForensicActions.xml"/>
+</OnDisconnect>
+
+</ConditionalActions>

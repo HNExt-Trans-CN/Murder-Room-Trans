@@ -1,0 +1,11 @@
+<ConditionalActions>
+
+<OnConnect target="tutPhone3" requiredFlags="prologue3ConnectLoop">
+<LoadMission MissionName="Missions/Prologue/Prologue3Branch3.xml"/>
+</OnConnect>
+
+<OnDisconnect target="tutPhone3" requiredFlags="prologue3ConnectLoop">
+<AddConditionalActions Filepath="Actions/Prologue/Prologue3Loop3.xml"/>
+</OnConnect>
+
+</ConditionalActions>
