@@ -1,425 +1,432 @@
-Greetings, dataminer!
-What you see here is the planning document I created for this extension that I referred to all the way throughout development.
-Some aspects were changed in the final version, but not drastically enough that it diverged from the plan.
-I considered deleting this before uploading, but I figured since I put the time and effort into it, it should stay as legacy content.
-So, enjoy my thought dump of stuff.
+你好，探索彩蛋亦或是闲着没事的人！
+你在这里看到的是我为这个扩展创建的规划文件，在整个开发过程中，我一直以此作为参考。
+在最终版本中，有些方面被修改了，但还没有大到与计划相背离的程度。
+在上传之前，我曾考虑过删除它，但我想既然我花了时间和精力，它就应该作为遗留物放在这。
+所以，请看下我写的这些话吧。
 - Kwiper
 
 
-Chapter 1 - Startup
+第一章 - 开始
 
-Case number HS-4
-Victim: Martin Staleski
-Cause of death: Blunt force trauma
+案件编号 HS-4
 
-Culprit: David Mashun - Co-worker
-Other suspect: Fern Hardy - Girlfriend of victim
-Murder weapon: Bronze statuette. Contains fingerprints of victim and one partial print, and blood of victim. Also contains serial number. Analysis reveals girlfriend purchased it.
-Murder weapon leads to girlfriend's computer and 
-Other evidence: Staleski's mobile phone - connnected to his laptop. 
+受害者: Martin Staleski
 
-Objectives the player must do:
-    - Determine an accurate time of death
-    - Match this time of death with alibis of the suspects
-    - Discover motive for murder
+死因: 钝器损伤
 
-- Murder weapon
-    - Reveals nothing of note to the player
+加害者: David Mashun - 同事
 
-- Start from Staleski's phone
-    - Has text messages from girlfriend, confirms Staleski did not answer her replies. However, it is revealed she tried to visit him January 10.
-    - Has work email
-    - Links to his laptop
+其他嫌疑人: Fern Hardy - 受害者的女友
 
-- Laptop
-    - /home contains work documents, photos. None of these provide any information about his login time.
-    - In /sys, contains a log of all times laptop has been used.
-    - There is a three day gap between the last two logins - One locally, accessed January 9th, and one acessed remotely, January 12th.
-        - After uploading this, G speculates that Staleski was killed sometime during or after the 9th, and whoever killed him tried to access his laptop for some reason, but wasn't able to until the 12th.
-        - Whoever did hack into Staleski's laptop managed to cover their tracks well.
+凶器: 青铜雕像
+有受害者的指纹、一部分未知者指纹、受害者的血迹及其序列号。分析显示是女友购买的。
+凶器指向受害者女友的电脑 
 
-- After discovering more concrete date of death:
-    - G messages the player saying there doesn't look to be anything else on Staleski's laptop. But the player is now one step closer to the true culprit.
-    - G mentions to the player another feature of the Forensic Analyzer - the ability to find IPs of email sites from email addresses.
+其他证据： Staleski的手机 - 与他的笔记本相连。
 
-- After uploading emails
-    - Player gains access to DLabs' mail server. They can read Staleski's mail, but they don't reveal much outside of his absence.
-    - Player is also able to access their jmail. Jmail can't be hacked. Player sees emails about a recent transaction.
+目标:
+    - 确定准确的死亡时间
+    - 将死亡时间和嫌疑人的不在场证明进行比对
+    - 发现杀人动机
 
-- From here, the investigation is more open-ended. The player will still do both eventually, but in which order is up to the player.
+- 凶器
+    - 不向玩家透露任何信息
 
-- Jmail branch
-    - Player finds emails about recent transactions performed from the account.
-    - Player finds the database with the transaction and discovers Mashun took the money
-    - Player can dig deeper and discover the account Staleski got the money from actually belonged to Nova.
+- 开始 - Staleski的手机
+    - 有女友发来的短信，证实Staleski没有回复她。但据透露，她1月10日曾试图拜访他。
+    - 有工作邮箱。
+    - 与他的笔记本电脑连接。
 
-- Dlabs branch
-    - Mashun has an email sent from himself.
-    - G sends an email notifying the player about analyzing email headers.
-    - Scanning Mashun's email in the forensic analyzer
+- 笔记本电脑
+    - /home中包含工作文档、照片。这些都没有提供任何关于他登录时间的信息。
+    - /sys中，包含笔记本的所有使用时间的日志。
+    - 最后两次登录时间相隔三天，一次是1月9日本地访问，一次是1月12日远程访问。
+        - 上传日志之后，G推测Staleski在9号或之后的某个时间被杀，杀他的人出于某种原因试图进入他的笔记本电脑，但直到12号才得以进入。
+        - 不管是谁黑进了Staleski的笔记本 都能很好地掩盖他们的行踪
 
-- Mashun's computer
-    - Contains port crackers, leading to the conclusion that he was the one who hacked Staleski's laptop.
+- 在发现更具体的死亡日期后。
+    - G给玩家发信息说Staleski的笔记本上似乎没有其他东西了 但玩家现在离真凶又近了一步。
+    - G向玩家提到了法医分析器的另一个功能——可以从电子邮件地址中找到电子邮件网站的IP。
 
-David Mashun is found: CONDEMNED
+- 上传邮件后
+    - 玩家获得进入DLabs的邮件服务器的权限。他们可以读取Staleski的邮件，但他们并没有透露他不在的情况。
+    - 玩家也能访问他们的Jmail。Jmail是不能被黑客入侵的。玩家可以看到关于最近交易的邮件。
 
+- 从这里开始，调查就更加自由了。玩家依然必须做这两件事，但顺序由玩家自己决定。
 
-Chapter 2 - Complicit 
+- Jmail
+    - 玩家发现该账户最近进行的交易邮件。
+    - 玩家找到有交易的数据库，发现Mashun拿走了钱。
+    - 玩家可以深入挖掘，发现Staleski拿到钱的账户其实是属于Nova的。
 
-Player gains SMTP and eOS
+- Dlabs
+    - Mashun有一封自己发来的邮件。
+    - G发邮件通知玩家分析邮件头。
+    - 在取证分析器中扫描Mashun的邮件。
 
-Case number: JL-2
-Victim: Kara Oliver
-Cause of death: stabbing
+- Mashun的电脑
+    - 包含端口破解器，从而得出结论，他是黑掉Staleski笔记本电脑的人。
 
-Culprits: Christopher Miles - Ingrid's wife. Acted on Ingrid's orders to kill Kara.
-          Ingrid Miles - Kara's captain on the police force. Was responsible for covering up the ET-5 case, which Kara was working on in secret.
-Other suspect: Annette Coleman - Kara's wife. 
+David Mashun 状态: 已查明
+
+第二章 - 共犯 
+
+玩家获取SMTP和eOS相关工具
+
+案件编号: JL-2
+
+受害者: Kara Oliver
+
+死因: stabbing
+
+加害者: Christopher Miles - Ingrid的妻子 - 受Ingrid的命令行事，杀死Kara。
+          Ingrid Miles - Kara在警队的队长 - 负责掩盖Kara秘密进行的ET-5案件。
+其他嫌疑人: Annette Coleman - Kara的妻子。
                 
-Objectives: 
-    - Investigate victim's career
-    - Discover motive for murder
-    - Uncover the truth
+目标: 
+    - 调查受害者的职业生涯
+    - 发现杀人动机
+    - 揭开真相
 
-Evidence: 
-    - Bloodied knife.
-    - Bloody message on floor - ET5. 
-    - Kara's laptop.
-    - G also provides the player with the police department's website
+证物: 
+    - 覆盖有血液的刀。
+    - 地板上有血迹的信息 ET5 
+    - Kara的笔记本电脑。
+    - G还向玩家提供了警察局的网站。
 
-Bloody knife 
-    - Reveals nothing important.
+覆盖有血液的刀
+    - 揭示了什么重要的东西。
 
-Picture of message on floor
-    - Reveals geolocation of the photo - coordinates (these will be important for later)
+地板上的信息图片
+    - 揭示照片的地理位置——坐标（这些对之后很重要）。
 
-Kara's laptop
-    - Synced with her phone. Phone has her work email details
+Kara的笔记本电脑
+    - 与她的手机同步。手机上有她的工作邮箱信息
 
-Police Department Website
-    - Linked to department mail
-    - Linked to case file system
+警察局网站
+    - 与部门邮件系统连接
+    - 与案卷系统连接
 
-Department mail
-    - Can't be hacked immediately
-    - Contains mail for Kara
-    - Password to the case file system is given
+部门邮件系统
+    - 不能马上被黑客攻击
+    - 包含Kara的邮件
+    - 案卷系统的密码为{REMOVE}
 
-Case File System
-    - Contains case files Kara was looking through.
-    - ET-5 can be downloaded. G sends an email after this. Player can now hack the department mail system.
-    - ET-5 mentions Ingrid by name
+案卷系统
+    - 包含Kara正在查看的案件档案。
+    - 可以下载ET-5。G在这之后发来一封邮件。玩家现在可以入侵部门邮件系统。
+    - ET-5提到Ingrid的名字
 
-Department mail system
-    - Player downloads Ingrid's mail
-    - Specifically ones sent from her ePhone
+部门邮件系统
+    - 玩家下载Ingrid的邮件
+    - 特别是那些从她的ePhone发送的
 
-Ingrid's ePhone
-    - Links to her laptop
+Ingrid的ePhone
+    - 连接到他的笔记本电脑
 
-After nothing can be found on her phone or laptop that suggests she was at the scene of the crime at the time of the murder, G is stumped.
-    - Player can keep searching Ingrid's computer
-    - Uploading text messages to forensic analyzer unlocks Christopher's computer.
+在他的手机和笔记本上找不到任何可以表明他在案发时在犯罪现场的信息，G陷入了困境。
+    - 玩家可以继续搜索Ingrid的电脑
+    - 将短信上传到法医分析仪上，就能解开Christopher的电脑。
 
-Christopher's computer
-    - Leads to his ePhone
-    - Contains location data that matches the scene and time of the crime.
+Christopher的电脑
+    - 连接他的手机
+    - 包含与犯罪现场和时间相匹配的位置数据。
 
-Christopher Miles and Ingrid Miles are found: CONDEMNED
-
-
-
-Chapter 3 - Locked 
-
-Player gains Torrent and SQL. Decypher is given at the end of the mission.
-
-Case number: SC-9
-Victim: Noah Sterling - Journalist. Former colleague of Gideon Mahler (G)
-Cause of death: Poison
-
-Culprit: Noah Sterling - Death was a suicide.
-Other suspects: 
-Kimbley L. Marsh - Co-worker of Sterling. Was in contact with him during the timeframe of his death.
-Ismail Ahmad - Co-worker of sterling. Was in contact with him during the timeframe of his death.
-
-For this mission, G does not direct this mission and is instead replaced by Vice Director Hilda Reigan (H)
-
-Objectives:
-    - Investigate victim's personal life
-    - Discover murder weapon
-    - Decode the victim's final message
-
-Evidence:
-    - Sterling's Laptop - Contains an encrypted note from Noah about why he committed suicide. Exposes Nova.
-
-Laptop
-    - H tells the player to try to upload the file to the forensic analyzer. The analyzer fails when it tries to decrypt the file.
-    - H leaves to figure out a way to decrypt this file, and tells the player in the meantime to investigate the victim's life and suspects.
-    - Laptop can be eOS scanned to reveal Sterling's phone
-
-Phone
-    - Contains email login for Sterling's place of work. Player can upload this to the forensic analyzer to reveal mail server
-
-Cytix Mail Server
-    - Player can read Sterling's emails, as well as the other suspects' by hacking into it, but nothing relevant to the case is presented.
-    - Connected to Cytix's network hub.
-
-Cytix Network Hub
-    - Links to mail server, security relay, news server
-
-Cytix News Server
-    - Literally nothing important here
-
-Cytix Security Camera Relay
-    - Links to security cameras within Cytix building.
-    - Most of them are useless but the security footage can be uploaded
-
-Cytix Security Cam C
-    - Contains a bunch of images, one of which identifies Sterling
-    - Uploading the one with Sterling uploads it to the case file
-    - H messages the player after a little bit and tells the player to wait a bit. The bottle Sterling is holding could be a clue.
-    - After waiting a while, H comes back with a scan of the bottle for evidence. The player can analyze this evidence.
-    - Analyzing the bottle provides chemical details about it, including the fact that it's poisoned.
-    - The bottle also contains a serial code, and a link to where it was purchased.
-
-Pharmacore Web Server
-    - Links to Pharmacore stocking database. Player cannot hack into it and must log in.
-    - Contains email link player must analyze.
-
-Pharmacore Mail server
-    - Player logs in and finds login details for database
-
-Pharmacore stocking database
-    - Player matches the serial code found on the bottle
-    - Noah Sterling purchased the bottle.
-    - H messages the player after downloading this database entry. If Sterling bought the bottle, then there's no one else who could have poisoned him.
-    - H tells the player she's found a way to decrypt Noah's last message now.
-
-Noah's laptop
-    - Decoding the note reveals Noah's entire plan to kill himself and expose Nova
-    - H makes a note to herself about "Mahler"
-
-Noah Sterling is found: DECEASED
+Christopher Miles 和 Ingrid Miles 状态: 已查明
 
 
 
-Chapter 4 - Framed
+第三章 - 已封锁 
 
-Player gains no new programs, except MemDumpGenerator
+在任务末端，玩家获取Torrent和SQL相关工具。
 
-Case number: FN-6
-Victim: George Yularen - Director of Nova
-Cause of death: Heart attack from lack of life support
+案件编号: SC-9
+受害者: Noah Sterling - 记者，Gideon Mahler (G)的前同事。
+死因: 中毒
 
-Culprit: Gideon Mahler
-Suspect: Maurice Graves
+加害者: Noah Sterling - 受害者为自杀
+其他嫌疑人: 
+Kimbley L. Marsh - 受害者的同事 在他死亡的时候和他有联系
+Ismail Ahmad - 受害者的同事 在他死亡的时候和他有联系
 
-[NOTE: THE CASE FILE AND FORENSIC ANALYZER ARE MADE UNAVAILABLE FOR THIS MISSION]
+在这次任务中，G并不指挥这次任务，而是由副局长Hilda Reigan(H)代替。
 
-Objectives:
-    - Investigate the source of the attack
-    - Discover the truth about Nova
-    - Decide the fate of Nova, Mahler, and yourself.
+目标：
+    - 调查受害者的个人生活
+    - 发现凶器
+    - 解码受害者的最后信息
 
-Nova Mail
-    - G sends an email to the player with a link to an IRC chat.
+证据：
+    - 含有Noah的加密笔记，关于他为什么自杀的信息，并揭露Nova。
 
-IRC Chat
-    - G explains the situation to the player - The director of Nova is dead and their primary suspect is G himself
-    - However, G claims he is being framed, and asks the player to help him discover the truth.
-    - G explains the director was on a pacemaker life support system, and links the player to the medical database.
+笔记本电脑
+    - H让玩家尝试将文件上传到法医分析器。分析器试图解密文件时失败。
+    - H想办法解密这个文件，同时让玩家调查受害者的生活和嫌疑人。
+    - 笔记本电脑可以通过eOS扫描，发现Sterling的手机。
 
-Medical Database
-    - If the player searches for George Yularen, they'll find a link to his pacemaker
+手机
+    - 包含Sterling工作邮箱。玩家可以将此上传到法医分析器，来获取邮件服务器ip。
 
-Pacemaker
-    - The director is already dead.
-    - G sends a message to the player telling them to hack into the pacemaker and look for connection logs.
-    - Logs connect to G's computer
+Cytix邮件服务器
+    - 玩家可以通过黑入读取Sterling的邮件，以及其他嫌疑人的邮件，但没有任何与案件相关的内容。
+    - 连接到Cytix的网络中枢。
 
-G's computer
-    - G messages the player - "Wait. This is my computer."
-    - No logs or anything can be found on his node.
-    - After thinking for a bit, G gives the player MemDumpGenerator
-    - Running it on G's node reveals a memdump and that someone connected to his node.
-    - IP links to Maurice Graves
+Cytix网络中枢
+    - 链接到邮件服务器、安防摄像机中继器、新闻服务器。
 
-Maurice Graves computer
-    - G mentions how Graves also works for Nova. He's always seemed... "unhappy"
-    - Scan for ePhone
+Cytix新闻服务器
+    - 这里没有什么重要的东西
 
-Graves ePhone
-    - Contains nova mail login details
+Cytix安防摄像机中继器
+    - Cytix大楼内监控摄像头的链接。
+    - 其中大部分是无用的，但可以上载监控录像。
 
-Nova Mail
-    - Login to Maurice's account
-    - You see exchanges between Maurice and Mahler.
-    - They talk about ET-5 and how only the director has access to the full case file.
-    - G suggests investigating the director's interactions 
-    - G links the player to his Nova computer as an entry point into Nova's network.
+Cytix安全摄像机C
+    - 包含一堆图片，其中一张是Sterling的照片。
+    - 上传带有Sterling的那个文件，就会把它上传到案例文件中去。
+    - H在此一会后给玩家发信息。Sterling手里的瓶子可能是一个线索。
+    - 等了一会儿，H回来了，带着对瓶子的扫描，寻找证据。玩家可以对这些证据进行分析。
+    - 分析瓶子可以提供有关它的化学细节，包括它被下毒的事实。
+    - 瓶子里还有一个序列码，以及购买地点的链接。
 
-G's Nova node
-    - Links to the Nova network
+Pharmacore网络服务器
+    - 连接到Pharmacore库存数据库。玩家无法入侵，必须登录。
+    - 包含玩家必须分析的邮件链接。
 
-Nova Network
-    - Links to a bunch of different nodes on the Nova network
-    - Player can hack into any one of them if they want, but the one they're looking for is George Yularen's
+Pharmacore邮件服务器
+    - 玩家登录并找到数据库的登录信息。
 
-George Yularen computer
-    - Links to phone. Phone has email details.
-    - Computer has memdump leading to the ET-5 case file. Links to Mahler node
+Pharmacore库存数据库
+    - 播放器符合瓶子上的序列号
+    - Noah Sterling购买了该商品。
+    - H在下载了这个数据库条目后给玩家发了关于此消息。如果是Sterling自己买的这个瓶子，那么就没有人可以给他下毒了。即他是自杀。
+    - H告诉玩家，她现在已经找到了破解Noah最后一条信息的方法。
 
-George Yularen email
-    - Bunch of Nova messages.
-    - One message from Graves - "I know what you've done. It's time to end this."
+Noah的笔记本
+    - 解码纸条后，Nova的整个计划就被揭开了，他想要通过自杀，揭露Nova计划。
+    - H给自己做了一个关于"Mahler"的笔记。
 
-Mahler node
-    - Contains the ET-5 document encrypted. After the player deciphers it, the endgame begins.
-    - Case file ET-5 details the Hacknet incident and the role of Nova in covering it up and adopting its technology.
-    - The player receives a message from H after this, noting the player has discovered the truth. 
-    - However, she also mentions that the whole truth is not yet revealed. G has only shown the player a partial truth, and that it will soon be revealed to the player.
+Noah Sterling 状态 : 已故
 
 
-WRITE THIS SECTION OF THE MISSION.
+
+第四章 - 诬告
+
+仅给与玩家MemDumpGenerator
+
+案件编号: FN-6
+受害者: George Yularen - Nova计划负责人
+死因: 因生命维持系统被关闭导致的心脏骤停
+
+加害者: Gideon Mahler
+其他嫌疑人: Maurice Graves
+
+[注：本任务不开放案件档案和法医分析器。]
+
+目标：
+    - 调查攻击的来源
+    - 发现Nova的真相
+    - 决定Nova、Mahler和你自己的命运。
+
+Nova邮箱
+    - G向玩家发送一封带有IRC聊天链接的电子邮件。
+
+IRC聊天
+    - G向玩家解释了情况——Nova计划负责人死了，且主要嫌疑人是G本人。
+    - 然而，G却声称自己是被人陷害的，并要求玩家帮助他发现真相。
+    - G解释说，他使用了心脏起搏器生命维持系统，并将玩家链接到医疗数据库。
+
+医学数据库
+    - 如果玩家搜索George Yularen，就会发现他的心脏起搏器的链接。
+
+起搏器
+    - 计划负责人已经死了。
+    - G给玩家发了一条信息，让他们黑进起搏器，寻找连接日志。
+    - 日志连接到G的电脑
+
+G的电脑
+    - G给玩家发信息——"等等，这是我的电脑。"
+    - 在他的节点上找不到任何日志什么的。
+    - 想了一下，G给玩家的MemDumpGenerator。
+    - 在G的节点上运行它，会发现一个memdump，有人连接到他的节点。
+    - 连接到Maurice Graves的IP
+
+Maurice Graves
+    - G提到Graves也为Nova工作。他总是看起来... "不开心"
+    - 扫描到ePhone
+
+Graves的ePhone
+    - 包含Nova邮箱登录资料
+
+Nova邮箱
+    - 登录到Maurice的账户
+    - 你可以看到Maurice和Mahler之间的交流。
+    - 他们谈到了ET-5，以及只有局长才有机会接触到整个案件的档案。
+    - G建议调查局长的互动情况 
+    - G将玩家与他的Nova电脑连接起来，作为进入Nova网络的入口点。
+
+G的Nova节点
+    - 与"Nova"网络的连接
+
+Nova网络
+    - 链接到Nova网络上的一堆不同节点。
+    - 如果玩家愿意，他们可以黑进任何一个，但他们要找的是George Yularen的机子。
+
+George Yularen的计算机
+    - 连接到他的手机。手机有他的电子邮件登入资料。
+    - 电脑有通往ET-5案件档案的memdump。连接到Mahler的机子。
+
+George Yularen电子邮件
+    - 一堆来自Nova的信息
+    - 一条来自Graves的信息 - "我知道你做了什么。" "是时候结束这一切了"
+
+Mahler的节点
+    - 包含ET-5文件的加密。玩家解密后，终局开始。
+    - 案件文件ET-5详细介绍了Hacknet事件以及Nova在掩盖事件的作用。
+    - 玩家在这之后收到H的信息，指出玩家发现了真相。
+    - 不过，她也提到，整个真相还没有被揭露。G只向玩家展示了部分真相，而且很快就会向玩家揭示。
+
+
+写下这部分任务。
 
 Hilda Email
-    - Hilda tells the player that despite all this, the player doesn't yet know who the real killer is. She tells the player that photographic evidence was left at
-    the scene of the crime showing the face of the true murderer. She tells the player that evidence has been uploaded to the Case File. The final piece of evidence.
+    - Mahler告诉玩家，尽管如此，玩家还不知道谁是真正的凶手。她告诉玩家，照片证据被留在了这里。
+    犯罪现场显示出真凶的脸。她告诉玩家，证据已经上传到案件档案中。最后一件证据。
 
-Case File
-    - A single image is shown. A man in a hospital bed with another man overlooking him. However, this image face is distorted. Some kind of interference.
-    - After uploading the file to the forensic analyzer, the identity cannot be confirmed. Hilda suspects whoever tampered with this left a trail.
-
-
+案件档案
+    - 显示了一个单一的图像。一个男人躺在病床上，另一个男人在俯视他。但是，这个图像面是扭曲的。某种干扰。
+    - 将文件上传到法医分析仪后，无法确认身份。Mahler怀疑是谁做了手脚，留下了蛛丝马迹。
 
 
 
 
 
-IRC Chat
-    - G feigns surprise. Hacknet? Nova was keeping such a dark secret?
+
+
+IRC聊天室
+    - G假装惊讶。Hacknet? Nova竟然保守着这么黑暗的秘密？
 
 
 Graves:
-    Hello, agent. It's good to finally meet you.
+    你好，探员。终于见到你了。
 G:
-    That voice... it can't be
+    那声音，恐怕是...
 Graves:
-    My name is Maurice Graves. As I understand it, you believe I am involved in the murder of the director of Nova.
+    我的名字是Maurice Graves。据我所知，你认为我和Nova计划负责人的谋杀案有关。
 G:
-    Don't do it, Graves.
-Graves:
-    I don't think you're in a position to tell me what to do, especially after you tried framing me, G.
-    Or should I say
-    Gideon Mahler.
-Mahler:
+    别这么做，Graves。
+Graves
+    我不认为你有资格告诉我该怎么做， 尤其是在你试图陷害我之后，G.
+    或者说
+    Gideon Mahler
+Mahler
     ...
-Mail from Hilda:
-    At last, the truth has been revealed.
-Graves:
-    I was willing to support you in your cause. But I don't much appreciate being used as a scapegoat for your own crimes.
-    I especially don't appreciate being framed for the murder of the director.
+Hilda的来信
+    真相终于被揭开了
+Graves：我愿意支持你的事业
+    我愿意支持你的事业。但我不太喜欢被人当做替罪羊，为自己的罪行背黑锅。
+    我尤其不喜欢被诬陷为谋杀负责人的凶手。
+Mahler
+    你不明白 这是为了揭发Nova。
+Hilda：你敢听他的话吗？
+    你敢听他的话吗？
+Graves：这就是为什么你把所有的案件
+    所以你才把所有的案子都给了他?最终让他找到了真相?
+Mahler：是的。
+    是为了这个国家的利益！
+Hilda：他犯了罪，必须受到惩罚。
+Graves：听听你自己说的话。你的口气开始像你想摧毁的那个机构了。
+
 Mahler:
-    You don't understand. This was for the sake of exposing Nova.
-Hilda:
-    Don't you dare listen to him.
-Graves:
-    Is this why you gave the agent all the cases that would eventually lead him to this truth?
-Mahler:
-    It was for the good of this nation!
-Hilda:
-    He committed a crime and must be punished!
-Graves:
-    Listen to yourself. You're beginning to sound like the very institution you sought to destroy.
-Mahler:
-    #PLAYERNAME#, we can end this!
-Hilda:
-    Don't listen to him!
-Mahler:
-    We can expose Nova to the people!
-Hilda:
-    Think of how much we help the nation!
-Graves:
-    The choice is yours. Will you choose to be condemned for a crime you didn’t commit, running from society for a decision made by one you trusted? Or will you live to be a slave to the whims of a higher authority, all under the pretense of safety and security?
-Mahler:
-    BRING THEM DOWN! [Links to Nova's Core file system]
-Hilda:
-    HE MUST BE PUNSHED! [Links to Mahler's file system]
+    #PLAYERNAME#，我们可以结束这一切！
+Hilda：
+    别听他的！
+Mahler：
+    我们可以让Nova暴露在人们面前!
+    想想我们对国家的帮助有多大！
+    想想我们对国家的帮助有多大!
+Graves：
+    你自己选择吧，你会选择因你没有犯下的罪行而被判刑吗? 
+    为了你信任的人所做的决定而逃离社会? 
+    或者你会活在更高权威的幻想之下成为奴隶吗？ 
+    在所谓的在安全和保障的幌子下生活？
+Mahler
+    把他们打倒! [链接到Nova的核心文件系统]
+Hilda
+    他必须受到惩罚！[链接到Mahler的文件系统]
 
-If the player chooses Mahler:
-    Good choice. 
-    We don't have much time.
-    Nova will be trying to block us from entering its system, so we have to act quickly.
-    I need you to break into Nova's central core, and download everything that will reveal the truth.
-    Then, I need you to upload it all here.
-    It's time.
-    I'm counting on you.
-    Get ready
-    Set
-    GO!
+如果玩家选择帮助Mahler:
+    好样的
+    我们的时间不多了。
+    Nova会试图阻止我们进入它的系统 所以我们必须尽快行动起来。
+    我需要你进入Nova的核心系统，下载所有能揭示真相的资料。
+    然后 我需要你把它全部上传到这里。
+    是时候结束这一切了。
+    准备好了？
+    GO！
 
-If the player chooses Hilda:
-    Good, agent.
-    We must act quickly now. I have a feeling Mahler will be trying everything he can to stop you, and stop us from preventing Nova from being exposed.
-    Gideon Mahler must be destroyed completely. I've dispatched agents to converge on his location and apprahend him, but you must prevent him from
-    damaging Nova any further.
+如果玩家选择帮助Hilda:
+    很好，探员。
+    我们必须尽快行动 我感觉Mahler会想尽一切办法来阻止你 也会阻止我们阻止Nova的暴露。
+    Gideon Mahler必须被彻底摧毁。我已经派出探员前往他的位置，并对他进行逮捕，但首先你必须阻止他的行动。
+    尽可能破坏Nova。
 
-    Break into his system. Destroy that son of a bitch.
+    侵入他的系统 摧毁那个混蛋
 
-If the player successfully uploads Hacknet and Nova files to Cytix drop server: [Freedom Ending]
-    @#PLAYERNAME# good job!
-    The files have been uploaded. It's time for Nova to be exposed to the world!
-    They'll probably be coming after us now.
-    I doubt Nova will be able to continue operating anymore
-    Not if the people turn against them.
-    I have faith they will.
-    Either way, we'll have to lay low for a while.
-    Cover your tracks.
-    Leave nothing behind.
-    I'm sorry it had to be this way, #PLAYERNAME#
-    But it was for the good of the nation
-    It was for the good of the world.
-    This is where we part ways.
-    Goodbye. 
-    [Links to credits server.]
+如果玩家成功将Hacknet和Nova文件上传到Cytix文件上传服务器..: [自由结局]
+    @#PLAYERNAME#好样的!
+    文件已经上传。是时候向世界展示Nova了！
+    他们现在可能会来找我们了。
+    我怀疑Nova是否还能继续运营下去。
+    如果人民反对他们就不会，
+    但是我相信他们会的。
+    无论如何，我们都要低调一段时间。
+    掩盖你们的行踪，
+    不要留下任何东西。
+    我很抱歉不得不这样做，#PLAYERNAME#。
+    但这是为了国家的利益
+    这是为了世界的利益。
+    我们就在这里分道扬镳。
+    再见。
+    [链接到作者服务器]
 
-If the player deletes all the files on the Nova Core: [Fugitive Ending]
-    @#PLAYERNAME# No no no what are you doing?!
-    Gah!
-    Damn, it doesn't matter anymore.
-    We'll have to run now.
-    Run as fast as we can. 
-    Nova can rebuild and continue to operate within the shadows.
-    But at least we dealt a severe blow to them.
-    Listen, we shouldn't contact each other anymore for the time being.
-    Not while Nova has us in their crosshairs.
-    These are my last words to you, my friend.
-    Run.
-    [Links to credits server.]
+如果玩家删除了Nova核心的所有文件： [逃亡结局]
+    @#PLAYERNAME# 不不不，你在干什么？
+    啊我草!
+    该死的，这已经不重要了。
+    我们现在必须要跑了。
+    越快越好。
+    Nova可以重建，并继续在阴影中运作。
+    但至少我们给了他们沉重的打击。
+    听着，我们暂时不应该再联系对方。
+    在Nova想要抓到我们时。
+    这是我对你说的最后一句话 朋友。
+    快跑
+    [链接到作者服务器]
 
-If the player fails to complete the mission: [Prisoner of the State Ending]
-    Mail from Hilda:
-    It's too late for you now, #PLAYERNAME#.
-    Gideon Mahler has been apprehended. We have your place surrounded.
-    Make things easier on us and surrender.
+如果玩家未能完成任务: [国之囚徒结局]
+    Hilda的邮件。
+    现在对你来说太晚了，#PLAYNAME#。
+    Gideon Mahler已被逮捕。我们已经包围了你的住所
+    投降吧，这样对大家都好。
 
-    Good bye, traitor.
-    [Links to credits server.]
+    再见了 叛徒
+    [链接到作者服务器]
 
-If the player successfully defeats Gideon Mahler: [Safety and Security ending]
-    Excellent work, agent.
-    I've just received word that Mahler has been apprehended. We'll make sure that traitor gets the punishment he deserves.
-    You've done a service to us, #PLAYERNAME#. Nova thanks you. This country thanks you.
-    Get some rest, agent. You've earned it.
-    I look forward to working with you in the future.
+如果玩家成功打败了Gideon Mahler： [安全与保障结局]
+    干得好 探员
+    我刚收到消息说Mahler已经被逮捕了。我们会让那个叛徒得到应有的惩罚的。
+    你为我们做了一件好事 #PLAYERNAME# Nova感谢你 这个国家感谢你
+    好好休息吧 探员 你应得的
+    我期待着将来与你合作
 
-If the player fails to defeat Mahler: [Mutually Assured Destruction Ending]
-    I trusted you.
-    I thought I could get you to understand.
-    Apparently not.
-    I know there's no stopping Nova now.
-    That's ok.
-    I can at least deal one last blow to their credibility before it's over.
-    I hope you rot in hell.
+如果玩家未能击败Mahler：[毁灭结局]。
+    我相信你
+    我曾经以为你可以相信我
+    显然你没有！
+    我知道现在没有人可以阻止Nova了 I know there's no stopping Nova now.
+    没关系
+    至少我可以在事情结束前给予他们最后一击
+    我希望你在地狱里腐烂
 
-END OF MURDER ROOM.
+结束

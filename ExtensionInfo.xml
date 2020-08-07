@@ -15,7 +15,7 @@
   <StartingActions>Actions/StartingActions.xml</StartingActions>
 
   <!-- Description that appears within Hacknet -->
-  <Description>欢迎你来到Murder Room，特工。
+  <Description>欢迎你来到Murder Room，探员。
 你的任务: 解决无法解决的问题。</Description>
   
   <!-- Factions involved in this extension! You can define as many or as few as you like -->
@@ -59,9 +59,9 @@
   -->
   <WorkshopDescription>当政府被击垮之际，还有最后一道防线：一个只有一个目标的秘密组织——Nova。
 他们的目标是解决无法解决的问题。
-作为一名Nova特工，你必须努力解决被认为不可能解决的冷门案件，并且没有先进技术的帮助。
+作为一名Nova探员，你必须努力解决被认为不可能解决的冷门案件，并且没有先进技术的帮助。
 调查案件，穿梭个人生活和公司秘密的网络，为所有人带来正义。
-欢迎你来到Murder Room，特工。
+欢迎你来到Murder Room，探员。
 
 特点:
 - Hacknet中从未见过的独特故事/任务。
