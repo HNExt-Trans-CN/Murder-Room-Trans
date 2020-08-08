@@ -5,9 +5,9 @@
 
 <nextMission IsSilent="false">NONE</nextMission>
 
-<posting title="Hacking">During an investigation, an operative may be forced to hack into a node they are otherwise unable to access.
-Port cracking tools are provided to the operative, and running the tools on a node with the target port number will open the ports and allow
-an operative to penetrate the computer using the PortHack command. However, it is important to note that not all ports have available port crackers.
+<posting title="黑客入侵">在调查过程中，探员可能被迫黑进一个他们无法进入的节点。
+向探员提供端口破解工具，在目标端口号的节点上运行这些工具，打开端口，并允许他们黑入该节点。
+探员使用PortHack命令入侵计算机。然而，需要注意的是，并非所有的端口都有可用的端口破解器。
 </posting>
 
 

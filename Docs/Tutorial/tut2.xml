@@ -5,15 +5,15 @@
 
 <nextMission IsSilent="false">NONE</nextMission>
 
-<posting title="Forensic Analyzer">The Forensic Analyzer is Nova's advanced forensics system, capable of scanning almost every object and file an operative comes across in their investigation.
-The Forensic Analyzer is used to gleam new data from evidence scans and files uploaded. The information the analyzer can determine includes, but is not limited to:
-    - Fingerprints
+<posting title="鉴证分析器">鉴证分析器是Nova的先进鉴证系统，能够扫描探员在调查中遇到的几乎所有物品和文件。
+鉴证分析器用于从证据扫描和上传的文件中获取新的数据。分析仪可以确定的信息包括但不限于：
+    - 指纹
     - DNA
-    - IPs
-    - Facial profiles
+    - IP
+    - 面部特征
 
-When uploading a non-evidence file to the Forensic Analyzer, it is also capable of locating and appending to the netmap source IPs, as well as user accounts for those source IPs. For example, uploading an email to the analyzer
-will analyze its header and display the source IP on the netmap.
+当上传非证据文件到鉴证分析器时，它还能够定位并追加到源IP，以及这些源IP的用户账户。
+例如，向分析仪上传电子邮件，将分析其头并显示其源IP。
 </posting>
 
 

@@ -5,9 +5,10 @@
 
 <nextMission IsSilent="false">NONE</nextMission>
 
-<posting title="Case File">The Case File is the most important tool in a Nova operative's arsenal.
-It is where all the current case data that an operative is working on is stored. Information such as the case briefing, suspect alibis and evidence gathered is stored here.
-Whenever an operative has downloaded a file the system deems important to the case, the Case File will be updated with any new information it detects. This can either be new information related to the case, the suspects, or new evidence gathered in the investigation.
+<posting title="案件档案">案件档案是Nova探员最重要的工具。
+它是探员正在处理的所有当前案件数据的存储地。案件简报、嫌疑人不在场证明和收集到的证据等信息都存储在这里。
+每当探员下载了一个系统认为对案件重要的文件，案件文件就会用它检测到的任何新信息进行更新。
+这些信息可以是与案件、嫌疑人有关的新信息，也可以是调查中收集到的新证据。
 </posting>
 
 
