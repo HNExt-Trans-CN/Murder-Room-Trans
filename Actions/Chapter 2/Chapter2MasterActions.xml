@@ -1,7 +1,7 @@
 <ConditionalActions>
-<!--Wow, so this mission is significantly shorter than the last one. I did not anticipate that. Chapter 3 is so much longer though, believe me.-->
-<!--To be fair, when I was writing the extension, I had originally planned for this mission to be the first one, but later on in development I switched the first two
-for a bit more natural story progression.-->
+<!--哇，所以这个任务的主文件比上一个任务要短得多。 我没想到。 但是，请相信我，第3章肯定会更长了。-->
+<!--公平地说，当我写扩展时，我原本计划将此任务作为第一个任务，但后来在开发中我切换了前两个
+故事情节自然发展。-->
 <Instantly>
 
 <AddConditionalActions Filepath="Actions/Chapter 2/Chapter2ForensicActions.xml"/>

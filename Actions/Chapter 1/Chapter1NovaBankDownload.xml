@@ -3,7 +3,7 @@
 <Instantly>
 <LaunchHackScript Filepath="HackerScripts/CaseFileScript.txt" DelayHost="delay" Delay="0.5" SourceComp="caseFile" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
 <DeleteFile TargetComp="playerComp" FilePath="home" FileName="1004921.rec" DelayHost="delay" Delay="0.0"/>
-<AppendToFile DelayHost="delay" Delay="2.0" TargetComp="caseFile" TargetFolderpath="home" TargetFilename="Case_Briefing.doc">- Victim received payment of $10,000 from Nova</AppendToFile>
+<AppendToFile DelayHost="delay" Delay="2.0" TargetComp="caseFile" TargetFolderpath="home" TargetFilename="Case_Briefing.doc">- 受害人收到Nova支付的10,000美元。</AppendToFile>
 
 
 <LoadMission MissionName="Missions/Chapter 1/Chapter1NovaBankEmail.xml"/>

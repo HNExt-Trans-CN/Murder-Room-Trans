@@ -3,62 +3,62 @@
 <OnConnect target="finaleIRC">
 <ChangeAlertIcon Target="finaleIRC" Type="irchub" DelayHost="delay" Delay="6.56"/>
 <RunFunction FunctionName="playCustomSongImmediatley:Music/Broken_Boy.ogg" DelayHost="delay" Delay="6.56"/>
-<AddIRCMessage Author="Channel" TargetComp="finaleIRC" Delay="6.5">User @#PLAYERNAME# has joined the channel</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="8.0">Hi.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="11.0">This is strange.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="15.0">You're probably not used to communicating like this</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="19.5">But this was the only way I could get you to help without drawing the attention of Nova.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="22.0">I'll just get right to it.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="25.0">The director of Nova is dead.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="27.5">And Nova thinks I did it.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="31.0">But I swear to you, I did not kill him.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="34.0">And the fact that you didn't leave immediately suggests to me you're willing to help me for now.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="37.0">Look, I want to get to the bottom of this.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="40.0">If you're willing to help me, then I will be forever indebted to you.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="43.0">Anyways. The director's name was George Yularen.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="47.5">Prior to his death, he was recovering from a heart operation and was on a pacemaker life support system to keep him stable.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="50.0">But suddenly the pacemaker stopped working</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="53.0">And they think I compromised it somehow.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="56.0">Believe me, I didn't, Nova just needed a scapegoat.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="59.0">I might know how we can figure out who did, though.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="64.0">!ATTACHMENT:link#%#Universal Medical#%#208.93.170.15</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="67.0">We should be able to find the director's medical information here.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="70.0">For the sake of not alerting Nova, I think it best to avoid using the Case File and Forensic Analyzer.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="73.0">Anyways, let's solve this case.</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="finaleIRC" Delay="6.5">用户 @#PLAYERNAME# 已加入该频道。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="8.0">你好。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="11.0">这越发有点奇怪了。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="15.0">你可能不习惯这样交流吧</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="19.5">但这是唯一能让你在不引起Nova注意的情况下帮忙的办法。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="22.0">我就直说了。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="25.0">Nova计划的负责人死了。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="27.5">而且Nova那边觉得是我干了这件事情。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="31.0">但是我向你发誓，我绝对没有杀他。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="34.0">而你没有离弃我，反而相信我，愿意暂时帮我。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="37.0">听着，我想弄清事情的真相。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="40.0">如果你愿意帮我，那我就永远欠你一个人情。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="43.0">不管如何，那个负责人的名字叫George Yularen。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="47.5">在他去世之前，他正在从心脏手术中恢复，并使用心脏起搏器来保持心脏正常。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="50.0">但突然间，心脏起搏器停止工作了。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="53.0">他们认为我以某种方式妥协了。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="56.0">相信我，我没有，Nova只是需要一个替罪羊。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="59.0">不过我可能知道怎么才能知道是谁干的。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="64.0">!ATTACHMENT:link#%#通用医疗#%#208.93.170.15</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="67.0">我们也许能找到负责人的医疗信息。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="70.0">为了不惊动Nova，我认为最好不要使用案件档案和法医分析器。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="73.0">总之，我们来解决这个案子吧。</AddIRCMessage>
 </OnConnect>
 
 <OnConnect target="yularenPacemaker">
 <AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="2.0">@#PLAYERNAME#</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="6.0">Seems this thing is connected to the web. Try looking for logs that aren't yours.</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="6.0">好像这东西连着什么网络的。试着找找看。</AddIRCMessage>
 </OnConnect>
 
 <OnConnect target="gComp">
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="2.0">@#PLAYERNAME# What the hell...?</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="5.0">This is my computer.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="7.0">I know what this looks like</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="10.0">But believe me, I didn't do this.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="13.0">Maybe someone accessed my computer remotely</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="16.0">But I don't see how...</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="2.0">@#PLAYERNAME# 我擦，什么玩意?</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="5.0">这是我的电脑</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="7.0">我知道这真挺像我做了什么似的</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="10.0">但相信我，这不是我做的。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="13.0">或许有些人远程访问了我的电脑。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="16.0">但是我并不知道他是如何办到的。</AddIRCMessage>
 </OnConnect>
 
 <OnConnect target="mauriceComp">
 <AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="3.0">@#PLAYERNAME# Maurice Graves, huh?</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="6.0">He's another agent at Nova.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="9.0">Truth be told, he's always seemed... displeased with Nova</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="12.0">But I guess he's always stuck around because the pay's good.</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="6.0">他是另个Nova探员</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="9.0">说实话，他总是看起来... ...对Nova不满意。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="12.0">但我想他坚持在那，是因为那工资很高。</AddIRCMessage>
 <RunFunction FunctionName="addFlags:chapter4MauriceMail"/>
 </OnConnect>
 
 <OnConnect target="jmail" requiredFlags="chapter4MauriceMail">
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="20.0">@#PLAYERNAME# Graves and this Mahler guy were talking about the director's pacemaker?</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="24.0">So we know he's involved. But why would he want to kill Yularen?</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="27.0">Also, who is this Mahler guy?</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="30.0">I think we should look into the director's involvement</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="34.0">If we could figure out why these people would want to kill the director, we could figure out who really killed him once and for all.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="37.0">The only problem is finding out this information</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="40.0">Which means we need to infiltrate Nova to get to Yularen.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="44.0">I'll link you to my Nova office computer as a backdoor into the network. Hopefully from there, you should be able to find what you need.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="47.0">!ATTACHMENT:link#%#Nova_agentG_11022#%#54.128.9.123</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="20.0">@#PLAYERNAME# Graves和那个叫Mahler的家伙在讨论负责人的心脏起搏器?</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="24.0">所以我们知道他参与了。但他为什么要杀Yularren。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="27.0">然后，这个Mahler是谁？</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="30.0">我觉得我们应该调查一下负责人的人际关系。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="34.0">如果我们能搞清楚这些人为什么要杀负责人，我们就能一劳永逸地搞清楚到底是谁杀了他。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="37.0">唯一的问题是怎么找到这些信息</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="40.0">也就是说我们需要黑入Nova去找关于他的线索。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="44.0">我会把你连接到我的Nova办公室电脑上作为进入网络的后门。希望从那里，你应该能够找到你需要的东西。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="47.0">!ATTACHMENT:link#%#Nova_G探员_11022#%#54.128.9.123</AddIRCMessage>
 </OnConnect>
 
 <OnConnect target="yularenComp">

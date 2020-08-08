@@ -1,11 +1,11 @@
 <ConditionalActions>
-<!--To whomever is datamining this extension:
-Welcome to the chapter's master file. This is basically how the entire extension functions. 
-One master file that loads a bunch of other files that load missions for each action performed within the case.
-Since branch missions just suddenly decided not to work for me, this is the most elegant solution I could come up with.
-Of course, branch missions for these missions *specifically* could end up working.
-I think it's a neat solution. Maybe not the most elegant, but neither is Hacknet.
-Have fun dissecting.
+<!--你好，探索彩蛋亦或是闲着没事的人！
+欢迎来到本章的主文件 这基本上是整个扩展文件的功能。
+一个主文件加载了一堆其他文件，这些文件加载了案件中每个行动的任务。
+由于分支任务只是突然对我不起作用，这是我能想到的最优雅的解决方案。
+当然，针对这些任务的分支任务可能会起作用。
+我认为这是一个整洁的解决方案。也许不是最优雅的，但Hacknet也不是。
+祝你剖析愉快。
 - Kwiper --> 
 
 <Instantly>

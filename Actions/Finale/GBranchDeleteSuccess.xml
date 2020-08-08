@@ -4,22 +4,22 @@
 <LoadMission MissionName="Missions/Finale/FinaleBuffer.xml"/>
 <CancelScreenBleedEffect DelayHost="delay" Delay="0.0" />
 <RunFunction FunctionName="changeSongDLC" FunctionValue="7"/>
-<AppendToFile DelayHost="delay" Delay="0.0" TargetComp="credits" TargetFolderpath="home" TargetFilename="CreditsData.txt">%You got the Fugitive ending</AppendToFile>
+<AppendToFile DelayHost="delay" Delay="0.0" TargetComp="credits" TargetFolderpath="home" TargetFilename="CreditsData.txt">%逃亡结局达成</AppendToFile>
 <AppendToFile DelayHost="delay" Delay="0.0" TargetComp="credits" TargetFolderpath="home" TargetFilename="CreditsData.txt"></AppendToFile>
-<AppendToFile DelayHost="delay" Delay="0.0" TargetComp="credits" TargetFolderpath="home" TargetFilename="CreditsData.txt">%FIN</AppendToFile>
+<AppendToFile DelayHost="delay" Delay="0.0" TargetComp="credits" TargetFolderpath="home" TargetFilename="CreditsData.txt">%结束</AppendToFile>
 
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="5.0">@#PLAYERNAME# No no no what are you doing?!</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="7.0">Gahhhh</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="12.0">Doesn't matter anymore.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="15.0">We'll have to run now.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="18.0">Run as fast as we can.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="21.0">Nova can rebuild and continue to operate within the shadows.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="24.0">But at least we dealt a severe blow to them.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="29.0">Listen, we shouldn't contact each other for a while.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="32.0">Not while Nova has us in their crosshairs.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="35.0">These are my last words to you, my friend.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="38.0">Run.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="40.0">!ATTACHMENT:link#%#Murder Room Credits#%#192.168.1.1</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="5.0">@#PLAYERNAME# 不 不 不 不 不 你在干什么?!</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="7.0">啊我草</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="12.0">算了不管了</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="15.0">我们现在得溜了。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="18.0">快跑！以你尽可能的速度跑！</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="21.0">Nova可以重建，并继续在暗处运作。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="24.0">但至少我们给了他们沉重的打击。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="29.0">听着，我们暂时不应该再联系了。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="32.0">在Nova想要抓到我们时。.</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="35.0">这是我对你说的最后一句话 朋友。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="38.0">快跑！</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="40.0">!ATTACHMENT:link#%#Murder Room 职员表#%#192.168.1.1</AddIRCMessage>
 </Instantly>
 
 

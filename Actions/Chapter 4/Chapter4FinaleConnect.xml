@@ -10,24 +10,24 @@
 <CrashComputer TargetComp="novaCore" CrashSource="delay" DelayHost="delay" Delay="0.0" />
 <ChangeAlertIcon Target="finaleIRC" Type="irchub" DelayHost="delay" Delay="0.0"/>
 <RunFunction FunctionName="playCustomSongImmediatley:Music/Catalyst_Clipped.ogg" DelayHost="delay" Delay="5.0"/>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="5.0">@#PLAYERNAME# Good choice.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="9.0">We don't have a lot of time</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="12.0">Nova will be trying to block us from entering its network</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="15.0">So we have to act quickly.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="18.0">I need you to break into Nova's central core</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="21.0">Download everything that will reveal the truth.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="24.0">Then I need you to upload it all here:</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="24.1">!ATTACHMENT:link#%#Cytix Sources Upload#%#52.129.50.1</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="27.0">I'm counting on you.</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="5.0">@#PLAYERNAME# 好样的。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="9.0">我们没多少时间了</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="12.0">Nova会尝试组织我们侵入他们的网络。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="15.0">所以我们动作得快点了。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="18.0">我需要你入侵到Nova的中央核心。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="21.0">下载所有可能隐藏真相的文件。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="24.0">T然后我需要你全数上传到这:</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="24.1">!ATTACHMENT:link#%#Cytix文件上传服务器#%#52.129.50.1</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="27.0">我就指望你了。</AddIRCMessage>
 <AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="30.0">GO!</AddIRCMessage>
 <ShowNode DelayHost="delay" Delay="30.0" Target="novaCore"/>
 <HideNode DelayHost="delay" Delay="30.3" TargetComp="novaCore"/>
 <ShowNode DelayHost="delay" Delay="30.6" Target="novaCore"/>
 <HideNode DelayHost="delay" Delay="30.9" TargetComp="novaCore"/>
 <ShowNode DelayHost="delay" Delay="31.2" Target="novaCore"/>
-<StartScreenBleedEffect AlertTitle="EXPOSE NOVA" CompleteAction="Actions/Finale/GBranchScreenbleedComplete.xml" TotalDurationSeconds="208.9" DelayHost="delay" Delay="30.3">Hack into central server
-Download everything related to Nova and Hacknet
-Upload to Cytix Sources Upload</StartScreenBleedEffect>
+<StartScreenBleedEffect AlertTitle="EXPOSE NOVA" CompleteAction="Actions/Finale/GBranchScreenbleedComplete.xml" TotalDurationSeconds="208.9" DelayHost="delay" Delay="30.3">黑入Nova的中央核心。
+下载所有有关Nova和Hacknet的文件。
+上传到Cytix文件服务器</StartScreenBleedEffect>
 
 
 </OnConnect>

@@ -5,9 +5,9 @@
 <LoadMission MissionName="Missions/Finale/FinaleBuffer.xml"/>
 <CancelScreenBleedEffect DelayHost="delay" Delay="0.0" />
 <RunFunction FunctionName="changeSongDLC" FunctionValue="7"/>
-<AppendToFile DelayHost="delay" Delay="0.0" TargetComp="credits" TargetFolderpath="home" TargetFilename="CreditsData.txt">%You got the Prisoner of the State ending</AppendToFile>
+<AppendToFile DelayHost="delay" Delay="0.0" TargetComp="credits" TargetFolderpath="home" TargetFilename="CreditsData.txt">%国家囚犯结局达成</AppendToFile>
 <AppendToFile DelayHost="delay" Delay="0.0" TargetComp="credits" TargetFolderpath="home" TargetFilename="CreditsData.txt"></AppendToFile>
-<AppendToFile DelayHost="delay" Delay="0.0" TargetComp="credits" TargetFolderpath="home" TargetFilename="CreditsData.txt">%FIN</AppendToFile>
+<AppendToFile DelayHost="delay" Delay="0.0" TargetComp="credits" TargetFolderpath="home" TargetFilename="CreditsData.txt">%结束</AppendToFile>
 <AddConditionalActions Filepath="Actions/Finale/GBranchFailEmailLoad.xml" DelayHost="delay" Delay="4.0"/>
 </Instantly>
 

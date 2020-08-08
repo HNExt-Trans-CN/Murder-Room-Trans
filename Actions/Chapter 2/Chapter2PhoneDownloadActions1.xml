@@ -3,7 +3,7 @@
 <Instantly>
 <LaunchHackScript Filepath="HackerScripts/CaseFileScript.txt" DelayHost="delay" Delay="0.5" SourceComp="caseFile" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
 <DeleteFile TargetComp="playerComp" FilePath="home" FileName="gps_sync.log" DelayHost="delay" Delay="0.0"/>
-<AppendToFile DelayHost="delay" Delay="2.0" TargetComp="caseFile" TargetFolderpath="home/Suspects" TargetFilename="Ingrid_Miles.doc">- Was not at the scene of the crime at the time of the murder</AppendToFile>
+<AppendToFile DelayHost="delay" Delay="2.0" TargetComp="caseFile" TargetFolderpath="home/Suspects" TargetFilename="Ingrid_Miles.doc">- 谋杀时不在犯罪现场</AppendToFile>
 </Instantly>
 
 </ConditionalActions>

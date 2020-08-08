@@ -2,7 +2,7 @@
 
 <Instantly>
 <RunFunction FunctionName="addFlags:tut1"/>
-<AppendToFile DelayHost="delay" Delay="1.0" TargetComp="caseFile" TargetFolderpath="home/Suspects" TargetFilename="Carl_Sutton.doc">- In a relationship with Laura Pierce</AppendToFile>
+<AppendToFile DelayHost="delay" Delay="1.0" TargetComp="caseFile" TargetFolderpath="home/Suspects" TargetFilename="Carl_Sutton.doc">- 与Laura Pierce有关系</AppendToFile>
 <LaunchHackScript Filepath="HackerScripts/CaseFileScript.txt" DelayHost="delay" Delay="0.5" SourceComp="caseFile" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
 
 <DeleteFile TargetComp="playerComp" FilePath="home" FileName="mmssmm.db" DelayHost="delay" Delay="1.0"/>

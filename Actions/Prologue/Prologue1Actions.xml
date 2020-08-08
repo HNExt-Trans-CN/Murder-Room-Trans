@@ -10,10 +10,10 @@
 
 <Instantly>
 <AppendToFile DelayHost="delay" Delay="0.0" TargetComp="notJmail" TargetFolderpath="mail/accounts/staleski01/inbox" TargetFilename="Money_Transfer_Confirmation">@*&amp;^#%@)_!_)*#^@!&amp;*)(#^&amp;</AppendToFile>
-<AppendToFile DelayHost="delay" Delay="0.0" TargetComp="notJmail" TargetFolderpath="mail/accounts/staleski01/inbox" TargetFilename="Money_Transfer_Confirmation">link#%#Capital Savings Bank#%#43.29.100.223</AppendToFile>
+<AppendToFile DelayHost="delay" Delay="0.0" TargetComp="notJmail" TargetFolderpath="mail/accounts/staleski01/inbox" TargetFilename="Money_Transfer_Confirmation">link#%#基本储蓄银行#%#43.29.100.223</AppendToFile>
 
 <AppendToFile DelayHost="delay" Delay="0.0" TargetComp="policeMail" TargetFolderpath="mail/accounts/koliver/inbox" TargetFilename="Database_Password">@*&amp;^#%@)_!_)*#^@!&amp;*)(#^&amp;</AppendToFile>
-<AppendToFile DelayHost="delay" Delay="0.0" TargetComp="policeMail" TargetFolderpath="mail/accounts/koliver/inbox" TargetFilename="Database_Password">account#%#96th Precinct Case File System#%#46.39.112.55#%#koliver1#%#V76Yg5!</AppendToFile>
+<AppendToFile DelayHost="delay" Delay="0.0" TargetComp="policeMail" TargetFolderpath="mail/accounts/koliver/inbox" TargetFilename="Database_Password">account#%#96分局案件档案系统#%#46.39.112.55#%#koliver1#%#V76Yg5!</AppendToFile>
 
 <RunFunction FunctionName="addFlags:G_Yularen:DEAD"/>
 </Instantly>

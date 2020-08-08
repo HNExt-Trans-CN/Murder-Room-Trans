@@ -2,51 +2,51 @@
 
 <OnConnect target="finaleIRC">
 <RunFunction FunctionName="addFlags:finaleConnect"/>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="5.0">This is huge.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="8.0">Hacknet? Nova's been keeping this a secret for how long now?</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="11.0">I don't even know what to say.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="14.0">I have an idea for what we should do next though.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="17.0">This is going to be an incredibly dangrous operation though.</AddIRCMessage>
-<AddIRCMessage Author="Channel" TargetComp="finaleIRC" Delay="20.0">@channel User 'Graves' has joined the channel</AddIRCMessage>
-<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="23.0">I think you'll find you won't have any use pretending any more, G</AddIRCMessage>
-<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="25.0">Or should I say</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="5.0">这可真是个大问题。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="8.0">Hacknet? 一直保守这个秘密多久了</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="11.0">我都不知道我该说些啥了。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="14.0">我完全没有想法我们接下来怎么办。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="17.0">不过，这将是一次非常危险的行动。</AddIRCMessage>
+<AddIRCMessage Author="Channel" TargetComp="finaleIRC" Delay="20.0">@channel 用户 'Graves' 已加入该频道</AddIRCMessage>
+<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="23.0">我想你再装也没有用了，G</AddIRCMessage>
+<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="25.0">或者我该说...</AddIRCMessage>
 <AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="27.0">Gideon Mahler</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="30.0">Wait, @#PLAYERNAME#, you knew?</AddIRCMessage>
-<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="33.0">Hello, agent, it's good to finally meet you.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="36.0">Don't do it, Graves</AddIRCMessage>
-<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="39.0">Look, Mahler, I was willing to support your cause.</AddIRCMessage>
-<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="43.0">But I don't much appreciate being used as a scapegoat for your own crimes.</AddIRCMessage>
-<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="46.0">I especially don't appreciate being framed for the murder of the director.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="49.0">You don't understand</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="52.0">It was for the sake of exposing Nova for their own crimes</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="30.0">等着， @#PLAYERNAME#， 你认识他?</AddIRCMessage>
+<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="33.0">你好，探员，终于见到你了。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="36.0">别这么做 Graves</AddIRCMessage>
+<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="39.0">嘿，放松， Mahler, 我很愿意支持你的事业。</AddIRCMessage>
+<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="43.0">但我不太喜欢被人当做别人的的替罪羊。</AddIRCMessage>
+<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="46.0">尤其是被诬陷谋杀负责人</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="49.0">你不明白。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="52.0">那是为了揭露Nova的罪行</AddIRCMessage>
 
 <ChangeAlertIcon Target="jmail" Type="mail" DelayHost="delay" Delay="52.0"/>
 <AddConditionalActions Filepath="Actions/Chapter 4/Chapter4Hilda1Load.xml" DelayHost="delay" Delay="53.0"/>
 <ChangeAlertIcon Target="finaleIRC" Type="irchub" DelayHost="delay" Delay="56.0"/>
 
-<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="57.0">Is this why you gave the agent all the cases that would lead him to this truth?</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="60.0">It was for the good of this nation!</AddIRCMessage>
+<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="57.0">所以你才把所有的案子都给了他?最终让他找到了真相?</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="60.0">这是为了这个国家的利益！</AddIRCMessage>
 <ChangeAlertIcon Target="jmail" Type="mail" DelayHost="delay" Delay="60.0"/>
 <AddConditionalActions Filepath="Actions/Chapter 4/Chapter4Hilda2Load.xml" DelayHost="delay" Delay="61.0"/>
 <ChangeAlertIcon Target="finaleIRC" Type="irchub" DelayHost="delay" Delay="64.0"/>
 
-<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="65.0">Listen to yourself. You're beginning to sound like the very institution you sought to destroy.</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="68.0">@#PLAYERNAME# We can end this!</AddIRCMessage>
+<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="65.0"听听你自己说的话。你的口气开始像你想摧毁的这个计划了。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="68.0">@#PLAYERNAME# ，我们可以结束这一切！</AddIRCMessage>
 <ChangeAlertIcon Target="jmail" Type="mail" DelayHost="delay" Delay="70.0"/>
 <AddConditionalActions Filepath="Actions/Chapter 4/Chapter4Hilda3Load.xml" DelayHost="delay" Delay="71.0"/>
 <ChangeAlertIcon Target="finaleIRC" Type="irchub" DelayHost="delay" Delay="73.0"/>
 
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="74.0">@#PLAYERNAME# We can expose Nova to the people!</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="74.0">@#PLAYERNAME# 我们可以让Nova暴露在人们面前!</AddIRCMessage>
 <ChangeAlertIcon Target="jmail" Type="mail" DelayHost="delay" Delay="76.0"/>
 <AddConditionalActions Filepath="Actions/Chapter 4/Chapter4Hilda4Load.xml" DelayHost="delay" Delay="77.0"/>
 <ChangeAlertIcon Target="finaleIRC" Type="irchub" DelayHost="delay" Delay="79.0"/>
 
-<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="80.0">The choice is yours.</AddIRCMessage>
-<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="83.0">Will you choose to be condemned for a crime you didn't commit, running from society for a decision made by one you trusted?</AddIRCMessage>
-<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="86.0">Or will you live to be a slave to the whims of a higher authority, all under the pretense of safety and security?</AddIRCMessage>
+<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="80.0">你自己选择吧</AddIRCMessage>
+<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="83.0">你会选择因你没有犯下的罪行而被判刑吗? 为了你信任的人所做的决定而逃离社会?</AddIRCMessage>
+<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="86.0">或者你会活在更高权威的幻想之下成为奴隶吗？ 在所谓的在安全和保障的幌子下生活？</AddIRCMessage>
 
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="90.0">@#PLAYERNAME# BRING THEM DOWN!</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="90.1">!ATTACHMENT:link#%#Nova System Core#%#158.39.191.55</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="90.0">@#PLAYERNAME# 把它们击垮！</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="90.1">!ATTACHMENT:link#%#Nova中央核心#%#158.39.191.55</AddIRCMessage>
 <ChangeAlertIcon Target="jmail" Type="mail" DelayHost="delay" Delay="90.2"/>
 <AddConditionalActions Filepath="Actions/Chapter 4/Chapter4Hilda5Load.xml" DelayHost="delay" Delay="90.3"/>
 
