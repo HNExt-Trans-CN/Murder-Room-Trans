@@ -1,5 +1,5 @@
 <Computer id="cytixNews"
-          name="Cytix News"
+          name="Cytix 新闻"
           security="3"
           allowsDefaultBootModule="true"
           icon="chip"

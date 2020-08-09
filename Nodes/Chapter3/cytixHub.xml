@@ -1,5 +1,5 @@
 <Computer id="cytixHub"
-          name="Cytix News Hub Server"
+          name="Cytix 新闻中心"
           security="3"
           allowsDefaultBootModule="true"
           icon="DLCServer"
@@ -14,9 +14,9 @@
 <dlink target="cytixNews"/>
 <dlink target="cytixRelay"/>
 
-<file path="home" name="Network_Hub.txt">This is the network hub server for Cytix News.
-Please do not upload any unsolicited files to this server, as it is reserved for company management only.
-If you believe there is an error with the server, please contact Nick Sharpe @ NickSharpe@cytix.com.</file>
+<file path="home" name="Network_Hub.txt">这里是Cytix新闻中心。
+未经许可请不要上传任何的文件到这个服务器上，因为它只为管理而保留。
+如果您认为服务器出现错误，请联系Nick Sharpe @ NickSharpe@cytix.com。</file>
 <file path="home" name="server_runtime.dll">#BINARY#</file>
 
 
@@ -27,6 +27,6 @@ If you believe there is an error with the server, please contact Nick Sharpe @ N
 </Images>
 </Memory>
 </memoryDumpFile>
-<file path="home" name="stop.txt">stop posting memes.</file>
+<file path="home" name="stop.txt">不要发梗图了</file>
 
 </Computer>

@@ -1,5 +1,5 @@
 <Computer id="cytixRelay"
-          name="Cytix Security Relay"
+          name="Cytix 安全中继"
           security="2"
           allowsDefaultBootModule="true"
           icon="chip"
@@ -14,7 +14,7 @@
 <dlink target="cytixCam3"/>
 <dlink target="cytixCam4"/>
 
-<file path="home" name="Security_Relay.txt">This is the Cytix Security Relay. It links all the security cameras installed within the Cytix building to a centralized node.
-Please do not tamper with this server.</file>
+<file path="home" name="安全中继.txt">这就是Cytix安全中继。它将安装在Cytix大楼内的所有安全摄像机连接到一个集中的节点。
+请不要破坏这个服务器。</file>
 
 </Computer>

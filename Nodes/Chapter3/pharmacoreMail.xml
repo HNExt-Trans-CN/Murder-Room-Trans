@@ -1,5 +1,5 @@
 <Computer id="pharmacoreMail"
-          name="Pharmacore Employee Mail"
+          name="Pharmacore 职员邮件服务器"
           security="3"
           allowsDefaultBootModule="true"
           type="4">

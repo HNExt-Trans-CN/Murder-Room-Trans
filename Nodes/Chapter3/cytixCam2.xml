@@ -1,5 +1,5 @@
 <Computer id="cytixCam2"
-          name="Cytix Cam B"
+          name="Cytix 摄像头 B"
           security="1"
           allowsDefaultBootModule="true"
           icon="chip"
