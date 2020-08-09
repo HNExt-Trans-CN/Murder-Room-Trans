@@ -1,5 +1,5 @@
 <Computer id="policeMail"
-          name="96th Precinct Mail Server"
+          name="第96分局邮件服务器"
           ip="225.23.98.51"
           security="5"
           allowsDefaultBootModule="true"
@@ -24,49 +24,49 @@
 <firewall level="6" solution="JUSTICE"/>
 
 <mailServer name="NYPD" color="29,45,122" generateJunk="true">
-<email recipient="koliver" sender="NYPD Commuications" subject="NYPD Newsletter January 2020">Hello NYPD officers and staff,
-The time has come again for our monthly newsletter. Please take a look through as it details some new policy changes, new initiatives
-and exciting new career opporunities.
+<email recipient="koliver" sender="NYPD Commuications"  subject="NYPD 简报 2020年 1月">NYPD的警官和工作人员们，你们好。
+又到了我们的月度简报时间。请找个时间看一看，
+它详细介绍了一些新的政策，以及新的举措。
 
-- NYPD Communications
+- NYPD 通讯部
 </email>
-<email recipient="koliver" sender="Ingrid Miles" subject="Re: Case File MK-3 - Update">Officer Kara,
-Thank you for your update. The report has been processed and taken care of.
+<email recipient="koliver" sender="Ingrid Miles" subject="Re: 案件档案 MK-3 - 更新">Kara警官,
+谢谢你的更新。该报告已处理完毕。
 
-Regards,
+谨此致意，
 Cap. Ingrid Miles
-Captain of the 96th Precinct
-Sent from my ePhone</email>
+第96分局队长
+从我的ePhone发送</email>
 
-<email recipient="koliver" sender="Lan Wren" subject="Database Password">
+<email recipient="koliver" sender="Lan Wren" subject="数据库密码">
 Kara Oliver,
 
-Your request for a password reset has been approved. Your new password is V76Yg5!.
+你的密码重置请求已被接受，你的新密码是V76Yg5!.
 
-- Lan Wren, Head of IT
+- Lan Wren, IT主管
 </email>
-<email recipient="koliver" sender="NYPD Communications" subject="NYPD Newsletter February 2020">Hello NYPD officers and staff,
-The time has come again for our monthly newsletter. Please take a look through as it details some new policy changes, new initiatives
-and exciting new career opporunities.
+<email recipient="koliver" sender="NYPD Communications" subject="NYPD 简报 2020年 2月">NYPD的警官和工作人员们，你们好。
+又到了我们的月度简报时间。请找个时间看一看，
+它详细介绍了一些新的政策、新的举措和令人兴奋的新就业机会。
 
-- NYPD Communications</email>
+- NYPD 通讯部</email>
 
-<email recipient="imiles" sender="NYPD Commuications" subject="NYPD Newsletter January 2020">Hello NYPD officers and staff,
-The time has come again for our monthly newsletter. Please take a look through as it details some new policy changes, new initiatives
-and exciting new career opporunities.
+<email recipient="imiles" sender="NYPD Commuications" subject="NYPD 简报 2020年 1月">NYPD的警官和工作人员们，你们好。
+又到了我们的月度简报时间。请找个时间看一看，
+它详细介绍了一些新的政策，以及新的举措。
 
-- NYPD Communications
+- NYPD 通讯部
 </email>
-<email recipient="imiles" sender="Kara Oliver" subject="Case File MK-3 - Update">Dear Captain Miles,
-The updated information on the MK-3 case has been forwarded and attached to this document. Please take a look.
+<email recipient="imiles" sender="Kara Oliver" subject="案件档案 MK-3 - 更新">亲爱的Miles队长,
+关于MK-3案件的最新资料已转发并附于本文件。请看一看。
 
-Sincerely,
-Officer Kara Oliver</email>
-<email recipient="imiles" sender="NYPD Communications" subject="NYPD Newsletter February 2020">Hello NYPD officers and staff,
-The time has come again for our monthly newsletter. Please take a look through as it details some new policy changes, new initiatives
-and exciting new career opporunities.
+诚挚的,
+Kara Oliver 警官</email>
+<email recipient="imiles" sender="NYPD Communications" subject="NYPD 简报 2020年 2月">NYPD的警官和工作人员们，你们好。
+又到了我们的月度简报时间。请找个时间看一看，
+它详细介绍了一些新的政策、新的举措和令人兴奋的新就业机会。
 
-- NYPD Communications</email>
+- NYPD 通讯部</email>
 </mailServer>
 
 </Computer>

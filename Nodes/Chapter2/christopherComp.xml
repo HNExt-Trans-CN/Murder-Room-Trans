@@ -1,5 +1,5 @@
 <Computer id="christopherComp"
-          name="Christopher Miles Desktop"
+          name="Christopher Miles 的台式机"
           security="3"
           allowsDefaultBootModule="false"
           icon="DLCPC2"
@@ -9,26 +9,26 @@
 <customthemefile path="sys" name="Crystal_Peak_x-server.sys" themePath="Themes/CrystalPeak.xml"/>
 
 <eosDevice name="chris ePhone" id="christopherPhone" icon="ePhone2" empty="false">
-<file path="eos/data" name="mmssmm.db">Number: +19172940192
+<file path="eos/data" name="mmssmm.db">号码: +19172940192
 =====================================
-Contact: +19174421924
-Name: Ingrid
+联系人号码: +19174421924
+姓名: Ingrid
 
 2019_06_02
 ------------
-19174421924: Has the trash been taken out yet? [23:35:21]
-19172940192: Yes [23:35:52]
-19172940192: Had a bit of trouble since the dump was locked. [23:36:21]
-19174421924: But it's done, right? [23:36:31]
-19172940192: Yep. Heading back up now. [23:36:59]</file>
+19174421924: 垃圾拿出去了不？ [23:35:21]
+19172940192: 嗯哼 [23:35:52]
+19172940192: 出了点麻烦不过，垃圾场被锁了。 [23:36:21]
+19174421924: 但是扔了，不是么 [23:36:31]
+19172940192: 是的，现在正回家 [23:36:59]</file>
 <file path="eos/data" name="gps_sync.log">Ping @: 23:30:02
-Location: 40.727149, -73.802624
+位置: 40.727149, -73.802624
 
 Ping @: 23:14:20
-Location: 40.725914, -73.838787
+位置: 40.725914, -73.838787
 
 Ping @: 22:03:02
-Location: 40.727149, -73.802624</file> 
+位置: 40.727149, -73.802624</file> 
 </eosDevice>
 
 </Computer>

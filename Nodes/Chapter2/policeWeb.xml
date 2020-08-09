@@ -1,5 +1,5 @@
 <Computer id="policeWeb"
-          name="NYPD 96th Precinct Website"
+          name="NYPD 第96分局"
           security="3"
           allowsDefaultBootModule="true"
           type="4">

@@ -1,5 +1,5 @@
 <Computer id="policeCaseFile"
-          name="96th Precinct Case File System"
+          name="第96分局案件档案系统"
           ip="46.39.112.55"
           security="5"
           allowsDefaultBootModule="true"
@@ -10,68 +10,78 @@
 <ports>21, 22, 6881, 443</ports>
 <portsForCrack val="4"/>
 
-<DatabaseDaemon Permissions="public" DataType="TextRecord" Foldername="casefiles" Color="29,45,122" AdminEmailAccount="lwren@nypd.gov" AdminEmailHostID="policeMail" Name="NYPD Case File Database">
+<DatabaseDaemon Permissions="public" DataType="TextRecord" Foldername="casefiles" Color="29,45,122" AdminEmailAccount="lwren@nypd.gov" AdminEmailHostID="policeMail" Name="NYPD案件档案数据库">
 <TextRecord>
 <Title>BO-8</Title>
-<Data>CASE FILE BO-8
-Date: July 24, 2018
-Key Persons: Vic Bristol
-             James Buchan
+<Data>案件档案 BO-8
+日期: 2018年 7月 24日
+关键人物: 
+        Vic Bristol
+        James Buchan
 
-On July 23, 2018 at 2:21 PM, Vic Bristol and James Buchan, ex-spouses, found themselves in an altercation.
-Earlier in the day, the couple had argued about child custody matters, which resulted in Buchan leaving the premises.
-However, at 2:00 PM, Buchan had returned, reportedly to reclaim some personal belongings of his. Bristol had gone up to
-her bedroom to fetch his items, however Buchan locked the door behind her, making her unable to leave the room.
-After phoning 911, Officer Deitmore and myself were dispatched to the premises. Buchan was arrested on the grounds of false imprisonment.</Data>
+2018年7月23日下午2点21分，前配偶Vic Bristol和James Buchan发生了争吵。
+当天早些时候，这对前夫妇曾就孩子的监护权问题发生争吵，结果Buchan离开了这里。
+不过，下午2点，Buchan已经回来了，是为了取回自己的一些私人物品。Bristol曾上前询问。
+她的卧室取他的东西， 然而Buchan锁住了她的门，使她无法离开房间。
+在拨打911后，本人和Deitmore警官被派往该处。Buchan因涉嫌非法拘禁被捕。</Data>
 </TextRecord>
 
 <TextRecord>
 <Title>MK-3</Title>
-<Data>CASE FILE MK-3
-Date: September 13, 2017
-Key Persons: Alan Perez
-             Julian Dorne
+<Data>案件档案 MK-3
+日期: 2017年 9月 13日
+关键人物: 
+        Alan Perez
+        Julian Dorne
              
-On September 12, 2017, at approximately 10:30 PM, two masked males entered a 7-Eleven convenience store and stole $233 from the register at gunpoint.
-The store's security cameras recorded the incident. One man pointed a gun at the clerk at the time, Alan Perez and demanded he fill the bag with money.
-The second took another man, Julian Dorne, hostage as it appeared he spotted the incident from outside the store. Before being forcibly taken into the store,
-Dorne had called emergency services and a dispatch was sent promptly. By the time officers had arrived, the two masked men had already left the store.
-No evidence was left at the scene, however the two witnesses of the event have described the men as average build, average height, roughly 5'8. One of them
-was also wearing a pair of white Nikes.</Data>
+2017年9月12日晚上10点半左右，两名蒙面男子进入一家7-Eleven便利店，持枪抢劫逼迫店主使其被迫给予对方233美元。
+该店的监控摄像头记录了这一事件。其中一名男子用枪指着当时的店员Alan Perez，要求他往包里装钱。
+第二名将另一名男子Julian Dorne当做人质，因为他似乎在店外发现了这件事。在被强行带入店内之前。
+Dorne拨打了911，并迅速派出了派遣人员。当警官赶到时，两名蒙面男子已经离开了商店。
+现场没有留下任何证据，就该事件的两名目击者描述，
+这两名男子身材一般，身高一般，大概5尺8。
+其中一个人穿着一双白色的Nike。</Data>
 </TextRecord>
 
 <TextRecord>
 <Title>ET-5</Title>
-<Data>CASE FILE ET-5
-Date: August 20, 2015
-Key Persons: George Yularen
-             David Leatrou
-             Ingrid Miles
+<Data>案件档案 ET-5
+日期: 2015年 8月 20日
+关键人物: 
+        George Yularen
+        David Leatrou
+        Ingrid Miles
             
 [REDACTED]</Data>
 </TextRecord>
 
 <TextRecord>
 <Title>QL-1</Title>
-<Data>CASE FILE QL-1
-Date: March 2, 2019
-Key Persons: Jason Mardred
+<Data>案件档案 QL-1
+日期: 2019年 3月 2日
+关键人物: 
+        Jason Mardred
 
-On March 2, 2019 at 10:03 PM, James Mardred reported his car stolen. It was a red Pontiac with license plate number KOP221. No security footage of the
-incident was found. This theft is believed to be the work of the as of yet unidentified Pontiac Bandit.</Data>
+2019年3月2日晚上10点03分，James Mardred报案称他的车被盗。
+这是一辆红色庞蒂亚克，车牌号为KOP221。
+没有监控录像。
+这起盗窃案被认为是尚未查明的Pontiac Bandit所为。</Data>
 </TextRecord>
 
 <TextRecord>
 <Title>SL-9</Title>
-<Data>CASE FILE SL-9
-Date: February 19, 2015
-Key Persons: Joe Darke
-             Neil Marshall
+<Data>案件档案 SL-9
+日期: 2015年 2月 19日
+关键人物: 
+        Joe Darke
+        Neil Marshall
 
-On February 19, 2015, after a long interrogation of serial murderer Joe Darke, a power outage had struct the entire area near the precinct.
-While emergency power was restored quickly, Darke managed to escape the interrogation room. Darke ended up finding himself in the office of Detectives Gant and Skye.
-Prosecutor Neil Marshall pursued Darke and quickly apprehended him, but not before Darke pushed Marshall into a suit of armour and killed him. Darke was quickly
-arrested again and sentenced to death for his crimes.</Data>
+2015年2月19日，在对连环杀人犯Joe Darke进行了长时间的审讯后，辖区附近区域都停电了。
+虽然紧急电源很快就恢复了，但Joe Darke还是设法逃出了审讯室。
+Joe Darke最后发现自己在侦探Gant和Skye的办公室里。
+Neil Marshall检察官追赶Joe Darke，并很快将其逮捕，
+但在Joe Darke将Marshall推入一套盔甲中并将其杀死之前，Marshall就已经死了。
+Joe Darke很快再次被捕，并因其罪行被判处死刑。</Data>
 </TextRecord>
 </DatabaseDaemon>
 

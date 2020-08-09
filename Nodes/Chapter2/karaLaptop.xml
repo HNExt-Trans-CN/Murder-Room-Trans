@@ -1,5 +1,5 @@
 <Computer id="karaLaptop"
-          name="Kara Oliver Laptop"
+          name="Kara Oliver 的笔电"
           ip="167.29.44.118"
           security="2"
           allowsDefaultBootModule="false"
@@ -10,7 +10,7 @@
 <portsForCrack val="2"/>
 <firewall level="6" solution="OLIVER"/>
 
-<file path="home" name="what_to_watch.txt">Bloodlines of Conquest (annette likes this one, but she's telling me not to watch the 8th season)
+<file path="home" name="看啥子.txt">Bloodlines of Conquest (annette喜欢这个，但她告诉我不要看第八季了)
 Inspector Spacetime
 Meth and Mayhem
 The Man Without Fear
@@ -18,14 +18,14 @@ Mutants and Masterminds
 What We Do Under the Moonlight
 Larry
 We are Legion
-Community (six seasons and a movie)
+Community (六季和一电影)
 Path to Humanity
 IT Department
 My Immortal
 
-god i have so much to watch</file>
-<file path="home" name="NYPD_Newsletter_Feb2020.pdf">#BINARY#</file>
-<file path="home" name="song_lyrics_draft.doc">The</file>
+天啊，我有这么多的东西要看</file>
+<file path="home" name="NYPD_简报_2020年2月.pdf">#BINARY#</file>
+<file path="home" name="歌词稿草稿.doc">The</file>
 <memoryDumpFile name="canadian_go_weee.png" path="home">
 <Memory>
 <Images>
