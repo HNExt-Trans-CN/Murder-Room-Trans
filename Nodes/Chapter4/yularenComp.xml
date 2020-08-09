@@ -1,5 +1,5 @@
 <Computer id="yularenComp"
-          name="Director Yularen Computer"
+          name="Yularen探员 的计算机 "
           security="5"
           icon="DLCPC1"
           type="1">
@@ -13,26 +13,24 @@
 <dlink target="novaComp1"/>
 <dlink target="novaComp2"/>
 <dlink target="novaComp3"/>
-
-<encryptedFile path="home" name="et-5.dec" extension=".rec" ip="192.168.1.1" header="Case File ET-5">[TextRecord]
+<!--译注： []住的文字不做翻译-->
+<encryptedFile path="home" name="et-5.dec" extension=".rec" ip="192.168.1.1" header="案件档案ET-5">[TextRecord]
     [Title]ET-5[/Title]
-    [Data]CASE FILE ET-5
-Date: August 15, 2015
-Key Persons: George Yularen
-             David Leatrou
-             Ingrid Miles
+    [Data]案件档案ET-5
+日期: 2015年 8月 15日
+关键人物: 
+        George Yularen
+        David Leatrou
+        Ingrid Miles
 
-The ET-5 Incident, otherwise known as the "Hacknet Incident" occurred on August 15, 2015. The incident occurred after an anonymous group known as CSEC
-infiltrated, exposed and destroyed EnTech's file systems pertaining to the Hacknet project. The project was originally designed as a pentesting tool for cyber security,
-however one unnamed developer discovered its potential to penetrate and compromise most every network on the net.
+ET-5事件，又称"Hacknet事件"，发生在2015年8月15日。该事件发生后，一个名为CSEC的匿名组织。
+渗透、暴露并破坏了EnTech与Hacknet项目有关的文件系统。该项目最初是作为网络安全的测试工具设计的。
+然而一位不知名的开发者发现了它的潜力，可以渗透和破坏网络上的大多数网络。
 
-After the incident, security expert George Yularen acquired the remnants of EnTech's technology and worked with David Leatrou, at the time an employee at EnTech, and
-Ingrid Miles, an intelligence expert, to ensure the Hacknet Incident did not see the public eye. Employing a team of talented software developers from a variety of backgrounds,
-EnTech's original Hacknet project was repurposed into the Nova System, designed to uncover any previously overlooked evidence from police and federal murder cases.
-The Nova Project was a success, and was deployed for the first time on May 26th, 2019. Since then, Nova has employed the use of agents to investigate and solve cold cases from around the nation and the world.
-
-In exchange for their discretion, Nova disclosed to each contributor of the Nova project a sum of $10,000 to ensure Nova's continued operation in secrecy. The list of contributors has been
-made available:
+事件发生后，安全专家George Yularen获得了EnTech的残余技术，并与当时在EnTech工作的David Leatrou合作。
+情报专家Ingrid Miles，为确保Hacknet事件不被公众发现。雇佣了一支来自不同背景的天才软件开发人员团队。
+EnTech最初的Hacknet项目被重新利用到Nova系统中，旨在从警方和联邦谋杀案中发现任何以前被忽视的证据。
+Nova项目获得了成功，并在2019年5月26日首次部署。从那时起，Nova采用了使用特工来调查和解决来自全国和世界各地的冷门案件。
 
     |Daniel Petter
     |Kanato Hiroyuki

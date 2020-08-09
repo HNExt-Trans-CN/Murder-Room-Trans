@@ -1,5 +1,5 @@
 <Computer id="finaleCam"
-          name="Security_Cam_221"
+          name="安保监控_221"
           ip="21.94.29.112"
           allowsDefaultBootModule="true"
           security="1"

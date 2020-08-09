@@ -1,5 +1,5 @@
 <Computer id="gNova"
-          name="Nova_agentG_11022"
+          name="Nova_探员G_11022"
           ip="54.128.9.123"
           allowsDefaultBootModule="false"
           security="3"
@@ -15,40 +15,40 @@
 <dlink target="novaComp3"/>
 <dlink target="yularenComp"/>
 
-<file path="home" name="Agent_Log.doc">Overseer: G
-Agent: #PLAYERNAME#
+<file path="home" name="Agent_Log.doc">监察员: G
+探员: #PLAYERNAME#
 
-Active Case Files: N/A
+目前工作的案件: N/A
 
-Completed Case Files:
+已完成案件:
 
     HS-4:
-    - Victim: Martin Staleski
-    - Culprit: David Mashun
-    - Verdict: CONDEMNED
+    - 受害者: Martin Staleski
+    - 加害者: David Mashun
+    - 结论: 已逮捕
 
     JL-2:
-    - Victim: Kara Oliver
-    - Culprit: Ingrid Miles, Christopher Miles
-    - Verdict: CONDEMNED
+    - 受害者: Kara Oliver
+    - 加害者: Ingrid Miles, Christopher Miles
+    - 结论: 已逮捕
 
     SC-9:
-    - Victim: Noah Sterling
-    - Culprit: Noah Sterling
-    - Verdict: DECEASED
-    Note: Overseeing for this case was transferred to Vice Director H.
+    - 受害者: Noah Sterling
+    - 加害者: Noah Sterling
+    - 结论: 自杀
+    注: 本案的监督工作转由H 副局长负责。
 
-Agent: Cloud
+探员: Cloud
 
-Active Case Files: OU-3
-                   - Victim: Karl Barrett
+目前工作的案件: OU-3
+                   - 受害者: Karl Barrett
 
-Completed Case Files:
+已完成案件:
 
     IR-9:
-    - Victim: John Reese
-    - Culprit: Zoe MacIntyre
-    - Verdict: CONDEMNED
+    - 受害者: John Reese
+    - 加害者: Zoe MacIntyre
+    - 结论: 已逮捕
 
 </file>
 <file path="home" name="Nova_Analytics_Report.docx">#BINARY#</file>

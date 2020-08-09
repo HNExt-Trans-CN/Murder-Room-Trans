@@ -1,5 +1,5 @@
 <Computer id="gComp"
-          name="G Workstation"
+          name="G 工作站"
           ip="67.29.191.22"
           allowsDefaultBootModule="false"
           security="3"

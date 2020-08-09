@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="medical" name="Universal Medical" ip="208.93.170.15" security="5" type="4">
+<Computer id="medical" name="通用医疗" ip="208.93.170.15" security="5" type="4">
   <adminPass pass="codeine" />
   <admin type="none" />
 

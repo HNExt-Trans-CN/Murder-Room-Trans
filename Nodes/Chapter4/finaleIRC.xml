@@ -1,11 +1,11 @@
 <Computer id="finaleIRC"
-          name="Private IRC Relay"
+          name="私密聊天室中继"
           security="2"
           allowsDefaultBootModule="true"
           icon="chip"
           type="4">
 
-<DHSDaemon groupName="Private IRC" addsFactionPointOnMissionComplete="false" autoClearOnMissionComplete="true" themeColor="207,39,39" allowContractAbbandon="false">
+<DHSDaemon groupName="私密IRC" addsFactionPointOnMissionComplete="false" autoClearOnMissionComplete="true" themeColor="207,39,39" allowContractAbbandon="false">
 <agent name="G" pass="Mahler" color="39,156,207"/>
 </DHSDaemon>
 
