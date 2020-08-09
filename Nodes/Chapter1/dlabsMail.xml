@@ -34,139 +34,138 @@
 
 <mailServer name="DLabs" color="38,212,255" generateJunk="true">
 <!--Staleski stuff-->
-<email recipient="mstaleski" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
-Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
-Do try to make space for it. I will not be posting slides. This isn't college.
+<email recipient="mstaleski" sender="Derek Reynolds" subject="重要: 公司会议 7/1">大家好，
+这封邮件主要是让你知道会有一个关于公司的发展方向和计划的重要会议。
+请尽量为它留出空间。我不会发幻灯片的，这不是大学。
 
-Regards,
+尊敬的各位
 Derek Reynolds</email>
-<email recipient="mstaleski" sender="Lana Stewart" subject="master branch updated">hey martin,
-I've pushed a new update to the master branch, mind taking a look when you have the time?
-Get well soon,
+<email recipient="mstaleski" sender="Lana Stewart" subject="主分支更新">hey martin,
+我推送了一个新的更新到主分支，你有空的时候能看看吗？
+祝你早日康复
 Lana</email>
-<email recipient="mstaleski" sender="Eric Yang" subject="DLabs Mixer">Hey hey,
-Don't forget, mixer tonight at 8PM. Shaw's Bar, don't be late!
-
+<email recipient="mstaleski" sender="Eric Yang" subject="DLabs 派对">Hey hey,
+别忘了，今天晚上八点有一个派对。Shaw's Bar，别迟到！
 -Eric</email>
-<email recipient="mstaleski" sender="Derek Reynolds" subject="Re: Inactivity Notice">Hey Martin,
-Just emailing you checking in. Haven't heard from you in days, you doing alright?
-I know I sent David over to give you some files but he said you weren't there and just dropped them in your mail.
+<email recipient="mstaleski" sender="Derek Reynolds" subject="Re: 闲置通知">Hey Martin,
+发给你发封邮件问候一下。好几天没有你的消息了，你还好吗？
+我让David过去给你一些文件 但他说你不在那里，因此只能把它们放在你的邮件里。
 
-Please respond,
+请回复，
 Derek Reynolds</email>
-<email recipient="mstaleski" sender="Derek Reynolds" subject="Re: Re: Inactivity Notice">Hey Martin,
-Still haven't heard from you. We're all getting worried here. David hasn't said a thing. Lisa also called your girlfriend, she has no idea either.
-I also hate to be "that guy" but you're gonna need to come back soon or I'll have no choice but to fire you, bud.
+<email recipient="mstaleski" sender="Derek Reynolds" subject="Re: Re: 闲置通知">Hey Martin,
+还是没有你的消息。我们都开始担心了。David什么也没说，Lisa也给你女朋友打了电话，她也不知道。
+我也不想当"那个人"，但你得尽快回来，否则我别无选择，只能炒你鱿鱼了，伙计。
 
 Derek</email>
 <!--Mashun stuff-->
-<email recipient="dmashun" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
-Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
-Do try to make space for it. I will not be posting slides. This isn't college.
+<email recipient="dmashun" sender="Derek Reynolds" subject="重要: 公司会议 7/1">大家好，
+这封邮件主要是让你知道会有一个关于公司的发展方向和计划的重要会议。
+请尽量为它留出空间。我不会发幻灯片的，这不是大学。
 
-Regards,
+尊敬的各位
 Derek Reynolds</email>
-<email recipient="dmashun" sender="Tina Murdock" subject="Re: ;)">After work, we'll take separate rides. Make sure nobody's following.</email>
-<email recipient="dmashun" sender="Eric Yang" subject="Stop.">Dude, IT can see your emails. We know you're nailing Tina. 
-Please for the love of god stop making us read this.</email>
-<email recipient="dmashun" sender="David Mashun" subject="thing for work I have to send myself from home because i'm lazy">
+<email recipient="dmashun" sender="Tina Murdock" subject="Re: ;)">下班后，我们分头坐车。确保没有人跟踪。</email>
+<email recipient="dmashun" sender="Eric Yang" subject="停下">老兄，IT可以看到你的邮件。我们知道你在盯着Tina。
+看在老天爷的份上，请不要再让我们读这个了。</email>
+<email recipient="dmashun" sender="David Mashun" subject="关于工作这件事，我得在家工作，因为我很懒">
 !ATTACHMENT:dlabs_report_spreadsheet_Q1_2020.xlsx</email>
-<email recipient="dmashun" sender="Derek Reynolds" subject="Files for Martin">Hmm, he wasn't there?
-Weird. And you're sure you checked?
+<email recipient="dmashun" sender="Derek Reynolds" subject="Martin的档案">嗯，他不在那里？
+真奇怪，你确定他还在？
 
-Get back to me ASAP.
+尽快给我回复
 Derek</email>
 <!--everyone else because I have to pay attention to details to not ruin some poor sap's immersion. Also it'll likely net me more points. Spider doesn't datamine, he ain't gonna read this.-->
-<email recipient="lpark" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
-Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
-Do try to make space for it. I will not be posting slides. This isn't college.
+<email recipient="lpark" sender="Derek Reynolds" subject="重要: 公司会议 7/1">大家好，
+这封邮件主要是让你知道会有一个关于公司的发展方向和计划的重要会议。
+请尽量为它留出空间。我不会发幻灯片的，这不是大学。
 
-Regards,
+尊敬的各位
 Derek Reynolds</email>
-<email recipient="eyang" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
-Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
-Do try to make space for it. I will not be posting slides. This isn't college.
+<email recipient="eyang" sender="Derek Reynolds" subject="重要: 公司会议 7/1">大家好，
+这封邮件主要是让你知道会有一个关于公司的发展方向和计划的重要会议。
+请尽量为它留出空间。我不会发幻灯片的，这不是大学。
 
-Regards,
+尊敬的各位
 Derek Reynolds</email>
-<email recipient="cjohnson" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
-Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
-Do try to make space for it. I will not be posting slides. This isn't college.
+<email recipient="cjohnson" sender="Derek Reynolds" subject="重要: 公司会议 7/1">大家好，
+这封邮件主要是让你知道会有一个关于公司的发展方向和计划的重要会议。
+请尽量为它留出空间。我不会发幻灯片的，这不是大学。
 
-Regards,
+尊敬的各位
 Derek Reynolds</email>
-<email recipient="jstalvern" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
-Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
-Do try to make space for it. I will not be posting slides. This isn't college.
+<email recipient="jstalvern" sender="Derek Reynolds" subject="重要: 公司会议 7/1">大家好，
+这封邮件主要是让你知道会有一个关于公司的发展方向和计划的重要会议。
+请尽量为它留出空间。我不会发幻灯片的，这不是大学。
 
-Regards,
+尊敬的各位
 Derek Reynolds</email>
-<email recipient="lstewart" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
-Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
-Do try to make space for it. I will not be posting slides. This isn't college.
+<email recipient="lstewart" sender="Derek Reynolds" subject="重要: 公司会议 7/1">大家好，
+这封邮件主要是让你知道会有一个关于公司的发展方向和计划的重要会议。
+请尽量为它留出空间。我不会发幻灯片的，这不是大学。
 
-Regards,
+尊敬的各位
 Derek Reynolds</email>
-<email recipient="bperkins" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
-Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
-Do try to make space for it. I will not be posting slides. This isn't college.
+<email recipient="bperkins" sender="Derek Reynolds" subject="重要: 公司会议 7/1">大家好，
+这封邮件主要是让你知道会有一个关于公司的发展方向和计划的重要会议。
+请尽量为它留出空间。我不会发幻灯片的，这不是大学。
 
-Regards,
+尊敬的各位
 Derek Reynolds</email>
-<email recipient="tmurdock" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
-Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
-Do try to make space for it. I will not be posting slides. This isn't college.
+<email recipient="tmurdock" sender="Derek Reynolds" subject="重要: 公司会议 7/1">大家好，
+这封邮件主要是让你知道会有一个关于公司的发展方向和计划的重要会议。
+请尽量为它留出空间。我不会发幻灯片的，这不是大学。
 
-Regards,
+尊敬的各位
 Derek Reynolds</email>
 <email recipient="tmurdock" sender="David Mashun" subject=";)">you down?</email>
-<email recipient="bjoonho" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
-Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
-Do try to make space for it. I will not be posting slides. This isn't college.
+<email recipient="bjoonho" sender="Derek Reynolds" subject="重要: 公司会议 7/1">大家好，
+这封邮件主要是让你知道会有一个关于公司的发展方向和计划的重要会议。
+请尽量为它留出空间。我不会发幻灯片的，这不是大学。
 
-Regards,
+尊敬的各位
 Derek Reynolds</email>
-<email recipient="kbeauchamp" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
-Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
-Do try to make space for it. I will not be posting slides. This isn't college.
+<email recipient="kbeauchamp" sender="Derek Reynolds" subject="重要: 公司会议 7/1">大家好，
+这封邮件主要是让你知道会有一个关于公司的发展方向和计划的重要会议。
+请尽量为它留出空间。我不会发幻灯片的，这不是大学。
 
-Regards,
+尊敬的各位
 Derek Reynolds</email>
-<email recipient="xtong" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
-Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
-Do try to make space for it. I will not be posting slides. This isn't college.
+<email recipient="xtong" sender="Derek Reynolds" subject="重要: 公司会议 7/1">大家好，
+这封邮件主要是让你知道会有一个关于公司的发展方向和计划的重要会议。
+请尽量为它留出空间。我不会发幻灯片的，这不是大学。
 
-Regards,
+尊敬的各位
 Derek Reynolds</email>
-<email recipient="wren" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
-Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
-Do try to make space for it. I will not be posting slides. This isn't college.
+<email recipient="wren" sender="Derek Reynolds" subject="重要: 公司会议 7/1">大家好，
+这封邮件主要是让你知道会有一个关于公司的发展方向和计划的重要会议。
+请尽量为它留出空间。我不会发幻灯片的，这不是大学。
 
-Regards,
+尊敬的各位
 Derek Reynolds</email>
-<email recipient="akurusu" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
-Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
-Do try to make space for it. I will not be posting slides. This isn't college.
+<email recipient="akurusu" sender="Derek Reynolds" subject="重要: 公司会议 7/1">大家好，
+这封邮件主要是让你知道会有一个关于公司的发展方向和计划的重要会议。
+请尽量为它留出空间。我不会发幻灯片的，这不是大学。
 
-Regards,
+尊敬的各位
 Derek Reynolds</email>
-<email recipient="sstone" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
-Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
-Do try to make space for it. I will not be posting slides. This isn't college.
+<email recipient="sstone" sender="Derek Reynolds" subject="重要: 公司会议 7/1">大家好，
+这封邮件主要是让你知道会有一个关于公司的发展方向和计划的重要会议。
+请尽量为它留出空间。我不会发幻灯片的，这不是大学。
 
-Regards,
+尊敬的各位
 Derek Reynolds</email>
-<email recipient="bchang" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
-Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
-Do try to make space for it. I will not be posting slides. This isn't college.
+<email recipient="bchang" sender="Derek Reynolds" subject="重要: 公司会议 7/1">大家好，
+这封邮件主要是让你知道会有一个关于公司的发展方向和计划的重要会议。
+请尽量为它留出空间。我不会发幻灯片的，这不是大学。
 
-Regards,
+尊敬的各位
 Derek Reynolds</email>
-<email recipient="mmoss" sender="Derek Reynolds" subject="IMPORTANT: Company meeting 7/1">Hey all,
-Just letting you know there will be an important meeting regarding the direction the company's going in and plans.
-Do try to make space for it. I will not be posting slides. This isn't college.
+<email recipient="mmoss" sender="Derek Reynolds" subject="重要: 公司会议 7/1">大家好，
+这封邮件主要是让你知道会有一个关于公司的发展方向和计划的重要会议。
+请尽量为它留出空间。我不会发幻灯片的，这不是大学。
 
-Regards,
+尊敬的各位
 Derek Reynolds</email>
 </mailServer>
 

@@ -1,5 +1,5 @@
 <Computer id="staleskiComp"
-          name="mstaleski-laptop"
+          name="mstaleski的笔记本电脑"
           security="2"
           allowsDefaultBootModule="false"
           icon="laptop"
@@ -10,43 +10,43 @@
 <ports>21, 22</ports>
 <portsForCrack val="0"/>
 
-<file path="home" name="report_draft.docx">#BINARY#</file>
-<file path="home" name="game_idea.doc">It's a space shooter called Star Force.
-You play as the pilot of an intergalactic space fighting crew, navigating through planets and stars trying to stop the forces of the evil Kazaq
-Gameplay pretty standard, focuses on tight navigation through star fields and enemy fleets, as well as flashy space guns.
+<file path="home" name="报告草稿.docx">#BINARY#</file>
+<file path="home" name="游戏里的一些想法.doc">这是一款名为《星际力量》的太空射击游戏。
+你扮演一个星系间太空战斗小组的飞行员，通过行星和恒星导航，试图阻止邪恶的Kazaq的力量
+游戏玩法相当标准，重点是在星域和敌方舰队中进行严密的导航，以及华丽的太空枪。
 <!--This is a reference to the game I created for my intro game dev course. No link for now.-->
 </file>
-<file path="home" name="20200101_INTERNET_BILL.pdf">#BINARY#</file>
-<file path="home" name="20191201_INTERNET_BILL.pdf">#BINARY#</file>
-<file path="home" name="20191101_INTERNET_BILL.pdf">#BINARY#</file>
-<file path="home" name="an_analysis_on_wonderwall_draft.doc">Wonderwall by Oasis. It's one of those songs that's become so overplayed by people it's become a joke, much like Smoke on the Water and Stairway to Heaven.
-But despite that, Wonderwall is still a widely enjoyed piece of music; its chords are iconic and most everyone is able to instantly recognize it just from that simple four-chord progression.
-What makes it such an iconic piece of music? Why do we play it time and time again? These I attempt to analyze in this essay by looking at the song from a theoretical lens, and then by discussing its cultural impact.
+<file path="home" name="20200101_互联网账单.pdf">#BINARY#</file>
+<file path="home" name="20191201_互联网账单.pdf">#BINARY#</file>
+<file path="home" name="20191101_互联网账单.pdf">#BINARY#</file>
+<file path="home" name="对Wonderwall草案的分析.doc">Oasis的Wonderwall。这是一首被人们老是播放的歌曲之一，它已经成为一个笑话，就像《Smoke on the Water》和《Stairway to Heaven》一样。
+但尽管如此，《Wonderwall》仍然是一首广为人知的音乐，它的和弦是标志性的，大多数人都能从那简单的四和弦进行曲中一眼认出它来。
+是什么让它成为了一首标志性的音乐？为什么我们一次又一次地演奏它？这些我试图在这篇文章中从理论的角度来分析，然后讨论它的文化影响。
 <!--I wonder how far I can go through with this before I stop feeling like doing it anymore.-->
-Wonderwall starts off with a simple F#min7 -> Am -> Esus4 - B7sus4 chord progression, otherwise known as the "Wonderwall chords." It's a pleasant sound, but also somewhat melancholic, giving us our first glimpse into the overall tone and message of the song. The 
+Wonderwall以一个简单的F#min7->Am -> Esus4 -> B7sus4 和弦进行开始，也就是所谓的"Wonderwall和弦"。这是一个悦耳的声音，但也有些忧郁，让我们第一次看到了这首歌的整体基调和信息。这首
 <!--Wow ok, very quickly it seems.-->
 </file>
 
-<file path="sys" name="logon_audit.dat">Event ID: 538 [User logout]
-Date: January 12, 2020 [09:46:29]
+<file path="sys" name="登入日志.dat">事件ID: 538 [用户登出]
+日期: 2020年1月12日 [09:46:29]
 
-Event ID: 10 [Remote login]
-Date: January 12, 2020 [09:29:12]
+事件ID: 10 [远程登入]
+日期: 2020年1月12日 [09:29:12]
 
-Event ID: 529 [Login failure]
-Date: January 9, 2020 [10:32:59]
+事件ID: 529 [登入失败]
+日期: 2020年1月9日 [10:32:59]
 
-Event ID: 538 [User logout]
-Date: January 9, 2020 [9:41:29]
+事件ID: 538 [用户登出]
+日期: 2020年1月9日 [9:41:29]
 
-Event ID: 528 [Login success]
-Date: January 9, 2020 [9:20:21]
+事件ID: 528 [登入成功]
+日期: 2020年1月9日 [9:20:21]
 
-Event ID: 538 [User logout]
-Date: January 8, 2020 [21:29:40]
+事件ID: 538 [用户登出]
+日期: 2020年1月8日 [21:29:40]
 
-Event ID: 528 [Login success]
-Date: January 8, 2020 [17:21:32]
+事件ID: 528 [登入成功]
+日期: 2020年1月8日 [17:21:32]
 </file>
 <!--All offense intended-->
 <memoryDumpFile name="pcgaymers.jpg" path="home">
@@ -57,59 +57,59 @@ Date: January 8, 2020 [17:21:32]
 </Memory>
 </memoryDumpFile>
 
-<eosDevice name="mstaleski-ePhone 4" id="staleskiPhone" icon="ePhone" empty="false">
+<eosDevice name="mstaleski的ePhone 4" id="staleskiPhone" icon="ePhone" empty="false">
 <mail username="mstaleski@dlabs.com" pass="AreU0Kay?"/>
 <mail username="staleski01@jmail.com" pass="AreU0Kay?"/>
-<file path="eos/data" name="mmssmm.db">Number: +13327617848
+<file path="eos/data" name="mmssmm.db">号码: +13327617848
 =====================================
-Contact: +13327257194
-Name: Fern
+联系信息: +13327257194
+姓名: Fern
 
 2020_07_01
 ------------
-13327257194: Oh shit, i think I left something at your place [10:01:20]
-13327617848: oh, what did you lose? [10:01:57]
-13327257194: nothing super important [10:02:31]
-13327257194: just my glasses [10:02:40]
-13327617848: won't you need them? [10:02:58]
-13327257194: i can just wear my contacts [10:03:18]
-13327257194: I don't really have time to head back, i'm already late enough for work as it is &gt;.&lt; [10:03:40]
-13327617848: wonder why :P [10:03:53]
-13327257194: lol [10:04:02]
-13327257194: i'll be busy during the week, so I'll get them when i come over for the weekend [10:04:23]
-13327617848: you sure you don't want me to swing by and give them to you? [10:04:47]
-13327257194: yeah it's fine. if I need them back sooner, I'll message you. [10:05:14]
-13327617848: ok [10:05:21]
-13327257194: have a good day, M! [10:05:35]
-13327617848: you know me [10:05:43]
-13327617848: i'm the best at having good days [10:05:59]
-13327257194: lol [10:06:10]
-13327617848: good luck at work, hardy [10:06:24]
+13327257194: 啊我草，我好想有啥东西落在你那了。 [10:01:20]
+13327617848: 啊这，你落了啥？ [10:01:57]
+13327257194: 没啥太重要的 [10:02:31]
+13327257194: 我眼镜落那了 [10:02:40]
+13327617848: 你不需要吗？ [10:02:58]
+13327257194: 我可以戴我的隐形眼镜 [10:03:18]
+13327257194: 主要我真的没有时间回去拿，已经够晚了，因为它是 &gt;.&lt; [10:03:40]
+13327617848: 好奇为啥 :P [10:03:53]
+13327257194: 23333 [10:04:02]
+13327257194: 我这周会很忙，所以我周末过来的时候再去拿 [10:04:23] 。
+13327617848: 你确定不要我大摇大摆的拿给你？[10:04:47]
+13327257194: 也可以，没关系，如果我需要它，我会给你发信息的。[10:05:14]
+13327617848: OK [10:05:21]
+13327257194: 祝你愉快(have a good days)，M! [10:05:35]
+13327617848: 你知道我的 [10:05:43] 。
+13327617848: 我最擅长过好日子(i'm the best at having good days) [10:05:59]
+13327257194: 2333 [10:06:10]
+13327617848: 祝你工作顺利，辛苦了[10:06:24] 。
 
 2020_09_01
 ------------
-13327257194: so uhhh [13:02:59]
-13327257194: looks like i might need those glasses after all lol [13:03:14]
-13327257194: hello? [13:09:20]
-13327257194: M, you there? [13:09:51]
+13327257194: 呃呃呃呃呃 [13:02:59]
+13327257194: 看来我到最后还是需要那副眼镜hhh [13:03:14]
+13327257194: 在吗? [13:09:20]
+13327257194: M, 你在吗? [13:09:51]
 13327257194: M?? [13:15:11]
-13327257194: fucking answer [13:15:39]
+13327257194: 操你妈回句话 [13:15:39]
 13327257194: M??????? [14:21:20]
 
 2020_10_01
 ------------
-13327257194: i'm coming over [10:29:41]
-13327257194: please just answer [10:29:59]
-13327257194: you were gone all day yesterday [10:30:15]
-13327257194: what the fuck, why aren't you answering the door? [10:44:29]
-13327257194: please [10:44:31]
+13327257194: 我去你那了 [10:29:41]
+13327257194: 请回答 [10:29:59]
+13327257194: 你昨天一整天都不在 [10:30:15]
+13327257194: 搞什么，你怎么不开门？ [10:44:29]
+13327257194: 求你了开门 [10:44:31]
 
 2020_11_01
 ------------
-13327257194: this isn't funny [09:29:31]
-13327257194: what the hell [09:29:55]
-13327257194: if you don't answer me in the next day, we're done [09:30:14]
-13327257194: if this is your idea of a sick joke then congratufuckinglations [21:01:20]
+13327257194: 这不好玩 [09:29:31]
+13327257194: 你他妈的搞什么鬼 [09:29:55]
+13327257194: 如果你第二天不回答我，我和你就绝交吧 [09:30:14]
+13327257194: 如果这是你他妈的傻逼玩笑的话，那我就他妈的祝贺你，傻逼 [21:01:20]
 </file>
 </eosDevice>
 

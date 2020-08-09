@@ -1,5 +1,5 @@
 <Computer id="mashunComp"
-          name="dmashun machine"
+          name="dmashun 的笔记本电脑"
           security="2"
           allowsDefaultBootModule="true"
           icon="laptop"

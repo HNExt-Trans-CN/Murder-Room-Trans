@@ -1,5 +1,5 @@
 <Computer id="capitalSavings"
-          name="Capital Savings Bank"
+          姓名="基本储蓄银行"
           ip="43.29.100.223"
           security="3"
           allowsDefaultBootModule="true"
@@ -10,47 +10,47 @@
 <portsForCrack val="3"/>
 <proxy time="-1"/>
 <firewall level="-1"/>
-
+<!--译注：公司名与姓名统一不做翻译-->>
 <!--Database Daemon-->
-<DatabaseDaemon Permission="private" DataType="TextRecord" Foldername="database" Color="235,158,52" Name="Capital Savings Bank Database">
+<DatabaseDaemon Permission="private" DataType="TextRecord" FolderName="database" Color="235,158,52" 姓名="基本储蓄银行数据库">
 <TextRecord>
 <Title>2400132</Title>
-<Data>Name: Lisa Reyes
+<Data>姓名: Lisa Reyes
 
-07/01/20: -$6.79 POINT OF SALE TERMINAL
-06/01/20: -$122.33 POINT OF SALE TERMINAL
-06/01/20: -$22.13 POINT OF SALE TERMINAL
-05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+07/01/20: -$6.79 POS机刷卡消费
+06/01/20: -$122.33 POS机刷卡消费
+06/01/20: -$22.13 POS机刷卡消费
+05/01/20: -$23.55 POS机刷卡消费</Data>
 </TextRecord>
 
 <TextRecord>
 <Title>1872091</Title>
-<Data>Name: Cara Mia
+<Data>姓名: Cara Mia
 
-10/01/20: -$6.74 POINT OF SALE TERMINAL
-06/01/20: -$52.33 POINT OF SALE TERMINAL
-06/01/20: -$2.13 POINT OF SALE TERMINAL
-05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+10/01/20: -$6.74 POS机刷卡消费
+06/01/20: -$52.33 POS机刷卡消费
+06/01/20: -$2.13 POS机刷卡消费
+05/01/20: -$23.55 POS机刷卡消费</Data>
 </TextRecord>
 
 <TextRecord>
 <Title>1328471</Title>
-<Data>Name: Julian Broly
+<Data>姓名: Julian Broly
 
-07/01/20: -$6.79 POINT OF SALE TERMINAL
-06/01/20: -$152.33 POINT OF SALE TERMINAL
-06/01/20: -$22.13 POINT OF SALE TERMINAL
-05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+07/01/20: -$6.79 POS机刷卡消费
+06/01/20: -$152.33 POS机刷卡消费
+06/01/20: -$22.13 POS机刷卡消费
+05/01/20: -$23.55 POS机刷卡消费</Data>
 </TextRecord>
 
 <TextRecord>
 <Title>2019423</Title>
-<Data>Name: Adrian Mahsoo
+<Data>姓名: Adrian Mahsoo
 
-07/01/20: -$6.79 POINT OF SALE TERMINAL
-06/01/20: -$152.33 POINT OF SALE TERMINAL
-06/01/20: -$22.13 POINT OF SALE TERMINAL
-05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+07/01/20: -$6.79 POS机刷卡消费
+06/01/20: -$152.33 POS机刷卡消费
+06/01/20: -$22.13 POS机刷卡消费
+05/01/20: -$23.55 POS机刷卡消费</Data>
 </TextRecord>
 
 <TextRecord>
@@ -60,176 +60,176 @@
 <!--Martin Staleski-->
 <TextRecord>
 <Title>2290192</Title>
-<Data>Name: Martin Staleski
+<Data>姓名: Martin Staleski
 
-12/01/20: -$10,000.00 MONEY TRANSFER
-07/01/20: -$6.79 POINT OF SALE TERMINAL
-06/01/20: -$152.33 POINT OF SALE TERMINAL
-06/01/20: -$22.13 POINT OF SALE TERMINAL
-05/01/20: -$23.55 POINT OF SALE TERMINAL
-04/01/20: +$10,000.00 MONEY TRANSFER
-03/01/20: -$3.25 POINT OF SALE TERMINAL
-01/01/20: -$178.29 POINT OF SALE TERMINAL</Data>
+12/01/20: -$10,000.00 资金转账
+07/01/20: -$6.79 POS机刷卡消费
+06/01/20: -$152.33 POS机刷卡消费
+06/01/20: -$22.13 POS机刷卡消费
+05/01/20: -$23.55 POS机刷卡消费
+04/01/20: +$10,000.00 资金转账
+03/01/20: -$3.25 POS机刷卡消费
+01/01/20: -$178.29 POS机刷卡消费</Data>
 </TextRecord>
 
 <TextRecord>
 <Title>1770131</Title>
-<Data>Name: Saki Yoshida
+<Data>姓名: Saki Yoshida
 
-07/01/20: -$6.79 POINT OF SALE TERMINAL
-06/01/20: -$152.33 POINT OF SALE TERMINAL
-06/01/20: -$22.13 POINT OF SALE TERMINAL
-05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+07/01/20: -$6.79 POS机刷卡消费
+06/01/20: -$152.33 POS机刷卡消费
+06/01/20: -$22.13 POS机刷卡消费
+05/01/20: -$23.55 POS机刷卡消费</Data>
 </TextRecord>
 
 <TextRecord>
 <Title>1692947</Title>
-<Data>Name: Jane Redmond
+<Data>姓名: Jane Redmond
 
-07/01/20: -$6.79 POINT OF SALE TERMINAL
-06/01/20: -$152.33 POINT OF SALE TERMINAL
-06/01/20: -$22.13 POINT OF SALE TERMINAL
-05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+07/01/20: -$6.79 POS机刷卡消费
+06/01/20: -$152.33 POS机刷卡消费
+06/01/20: -$22.13 POS机刷卡消费
+05/01/20: -$23.55 POS机刷卡消费</Data>
 </TextRecord>
 
 <TextRecord>
 <Title>2210421</Title>
-<Data>Name: Mark Falman
+<Data>姓名: Mark Falman
 
-07/01/20: -$6.79 POINT OF SALE TERMINAL
-06/01/20: -$152.33 POINT OF SALE TERMINAL
-06/01/20: -$22.13 POINT OF SALE TERMINAL
-05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+07/01/20: -$6.79 POS机刷卡消费
+06/01/20: -$152.33 POS机刷卡消费
+06/01/20: -$22.13 POS机刷卡消费
+05/01/20: -$23.55 POS机刷卡消费</Data>
 </TextRecord>
 
 <TextRecord>
 <Title>2209886</Title>
-<Data>Name: Roy Chang
+<Data>姓名: Roy Chang
 
-07/01/20: -$6.79 POINT OF SALE TERMINAL
-06/01/20: -$152.33 POINT OF SALE TERMINAL
-06/01/20: -$22.13 POINT OF SALE TERMINAL
-05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+07/01/20: -$6.79 POS机刷卡消费
+06/01/20: -$152.33 POS机刷卡消费
+06/01/20: -$22.13 POS机刷卡消费
+05/01/20: -$23.55 POS机刷卡消费</Data>
 </TextRecord>
 
 <TextRecord>
 <Title>1002213</Title>
-<Data>Name: Lucas Young
+<Data>姓名: Lucas Young
 
-07/01/20: -$6.79 POINT OF SALE TERMINAL
-06/01/20: -$152.33 POINT OF SALE TERMINAL
-06/01/20: -$22.13 POINT OF SALE TERMINAL
-05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+07/01/20: -$6.79 POS机刷卡消费
+06/01/20: -$152.33 POS机刷卡消费
+06/01/20: -$22.13 POS机刷卡消费
+05/01/20: -$23.55 POS机刷卡消费</Data>
 </TextRecord>
 <!--David Mashun-->
 <TextRecord>
 <Title>2910018</Title>
-<Data>Name: David Mashun
+<Data>姓名: David Mashun
 
-12/01/20: +$10,000.00 MONEY TRANSFER
-10/01/20: -$22.41 POINT OF SALE TERMINAL
-09/01/20: -$4.52 POINT OF SALE TERMINAL
-07/01/20: -$66.39 POINT OF SALE TERMINAL
-05/01/20: -$5.22 POINT OF SALE TERMINAL
-02/01/20: -$133.24 POINT OF SALE TERMINAL</Data>
+12/01/20: +$10,000.00 资金转账
+10/01/20: -$22.41 POS机刷卡消费
+09/01/20: -$4.52 POS机刷卡消费
+07/01/20: -$66.39 POS机刷卡消费
+05/01/20: -$5.22 POS机刷卡消费
+02/01/20: -$133.24 POS机刷卡消费</Data>
 </TextRecord>
 
 <TextRecord>
 <Title>1925512</Title>
-<Data>Name: John Stalvern
+<Data>姓名: John Stalvern
 
-07/01/20: -$6.79 POINT OF SALE TERMINAL
-06/01/20: -$152.33 POINT OF SALE TERMINAL
-06/01/20: -$22.13 POINT OF SALE TERMINAL
-05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+07/01/20: -$6.79 POS机刷卡消费
+06/01/20: -$152.33 POS机刷卡消费
+06/01/20: -$22.13 POS机刷卡消费
+05/01/20: -$23.55 POS机刷卡消费</Data>
 </TextRecord>
 
 <TextRecord>
 <Title>2204137</Title>
-<Data>Name: Tyrese Jones
+<Data>姓名: Tyrese Jones
 
-07/01/20: -$6.79 POINT OF SALE TERMINAL
-06/01/20: -$152.33 POINT OF SALE TERMINAL
-06/01/20: -$22.13 POINT OF SALE TERMINAL
-05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+07/01/20: -$6.79 POS机刷卡消费
+06/01/20: -$152.33 POS机刷卡消费
+06/01/20: -$22.13 POS机刷卡消费
+05/01/20: -$23.55 POS机刷卡消费</Data>
 </TextRecord>
 
 <TextRecord>
 <Title>2145728</Title>
-<Data>Name: Quendra McCusker
+<Data>姓名: Quendra McCusker
 
-07/01/20: -$6.79 POINT OF SALE TERMINAL
-06/01/20: -$152.33 POINT OF SALE TERMINAL
-06/01/20: -$22.13 POINT OF SALE TERMINAL
-05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+07/01/20: -$6.79 POS机刷卡消费
+06/01/20: -$152.33 POS机刷卡消费
+06/01/20: -$22.13 POS机刷卡消费
+05/01/20: -$23.55 POS机刷卡消费</Data>
 </TextRecord>
 
 <TextRecord>
 <Title>1982001</Title>
-<Data>Name:</Data>
+<Data>姓名:</Data>
 </TextRecord>
 <!--Nova-->
 <TextRecord>
 <Title>1004921</Title>
-<Data>Name: Nova Holdings Corp.
+<Data>姓名: Nova Holdings Corp.
 
-04/01/20: -$100,000.00 MONEY TRANSFER</Data>
+04/01/20: -$100,000.00 资金转账</Data>
 </TextRecord>
 
 <TextRecord>
 <Title>1051228</Title>
-<Data>Name: Macrosoft Holdings Corp.
+<Data>姓名: Macrosoft Holdings Corp.
 
-07/01/20: -$6.79 POINT OF SALE TERMINAL
-06/01/20: -$152.33 POINT OF SALE TERMINAL
-06/01/20: -$22.13 POINT OF SALE TERMINAL
-05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+07/01/20: -$6.79 POS机刷卡消费
+06/01/20: -$152.33 POS机刷卡消费
+06/01/20: -$22.13 POS机刷卡消费
+05/01/20: -$23.55 POS机刷卡消费</Data>
 </TextRecord>
 
 <TextRecord>
 <Title>1092281</Title>
-<Data>Name: Craig Pelton
+<Data>姓名: Craig Pelton
 
-07/01/20: -$6.79 POINT OF SALE TERMINAL
-06/01/20: -$152.33 POINT OF SALE TERMINAL
-06/01/20: -$22.13 POINT OF SALE TERMINAL
-05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+07/01/20: -$6.79 POS机刷卡消费
+06/01/20: -$152.33 POS机刷卡消费
+06/01/20: -$22.13 POS机刷卡消费
+05/01/20: -$23.55 POS机刷卡消费</Data>
 </TextRecord>
 
 <TextRecord>
 <Title>2112212</Title>
-<Data>Name: Cytix News Inc.
+<Data>姓名: Cytix News Inc.
 
-07/01/20: -$6.79 POINT OF SALE TERMINAL
-06/01/20: -$152.33 POINT OF SALE TERMINAL
-06/01/20: -$22.13 POINT OF SALE TERMINAL
-05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+07/01/20: -$6.79 POS机刷卡消费
+06/01/20: -$152.33 POS机刷卡消费
+06/01/20: -$22.13 POS机刷卡消费
+05/01/20: -$23.55 POS机刷卡消费</Data>
 </TextRecord>
 
 <TextRecord>
 <Title>2015158</Title>
-<Data>Name: Matthew Trobbiani
+<Data>姓名: Matthew Trobbiani
 
-15/01/20: +$150.00 MONEY TRANSFER
-14/01/20: -$24.10 POINT OF SALE TERMINAL
-13/01/20: -$65.22 POINT OF SALE TERMINAL
-12/01/20: -$5.24 POINT OF SALE TERMINAL
-11/01/20: -$12.24 POINT OF SALE TERMINAL
-09/01/20: -$188.22 POINT OF SALE TERMINAL
-07/01/20: -$22.10 POINT OF SALE TERMINAL
-06/01/20: +$81.00 MONEY TRANSFER
-05/01/20: -$20.10 POINT OF SALE TERMINAL
+15/01/20: +$150.00 资金转账
+14/01/20: -$24.10 POS机刷卡消费
+13/01/20: -$65.22 POS机刷卡消费
+12/01/20: -$5.24 POS机刷卡消费
+11/01/20: -$12.24 POS机刷卡消费
+09/01/20: -$188.22 POS机刷卡消费
+07/01/20: -$22.10 POS机刷卡消费
+06/01/20: +$81.00 资金转账
+05/01/20: -$20.10 POS机刷卡消费
 </Data>
 </TextRecord>
 
 <TextRecord>
 <Title>2281142</Title>
-<Data>Name: Porter Smith
+<Data>姓名: Porter Smith
 
-07/01/20: -$6.79 POINT OF SALE TERMINAL
-06/01/20: -$152.33 POINT OF SALE TERMINAL
-06/01/20: -$22.13 POINT OF SALE TERMINAL
-05/01/20: -$23.55 POINT OF SALE TERMINAL</Data>
+07/01/20: -$6.79 POS机刷卡消费
+06/01/20: -$152.33 POS机刷卡消费
+06/01/20: -$22.13 POS机刷卡消费
+05/01/20: -$23.55 POS机刷卡消费</Data>
 </TextRecord>
 
 </DatabaseDaemon>
