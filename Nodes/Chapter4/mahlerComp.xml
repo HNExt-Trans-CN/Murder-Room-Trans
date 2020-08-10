@@ -11,7 +11,7 @@
 <proxy time="1"/>
 <firewall level="-1"/>
 
-<encryptedFile path="home" name="面部屏蔽.dec" extension=".dll" ip="192.168.1.1" header="192.168.1.1">#BINARY#</encryptedFile>
-<file path="home" name="面部屏蔽说明.txt">面部屏蔽是一个程序，它与人身上保存的一个单独的指环相连接。通过程序生成的独特算法，它可以将佩戴者的脸从附近的任何视频源中屏蔽掉。</file>
+<encryptedFile path="home" name="Face_Scramble.dec" extension=".dll" ip="192.168.1.1" header="192.168.1.1">#BINARY#</encryptedFile>
+<file path="home" name="Face_Scramble说明.txt">面部加扰是一个程序，它与人身上保存的一个单独的指环相连接。通过程序生成的独特算法，它可以将佩戴者的脸从附近的任何视频源中屏蔽掉。</file>
 
 </Computer>
