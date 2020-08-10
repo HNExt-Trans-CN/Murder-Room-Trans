@@ -19,22 +19,22 @@
 <dlink target="cytixHub"/>
 
 <mailServer name="Cytix" color="66,245,81" generateJunk="true">
-<email recipient="NoahSterling" sender="Kimbley L. Marsh" subject="Byrons的故事 - 更新">你好,Noah,
+<email recipient="NoahSterling" sender="Kimbley L. Marsh" subject="Byrons的故事 - 更新">你好，Noah，
 你还能联系到与拜伦斯欺诈案有关的人吗？Ben让我发布那篇报道的最新进展。
 
 - Kimbley</email>
 <email recipient="NoahSterling" sender="Ben Smith" subject="每周例会更新">大家好
 让你知道下我们在周六有个周会。请记得把你正在写的故事更新。
 
-谢谢,
+谢谢，
 Ben</email>
 <email recipient="NoahSterling" sender="Ismail Ahmad" subject="午餐">哟 Noah，今天的午餐吃啥？
 我知道我可以发短信给你了，但我的手机太远了。无论如何，让我知道， 电子邮件或便条。</email>
-<email recipient="NoahSterling" sender="Mahler" subject="重要信息来源">亲爱的 Sterling,
+<email recipient="NoahSterling" sender="Mahler" subject="重要信息来源">亲爱的 Sterling，
 
 我已经收到了我之前说的那个消息来源的重要信息。都附在这封邮件里了。
 
-致敬,
+致敬，
 Mahler</email>
 <email recipient="NoahSterling" sender="Ben Smith" subject="Noah Sterling 追悼会">
 大家好，
@@ -43,16 +43,16 @@ Mahler</email>
 Ismail很慷慨地在周六下班后为他举办了一场追悼会。请不要觉得必须参加，我知道每个人可能会以不同的方式对待他的去世。
 然而，如果你想纪念他，说一些最后的话，请来参加仪式。
 
-诚挚的,
+诚挚的，
 Ben Smith
 </email>
 
 <email recipient="KimbleyLMarsh" sender="Ben Smith" subject="每周例会更新">大家好
 让你知道下我们在周六有个周会。请记得把你正在写的故事更新。
 
-谢谢,
+谢谢，
 Ben</email>
-<email recipient="KimbleyLMarsh" sender="Noah Sterling" subject="Re: Byrons的故事 - 更新">你好 Kimbley,
+<email recipient="KimbleyLMarsh" sender="Noah Sterling" subject="Re: Byrons的故事 - 更新">你好 Kimbley，
 当然，在附件中。希望这能帮到你。
 
 - Noah</email>
@@ -63,7 +63,7 @@ Ben</email>
 Ismail很慷慨地在周六下班后为他举办了一场追悼会。请不要觉得必须参加，我知道每个人可能会以不同的方式对待他的去世。
 然而，如果你想纪念他，说一些最后的话，请来参加仪式。
 
-诚挚的,
+诚挚的，
 Ben Smith
 </email>
 <email recipient="KimbleyLMarsh" sender="Nick Sharpe" subject="Re: 警察">这些家伙是真的吗？
@@ -72,7 +72,7 @@ Ben Smith
 <email recipient="IsmailAhmad" sender="Ben Smith" subject="每周例会更新">大家好
 让你知道下我们在周六有个周会。请记得把你正在写的故事更新。
 
-谢谢,
+谢谢，
 Ben</email>
 <email recipient="IsmailAhmad" sender="Noah Sterling" subject="Re: 午餐">233333
 啊可以啊，12点半去Chili's那咋样？
@@ -85,14 +85,14 @@ Ben</email>
 Ismail很慷慨地在周六下班后为他举办了一场追悼会。请不要觉得必须参加，我知道每个人可能会以不同的方式对待他的去世。
 然而，如果你想纪念他，说一些最后的话，请来参加仪式。
 
-诚挚的,
+诚挚的，
 Ben Smith
 </email>
 
 <email recipient="NickSharpe" sender="Ben Smith" subject="每周例会更新">大家好
 让你知道下我们在周六有个周会。请记得把你正在写的故事更新。
 
-谢谢,
+谢谢，
 Ben</email>
 <email recipient="NickSharpe" sender="Kimbley L. Marsh" subject="警察">我草，我听说警察要进楼了，显然我们是唯一可能杀了Noah的人。</email>
 <email recipient="NickSharpe" sender="Ben Smith" subject="Noah Sterling 追悼会">
@@ -102,15 +102,15 @@ Ben</email>
 Ismail很慷慨地在周六下班后为他举办了一场追悼会。请不要觉得必须参加，我知道每个人可能会以不同的方式对待他的去世。
 然而，如果你想纪念他，说一些最后的话，请来参加仪式。
 
-诚挚的,
+诚挚的，
 Ben Smith
 </email>
 
 
-<email recipient="BenSmith" sender="Cytix Source Upload" subject="New Files Uploaded">1 个新文件已被上传至源</email>
-<email recipient="BenSmith" sender="Cytix Source Upload" subject="New Files Uploaded">2 个新文件已被上传至源</email>
-<email recipient="BenSmith" sender="Cytix Source Upload" subject="New Files Uploaded">3 个新文件已被上传至源</email>
-<email recipient="BenSmith" sender="Cytix Source Upload" subject="New Files Uploaded">2 个新文件已被上传至源</email>
+<email recipient="BenSmith" sender="Cytix Source Upload" subject="New Files Uploaded">1 个新文件已被上传至文件传输服务器</email>
+<email recipient="BenSmith" sender="Cytix Source Upload" subject="New Files Uploaded">2 个新文件已被上传至文件传输服务器</email>
+<email recipient="BenSmith" sender="Cytix Source Upload" subject="New Files Uploaded">3 个新文件已被上传至文件传输服务器</email>
+<email recipient="BenSmith" sender="Cytix Source Upload" subject="New Files Uploaded">2 个新文件已被上传至文件传输服务器</email>
 
 </mailServer>
 

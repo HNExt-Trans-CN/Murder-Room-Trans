@@ -14,7 +14,7 @@
 <AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="30.0">等着， @#PLAYERNAME#， 你认识他?</AddIRCMessage>
 <AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="33.0">你好，探员，终于见到你了。</AddIRCMessage>
 <AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="36.0">别这么做 Graves</AddIRCMessage>
-<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="39.0">嘿，放松， Mahler, 我很愿意支持你的事业。</AddIRCMessage>
+<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="39.0">嘿，放松， Mahler， 我很愿意支持你的事业。</AddIRCMessage>
 <AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="43.0">但我不太喜欢被人当做别人的的替罪羊。</AddIRCMessage>
 <AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="46.0">尤其是被诬陷谋杀负责人</AddIRCMessage>
 <AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="49.0">你不明白。</AddIRCMessage>

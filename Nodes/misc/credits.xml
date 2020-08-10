@@ -1,5 +1,5 @@
 <Computer id="credits"
-          name="Murder Room Credits"
+          name="Murder Room 职员表"
           ip="192.168.1.1"
           security="1"
           allowsDefaultBootModule="true"
@@ -12,13 +12,15 @@
 <file path="home" name="CreditsData.txt">
 %--- Murder Room ---
 
-^An extension by Kwiper
+^作者 Kwiper
 
-^Story by Kwiper
+^故事来自于 Kwiper
+
+^中文版翻译 gao_cai_sheng
 
 
 
-%Music
+%音乐
 
 ^Cinematrik
 Revolve
@@ -42,7 +44,7 @@ surreal sippin'
 
 
 
-^All backgrounds found on wallpaperflare.com
+^所有壁纸来源于 wallpaperflare.com
 Connection
 Crystal Peak
 Link
@@ -52,52 +54,48 @@ Web Of Lies
 
 
 
-%Special thanks
+%特别感谢
 
 ^Spiderbenb
-Hosting and streaming the HackerJam. Thank you for motivating me
-to get back into extension dev.
+管理并直播HackerJam。 谢谢你激励我
+回到扩展开发。
 
 ^Aqua
-Preliminary testing and feedback. 
+初步测试和反馈。
 
 ^COVID-19
-Giving me time to work on this, even though I ended up crunching for time at the end.
+给予我时间去完成它。
 
 ^Matt Trobbiani
-You should know why at this point.
+你应该知道为什么吧
 
-^And you
-For playing through this extension, and hopefully some of my other ones.
-You guys are the reason I keep doing this.
+^还有你
+玩完了整个扩展。
+你们是我继续做下去的原因。
 
 
-
-This is a work of fiction. 
-Names, characters, businesses, places, events, locales, and
-incidents are either the products of the author's 
-imagination or used in a fictitious manner.
-Any resemblance to actual persons, living or dead, or 
-actual events is purely coincidental.
+免责声明：
+本作为虚构作品。名字、人物、企业、地方、事件、地点和事件都是作者想象的产物或以虚构的方式使用。
+如有与真实事件、真实人物雷同之处，纯属于巧合。
 
 </file>
 
-<file path="home" name="Message_from_the_dev.txt">So here we are at the end, and so begins another one of my long-winded messages I put at the end of my extensions.
-Murder Room was probably one of the most unique projects I've ever conceived. It's actually an extension idea I've had in mind for a couple of years now.
-I knew from the start I wanted to twist Hacknet's mechanics in some way, and the Case File and Forensic Analyzer systems, as well as the extension's general premise, were
-inspired by Osmotic Studios' Orwell. The extension's episodic/chapter-like structure was also inspired by Orwell, but the anthology narrative style of the different cases
-were inspired by two other detective games I hold near and dear to my heart: Ace Attorney and Danganronpa. The detective genre as a whole is one of my favourite narrative
-genres, and I was excited to expand upon it in Hacknet.
+<file path="home" name="来自开发者的消息.txt">所以，我们在这里结束了。
+Murder Room可能是我构思过的最独特的扩展之一，也是我这几年来一直在想的一个想法。
+我从一开始想以某种方式扭曲Hacknet的机制，而案件档案和取证分析系统，以及扩展的大前提，就是
+灵感来自Osmotic Studios的《Orwell》。该扩展的情节/章节式结构也是受奥威尔的启发，但不同案例的选集式叙事风格。
+灵感来自于另外两款我非常喜爱的侦探游戏 以《Ace Attorney》和《Danganronpa》为代表的侦探类型是我最喜欢的叙事游戏之一
+风格，我很高兴能在Hacknet制作此风格的扩展。
 
-Once again, I would like to thank Spiderbenb for hosting the HackerJam that allowed me to finally bring this project to fruition. As I'm writing this before the jam submission deadline,
-I have no way to know if I won or not, but this extension was fun to develop nonetheless. The competition was fierce, and seeing everyone create their own unique spins on Hacknet
-has been amazing. I hope people continue to bring more to this game. I am considering expanding upon this extension after the jam, adding some more content, adding custom music
-and overall adding more polish, so stay tuned for that!
+我想再次感谢Spiderbenb举办的HackerJam，让我最终将这个项目实现。当我在HackerJam提交截止日期前写下这篇文章时。
+我无从得知自己是否赢了，但这个扩展的开发还是很有趣的。竞争非常激烈，看到每个人都在Hacknet上做出了独特的扩展。
+我希望大家继续为这个游戏带来更多的内容。我正在考虑在HackerJam后继续做下这个扩展，增加一些更多的内容，添加自定义音乐，
+整体增加更多的光彩，所以请继续关注!
 
-Anyways, I hope you enjoyed playing through Murder Room, and if you haven't already maybe consider checking out some of my other extensions!
-Any feedback you have or comments you would like to make are always appreciated.
+无论如何，我希望你喜欢Murder Room，如果你还没有，也许可以考虑看看我的其他扩展!
+如果你有任何反馈或者你想提出的意见，我们都会非常感激。
 
-Until next time,
+下一次再见
 - Kwiper</file>
 
 <CreditsDaemon Title="Murder Room Credits" ButtonText="Complete" ConditionalActionSetToRunOnButtonPressPath="Actions/CreditsActions.xml"/>

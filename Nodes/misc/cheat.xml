@@ -1,17 +1,17 @@
 <Computer id="cheat"
-          name="Cheater's Stash"
+          name="孤儿院"
           ip="666.666.666.666"
           security="1"
           allowsDefaultBootModule="true"
           icon="laptop"
-          type="3" >
+          type="3" ><!--译注：原文是Cheater's Stash，但个人认为孤儿院比较生草 -->>
 
 <adminPass pass="hailsatan" />
 
 <ports>21, 22, 25, 80, 1433, 104, 6881, 443, 192</ports>
 <portsForCrack val="0" />
 
-  <file path="home" name="Cheaters.txt">You know the drill at this point.</file>
+  <file path="home" name="Cheaters.txt">既然你来了这，我想你知道该怎么做。</file>
 
   <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
   <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>

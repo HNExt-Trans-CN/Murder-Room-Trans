@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="caseFile"
-          name="Case File"
+          name="案件档案"
           security="2"
           allowsDefaultBootModule="true"
           icon="chip"
@@ -10,36 +10,37 @@
 <portsForCrack val="2"/>
 <proxy time="-1"/>
 
-<file path="home" name="Case_Briefing.doc">On December 21, 2019, at 10:21 PM, the body of Lucas Young was found at the end of an alleyway. The autopsy report determined his cause of death to be blunt force trauma at around 10 PM. According to a coworker of his, Young had been going out for drinks with some close friends at a nearby pub. The bar owner reports seeing Young leave the bar alone at around quarter to 10.
-The suspected murder weapon is a small metal bar found in a dumpster ten feet from Young's body. Trace amounts of blood were found on the bar matching Young's.
+<file path="home" name="案件简报.doc">2019年12月21日晚上10点21分，Lucas Young的尸体在一条巷子的尽头被发现。
+法医鉴定结果为死因是钝器外伤，时间是晚上10点左右。据他的一位同事说，Young当时和几个好友一起去附近的酒吧喝酒。酒吧老板称在10点45分左右看到Young独自离开酒吧。
+凶器是在距离Young尸体10英尺处的垃圾箱中发现的一个小金属棒。杠子上发现的微量血迹与Young的血迹相符。
 
-At present, there are three murder suspects:
+目前，有三个嫌疑人：
 Carl Sutton
 Joseph Goodwin
 Laura Pierce</file>
-<file path="home/Suspects" name="Carl_Sutton.doc">Name: Carl Sutton
-Age: 23
-Nationality: American
+<file path="home/Suspects" name="Carl_Sutton.doc">姓名: Carl Sutton
+年龄: 23
+国籍: 美国
 
-- Went drinking with the victim and two friends on December 21
-- Reportedly left early at around 9:30 PM
-- Roommate confirmed Sutton returned to his apartment at 10:30 PM
-- Apartment a roughly 30 minute walk from the bar
+- 12月21日，与受害者和两个朋友一起喝酒。
+- 晚上9点半左右提前离开。
+- 室友证实Sutton晚上10点半回到公寓
+- 公寓距离酒吧大约有30分钟的步行路程。
 </file>
-<file path="home/Suspects" name="Joseph_Goodwin.doc">Name: Joseph Goodwin
-Age: 22
-Nationality: American
+<file path="home/Suspects" name="Joseph_Goodwin.doc">姓名: Joseph Goodwin
+年龄: 22
+国籍: 美国
 
-- Went drinking with the victim and two friends on December 21
-- According to the bar owner, Goodwin was seen leaving the bar at around 10 PM
-- Goodwin was visiting the city from his home state of Ohio and checked into his hotel at 10:21 PM</file>
-<file path="home/Suspects" name="Laura_Pierce.doc">Name: Laura Pierce
-Age: 23
-Nationality: British/American
+- 12月21日，与受害者和两个朋友一起喝酒。
+- 据酒吧老板说，有人看到Goodwin在晚上10点左右离开酒吧。
+- Goodwin从他的家乡俄亥俄州来到这座城市，晚上10点21分入住酒店。</file>
+<file path="home/Suspects" name="Laura_Pierce.doc">姓名: Laura Pierce
+年龄: 23
+国籍: 英国/美国
 
-- Went drinking with the victim and two other friends on December 21
-- Reportedly left early at around 9:30 PM
-- Lives alone in her apartment, testified she returned at around 10 PM. Nobody to confirm this alibi.</file>
+- 12月21日，与受害人和两个朋友一起喝酒
+- 晚上9点半左右提前离开。
+- 一个人住在她的公寓里，她自称在晚上10点左右回来。但没有人可以证实其人不在场。</file>
 
 <memoryDumpFile name="Evidence_001.md" path="home/Evidence">
 <Memory>

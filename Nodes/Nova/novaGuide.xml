@@ -1,10 +1,10 @@
 <Computer id="novaGuide"
-          name="Nova Reference Guide"
+          name="Nova参考指南"
           security="1"
           allowsDefaultBootModule="true"
           icon="chip"
           type="4">
 
-<variableMissionListingServer name="Nova Reference Guide" iconPath="Images/Logos/Guide.png" articleFolderPath="Docs/Tutorial" color="200,200,200" assigner="false" public="true" title="Reference Guide"/>
+<variableMissionListingServer name="Nova参考指南" iconPath="Images/Logos/Guide.png" articleFolderPath="Docs/Tutorial" color="200,200,200" assigner="false" public="true" title="参考指南"/>
 
 </Computer>

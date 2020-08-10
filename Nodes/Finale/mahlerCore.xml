@@ -1,5 +1,5 @@
 <Computer id="mahlerCore"
-          name="Gideon Mahler Core"
+          name="Gideon Mahler 核心"
           ip="78.29.89.3"
           allowsDefaultBootModule="true"
           security="5"
@@ -14,11 +14,11 @@
 
 <CustomConnectDisplayDaemon />
 
-<file path="home" name="List_of_Nova_Agents.docx">#BINARY#</file>
-<file path="home" name="David_Mashun_Info.pdf">#BINARY#</file>
-<file path="home" name="Kara_Oliver_Info.pdf">#BINARY#</file>
-<file path="home" name="Noah_Sterling_Info.pdf">#BINARY#</file>
-<file path="home" name="Maurice_Graves_Info.pdf">#BINARY#</file>
+<file path="home" name="Nova探员名单.docx">#BINARY#</file>
+<file path="home" name="David_Mashun_简介.pdf">#BINARY#</file>
+<file path="home" name="Kara_Oliver_简介.pdf">#BINARY#</file>
+<file path="home" name="Noah_Sterling_简介.pdf">#BINARY#</file>
+<file path="home" name="Maurice_Graves_简介.pdf">#BINARY#</file>
 
   <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
   <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>

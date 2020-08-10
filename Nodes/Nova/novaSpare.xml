@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="novaSpare"
-          name="Nova Testing Node"
+          name="Nova测试节点"
           security="2"
           allowsDefaultBootModule="false"
           icon="chip">
@@ -12,78 +12,78 @@
 
 <eosDevice name="Carl's ePhone" id="tutPhone1" icon="ePhone2" empty="false">
 <file path="eos/data" name="mmssmm.db">
-Number: +19702841724
+号码: +19702841724
 =====================================
-Contact: +19702814834
-Name: Laura &lt;3
+联系信息: +19702814834
+姓名: Laura &lt;3
 
 2019_21_12
 ------------
-19702841724: hey, you need me to pick you up? [17:03:41]
-19702814834: nah, i'm getting a ride from my dad. [17:04:19]
-19702841724: ok, just wondering if I needed to head out earlier [17:04:34]
-19702841724: i'll see you soon [17:04:58]
-19702814834: love you! [17:05:12] 
+19702841724: 喂，你需要我去接你吗？[17:03:41]
+19702814834: 不，我从我爸那搞到辆单车。[17:04:19]
+19702841724: 好的，只是想知道我是否需要提前出发 [17:04:34] 。
+19702841724: 待会见！ [17:04:58] 。
+19702814834: 爱你! [17:05:12] 
 </file>
 </eosDevice>
 <eosDevice name="Goodwin Machine" id="tutPhone2" icon="ePhone2" empty="false">
 <file path="eos/data" name="mmssmm.db">
 Number: +19702911232
 =====================================
-Contact: +19703312120
-Name: Lucas Young
+联系信息: +19703312120
+姓名: Lucas Young
 
 2019_21_12
 ------------
-19703312120: you still owe me bro [16:20:12]
-19702911232: man, I'm still on my way [16:20:57]
-19702911232: can we not do this today? [16:21:14]
-19703312120: you've been saying that for months [16:21:59]
-19703312120: I did you a favor because Im a good friend [16:22:32]
-19703312120: hell, tell me anybody else who would willingly loan you 1000 to help you move state [16:22:59]
-19703312120: you said you would pay me back in a month, it's been way longer than that. [16:23:41]
-19702911232: i'll get you the money when I have it [16:24:02]
-19703312120: i need that money too. [16:24:32]
+19703312120: 你还欠我钱，兄弟 [16:20:12]
+19702911232: 伙计，我还在路上 [16:20:57] 。
+19702911232: 今天能还钱么？ [16:21:14]
+19703312120: 你已经说了几个月了。 [16:21:59]
+19703312120: 我帮了你一个忙，因为我是你的好朋友 [16:22:32] 。
+19703312120: 卧槽，你告诉我还有谁愿意借给你1000块钱帮你搬家。 [16:22:59] 。
+19703312120: 你说过一个月后还我钱的，现在可比约好的时间长多了。 [16:23:41]
+19702911232: 我有了钱就会给你 [16:24:02]。
+19703312120: 我也需要那笔钱。 [16:24:32]
 =====================================
-Contact: +19702814834
-Name: Laura Pierce
+联系信息: +19702814834
+姓名: Laura Pierce
 
 2019_21_12
 ------------
 19702814834: heyyyyyyy [18:23:54]
-19702814834: how close are you? [18:24:12]
-19702911232: about half an hour today, the traffic in this damn city haha [18:25:01]
-19702814834: alright, get here soon [18:25:42]
-19702814834: Carl and I haven't seen you in so longgggg! [18:25:58]
-19702911232: yeah I can't wait [18:26:24]
+19702814834：快到了？[18:24:12]
+19702911232：今天大约半个小时，这垃圾城市的交通实在太烂了hhh [18:25:01] 。
+19702814834：行，快来。 [18:25:42]
+19702814834：Carl 和我已经很久没有见到你了! [18:25:58]
+19702911232：是啊，我已经等不及了 [18:26:24] 。
 </file>
 </eosDevice>
 <eosDevice name="Laura Pierce ePhone 5S" id="tutPhone3" icon="ePhone" empty="false">
 <file path="eos/data" name="mmssmm.db">
-Number: +19702814834
+号码: +19702814834
 =====================================
-Contact: +19702911232
-Name: Joseph Goodwin
+联系信息: +19702911232
+姓名: Joseph Goodwin
 
 2019_21_12
 ------------
 19702814834: heyyyyyyy [18:23:54]
-19702814834: how close are you? [18:24:12]
-19702911232: about half an hour today, the traffic in this damn city haha [18:25:01]
-19702814834: alright, get here soon [18:25:42]
-19702814834: Carl and I haven't seen you in so longgggg! [18:25:58]
-19702911232: yeah I can't wait [18:26:24]
+19702814834：快到了？[18:24:12]
+19702911232：今天大约半个小时，这垃圾城市的交通实在太烂了hhh [18:25:01] 。
+19702814834：行，快来。 [18:25:42]
+19702814834：Carl 和我已经很久没有见到你了! [18:25:58]
+19702911232：是啊，我已经等不及了 [18:26:24] 。
 =====================================
-Contact: +19702841724
-Name: Caaaaaaarl
+联系信息: +19702841724
+姓名: Caaaaaaarl
 
 2019_21_12
 ------------
-19702841724: hey, you need me to pick you up? [17:03:41]
-19702814834: nah, i'm getting a ride from my dad. [17:04:19]
-19702841724: ok, just wondering if I needed to head out earlier [17:04:34]
-19702841724: i'll see you soon [17:04:58]
-19702814834: love you! [17:05:12] 
+19702841724: 喂，你需要我去接你吗？[17:03:41]
+19702814834: 不，我从我爸那搞到辆单车。[17:04:19]
+19702841724: 好的，只是想知道我是否需要提前出发 [17:04:34] 。
+19702841724: 待会见！ [17:04:58] 。
+19702814834: 爱你! [17:05:12] 
 </file>
 </eosDevice>
 

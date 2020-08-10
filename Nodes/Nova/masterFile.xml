@@ -20,34 +20,35 @@
 </memoryDumpFile>
 
 <!--Chapter 1 Files-->
-<file path="home/Chapter1" name="Case_Briefing.doc">Case number HS-4
-Victim: Martin Staleski
-Cause of death: Blunt force trauma
+<file path="home/Chapter1" name="案件简报.doc">案件编号 HS-4
+受害者: Martin Staleski
+死因: 钝器损伤
 
-On January 14, 2020, the body of Martin Staleski was discovered in his apartment. Forensic analysis determined the cause of death to be blunt force trauma to the head.
-Staleski's body was discovered by his neighbour, who "complained about a strange smell" coming from his apartment. Staleski was likely dead in his apartment for several days before being discovered.
-As a result of decomposition, a precise date and time of death is uncertain, however coroners estimate this time to be between January 7 and January 11. No DNA evidence was recovered from the scene besides Staleski's.
-According to the victim's place of work, Staleski had taken a sick leave for a week for as of now unknown reasons.
+2020年1月14日，Martin Staleski的尸体在他的公寓里被发现。法医分析确定死因是头部受到钝器创伤。
+Staleski的尸体是他的邻居发现的，他的邻居"抱怨说他的公寓里有一股怪味"。Staleski在被发现前很可能早在其公寓死亡。
+由于尸体已经腐烂，准确的死亡日期和时间还不确定，法医估计死亡时间是在1月7日到1月11日之间。
+除了Staleski的DNA证据外，现场没有找到其他证据。
+据受害者工作单位介绍，Martin Staleski曾因至今不明原因请过一周的病假。
 
-At the moment, we have determined two potential suspects who had contact with the victim within this timeframe, however due to the nature of the discovery, we have been unable to verify their alibis with the case:
+目前，我们已经确定了两名潜在的嫌疑人，他们在这个时间段内与被害人有过接触，但由于发现的性质，我们还无法将他们的不在场证明与案件进行核实:
     - Fern Hardy
     - David Mashun</file>
-<file path="home/Chapter1" name="David_Mashun.doc">Name: David Mashun
-Age: 32
-Nationality: Indonesian
+<file path="home/Chapter1" name="David_Mashun.doc">姓名: David Mashun
+年龄: 32
+国籍: 印度尼西亚
 
-- Co-worker at victim's company
-- Visited the victim's apartment January 9th to drop off some work files. This alibi is supported by his place of employment.
-- Claims victim did not answer the door when he visited.
+- 受害人的同事
+- 1月9日到受害人的公寓去送一些工作文件。自称其一直在公司工作。
+- 声称受害人在他来访时没有应门。
 </file>
-<file path="home/Chapter1" name="Fern_Hardy.doc">Name: Fern Hardy
-Age: 27
-Nationality: British/American
+<file path="home/Chapter1" name="Fern_Hardy.doc">姓名: Fern Hardy
+年龄: 27
+国籍: 英国/美国
 
-- Was in a relationship with the victim
-- Visited the victim January 7 and January 10.
-- Was with the victim overnight January 6 and left his apartment the morning of January 7. Neighbour claims they were "very loud until the morning."
-- Claims victim did not answer any of her messages for days since.
+- 与受害者有关系。
+- 1月7日和1月10日探望了受害人。
+- 1月6日与受害人在一起过夜，1月7日上午离开他的公寓。邻居称他们"非常吵闹，直到早上才离开"。
+- 声称受害人在此后的几天里没有回复她的任何信息。
 </file> 
 <memoryDumpFile name="Evidence_HS4-1.md" path="home/Chapter1">
 <Memory>
@@ -82,39 +83,39 @@ Nationality: British/American
 </memoryDumpFile>
 
 <!--Chapter 2 Files-->
-<file path="home/Chapter2" name="Case_Briefing.doc">Case number JL-2
-Victim: Kara Oliver
-Cause of death: Bleeding out from a single stab wound to the abdomen
+<file path="home/Chapter2" name="Case_Briefing.doc">案件编号 JL-2
+受害者: Kara Oliver
+死因: 因腹部刺伤所导致的失血过多死亡
 
-On February 6th, 2020, at 11:42 PM, the body of Kara Oliver was discovered in her house by her wife, Annette Coleman. The body was found on the ground
-of the couple's kitchen floor bleeding out. By the time authorities had arrived, Oliver was already deceased. Crime scene analysts discovered a bloodied knife next to the body, believed to be the murder wepon.
-On the evening of the murder, it was reported the couple had guests over for a dinner party; Ingrid Miles and her husband Christopher Miles. Kara Oliver worked as a police officer in the NYPD, with Ingrid Miles acting as her captain.
-Given a lack of evidence for the case, a culprit is unable to be determined at this time. No signs of forced entry were found, leading us to believe only those who knew the victim personally were capable of performing this murder.
+2020年2月6日晚上11点42分，Kara Oliver的尸体被他的妻子Annette Coleman在家中发现。尸体被发现在地上
+受害者的厨房地板上流血不止。当局赶到时，Oliver已经死亡。犯罪现场分析人员在尸体旁发现了一把带血的刀子，并认为其为凶器。
+谋杀当晚，据说这对夫妇有客人来参加晚宴，Ingrid Miles和她的丈夫Christopher Miles。Kara Oliver曾是NYPD的一名警官，Ingrid Miles担任她的队长。
+鉴于案件缺乏证据，目前无法确定凶手。没有发现强行闯入的痕迹，因此只有熟人犯罪可能。
 
-As such, we have determined three suspects who had contact with the subject within a reasonable timeframe of the murder:
+我们已经确定了三名嫌疑人，他们在合理的时间范围内与目标人物有过接触：
     - Annette Coleman
     - Ingrid Miles
     - Christopher Miles</file>
 
-<file path="home/Chapter2" name="Annette_Coleman.doc">Name: Annette Coleman
-Age: 31
-Nationality: American
+<file path="home/Chapter2" name="Annette_Coleman.doc">姓名: Annette Coleman
+年龄: 31
+国籍: 美国
 
-- Married to the victim.
-- Was supposedly in the shower at the time of the victim's murder.</file>
-<file path="home/Chapter2" name="Ingrid_Miles.doc">Name: Ingrid Miles
-Age: 36
-Nationality: Canadian/American
+- 与受害人结婚。
+- 据称被害人被杀时正在洗澡。</file>
+<file path="home/Chapter2" name="Ingrid_Miles.doc">姓名: Ingrid Miles
+年龄: 36
+国籍: 加拿大/美国
 
-- Police captain of the victim.
-- Visited the victim's place the evening of the murder for a dinner party.
-- Left with her husband for her home at roughly 10:00 PM. Corroborated by victim's wife.</file>
-<file path="home/Chapter2" name="Christopher_Miles.doc">Name: Christopher Miles
-Age: 39
-Nationality: American
+- 被害人的队长。
+- 案发当晚到被害人家参加晚宴。
+- 晚上10点左右和她丈夫一起回家。有被害人妻子的证实。</file>
+<file path="home/Chapter2" name="Christopher_Miles.doc">姓名: Christopher Miles
+年龄: 39
+国籍: 美国
 
-- Visited the victim's place the evening of the murder for a dinner party.
-- Left with his wife for his home at roughly 10:00 PM. Corroborated by victim's wife.</file>
+- 案发当晚到受害人家参加晚宴。
+- 大约在晚上10点和妻子一起离开回家。经被害人妻子证实.</file>
 
 <memoryDumpFile name="Evidence_JL2-1.md" path="home/Chapter2">
 <Memory>
@@ -162,15 +163,15 @@ Nationality: American
 </memoryDumpFile>
 
 <!--Chapter 3 Files-->
-<file path="home/Chapter3" name="Case_Briefing.doc">Case number SC-9
-Victim: Noah Sterling
-Cause of death: Poisoning
+<file path="home/Chapter3" name="Case_Briefing.doc">案件编号 SC-9
+受害者: Noah Sterling
+死因: 中毒身亡
 
-On March 24th, 2020, at 6:33 PM, Noah Sterling was found in his apartment dead. A toxicology report detailed the cause of death to be tetrodotoxin, commonly found in
-pufferfish and other poisonous fish. While looking through his receipts, no evidence was found that Sterling had consumed any of these types of fish, leading
-investigators to believe he was poisoned by a third party. As tetrodotoxin takes several hours from ingestion to take effect, the only people who could have poisoned
-Sterling were those at his work. Unfortunately, investigations have yet to determine any concrete suspects. Sterling called the authorities himself stating that he
-wasn't feeling well. By the time paramedics had arrived at his place, Sterling was already deceased.
+2020年3月24日下午6点33分，Noah Sterling被发现死在他的公寓里。毒理学报告详细说明了死因是河豚毒素，常见于：
+河豚和其他毒鱼。在查看他的收据时，没有发现任何证据表明Sterling曾食用过该类型的鱼。
+根据以上几点，调查人员认为他是被第三方毒死的。由于河豚毒素从摄取到生效需要几个小时的时间
+调查尚未确定任何具体的嫌疑人。Sterling自己打电话给当局，表示他感觉不舒服。
+当医护人员赶到他的住处时，Sterling已经死亡了。
 </file>
 <memoryDumpFile name="Evidence_SC9-1.md" path="home/Chapter3">
 <Memory>

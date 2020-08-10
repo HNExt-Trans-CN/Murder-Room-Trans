@@ -1,5 +1,5 @@
 <Computer id="novaCore"
-          name="Nova System Core"
+          name="Nova中央核心"
           ip="158.39.191.55"
           security="5"
           allowsDefaultBootModule="true"
