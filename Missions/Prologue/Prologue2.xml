@@ -8,14 +8,14 @@
 
 <email>
 <sender>G</sender>
-<subject>Case File</subject>
-<body>Welcome to the most important tool in your arsenal, the Case File. This is where all of your case data is stored, and anything important you come across gets uploaded to automatically. When you start a case you'll see the case briefing, a list of suspects and their profiles/alibis and all the evidence gathered in the initial investigation. Obviously you aren't able to access the evidence physically, so precise scans of the evidence have been created for you to use.
+<subject>案件档案</subject>
+<body>欢迎来到你的"武器库"中最重要的工具——案件档案。这里是存储所有案件数据的地方，你遇到的任何重要数据都会自动上传到这里。当你开始一个案件时，你会看到案件简介、嫌疑人名单和他们的资料以及所有在初步调查中收集到的证据。很明显，你无法接触到这些证据，所以我们为你制作了精确的证据扫描件。
 
-Also, take a look at your programs on your computer. You'll see a bunch of different programs. Most of these are used for hacking into secure nodes. Nova doesn't exactly... ask for permission. We have legal authorization for this I suppose.
+另外，看看你电脑上的程序。你会看到一堆不同的程序。这些程序大多是用来入侵计算机网络的。Nova并不是所有都...请求到许可。不过我想我们有合法的授权。
 
-You'll also see something called MemForensics. This program can be used to look at memory dumps of nodes, but we've also formatted things so you can read certain case files with them, such as evidence. Anything with a .md or image file extension like .png or .jpg, you can read with this program. Just be sure to look at images when you run the program.
+你还会看到一个叫MemForensics的程序。这个程序可以用来查看节点的内存转储，但我们也已经格式化了一些东西，比如证物。任何带有.md或图像文件扩展名的东西，比如.png或.jpg，你都可以用这个程序读取。运行这个程序的时候一定要看下图片那边。
 
-Anyways, take a look through some of the case files, and I'll get back to you in a bit.
+总之，看一下一些案件文件，我一会再给你回复。
 -G
 </body>
 <attachments>

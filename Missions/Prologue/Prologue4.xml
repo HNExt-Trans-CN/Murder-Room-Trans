@@ -10,12 +10,12 @@
 
 <email>
 <sender>G</sender>
-<subject>Forensic Analyzer</subject>
-<body>Hopefully you've acquainted yourself with the Case File by now. The next thing you're going to need is the Forensic Analyzer. Not to be confused with MemForensics.
+<subject>取证分析器</subject>
+<body>希望你现在已经熟悉了案件档案。接下来你需要的是取证分析器。不要和MemForensics混淆。
 
-The Forensic Analyzer allows you to upload anything that's in your Case File, and it'll update it in the Case File with information such as DNA, material, serial numbers, etc. It's a very advanced system.
+取证分析器可以帮你分析你上传案件档案中的任何东西，它会在案件档案中更新DNA、材料、序列号等信息。这是一个非常先进的系统。
 
-Try uploading the metal bar's evidence file to the Forensic Analyzer and see what comes up. You'll have to download it onto your own computer first before uploading, but once it gets uploaded it'll automatically be deleted from your system to avoid clutter.
+试着把金属棒的证物文件上传到取证分析器上，看看会出现什么。在上传之前，你必须先下载到自己的电脑上，但一旦上传，系统就会自动删除，以免造成混乱。
 -G
 </body>
 <attachments>
