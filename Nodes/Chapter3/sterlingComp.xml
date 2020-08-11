@@ -12,7 +12,7 @@
 <proxy time="-1"/>
 <firewall level="6" solution="PRAXIS"/>
 
-<encryptedFile path="home" name="遗言.dec" extension=".txt" ip="192.168.1.1" header="遗言">你好
+<encryptedFile path="home" name="My_Final_Message.dec" extension=".txt" ip="192.168.1.1" header="遗言">你好
 我的名字是Noah Sterling，不过既然你能读到这玩意我觉得你已经知道了。
 
 我之所以加密这条信息，是为了能揭露一个潜伏在这个国家阴影下的隐患。

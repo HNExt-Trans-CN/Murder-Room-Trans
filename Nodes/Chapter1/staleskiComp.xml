@@ -10,16 +10,16 @@
 <ports>21, 22</ports>
 <portsForCrack val="0"/>
 
-<file path="home" name="报告草稿.docx">#BINARY#</file>
-<file path="home" name="游戏里的一些想法.doc">这是一款名为《星际力量》的太空射击游戏。
+<file path="home" name="report_draft.docx">#BINARY#</file>
+<file path="home" name="game_idea.doc">这是一款名为《星际力量》的太空射击游戏。
 你扮演一个星系间太空战斗小组的飞行员，通过行星和恒星导航，试图阻止邪恶的Kazaq的力量
 游戏玩法相当标准，重点是在星域和敌方舰队中进行严密的导航，以及华丽的太空枪。
 <!--This is a reference to the game I created for my intro game dev course. No link for now.-->
 </file>
-<file path="home" name="20200101_互联网账单.pdf">#BINARY#</file>
-<file path="home" name="20191201_互联网账单.pdf">#BINARY#</file>
-<file path="home" name="20191101_互联网账单.pdf">#BINARY#</file>
-<file path="home" name="对Wonderwall草案的分析.doc">Oasis的Wonderwall。这是一首被人们老是播放的歌曲之一，它已经成为一个笑话，就像《Smoke on the Water》和《Stairway to Heaven》一样。
+<file path="home" name="20200101_INTERNET_BILL.pdf">#BINARY#</file>
+<file path="home" name="20191201_INTERNET_BILL.pdf">#BINARY#</file>
+<file path="home" name="20191101_INTERNET_BILL.pdf">#BINARY#</file>
+<file path="home" name="an_analysis_on_wonderwall_draft.doc">Oasis的Wonderwall。这是一首被人们老是播放的歌曲之一，它已经成为一个笑话，就像《Smoke on the Water》和《Stairway to Heaven》一样。
 但尽管如此，《Wonderwall》仍然是一首广为人知的音乐，它的和弦是标志性的，大多数人都能从那简单的四和弦进行曲中一眼认出它来。
 是什么让它成为了一首标志性的音乐？为什么我们一次又一次地演奏它？这些我试图在这篇文章中从理论的角度来分析，然后讨论它的文化影响。
 <!--I wonder how far I can go through with this before I stop feeling like doing it anymore.-->
@@ -27,7 +27,7 @@ Wonderwall以一个简单的F#min7->Am -> Esus4 -> B7sus4 和弦进行开始，�
 <!--Wow ok, very quickly it seems.-->
 </file>
 
-<file path="sys" name="登入日志.dat">事件ID: 538 [用户登出]
+<file path="sys" name="logon_audit.dat">事件ID: 538 [用户登出]
 日期: 2020年1月12日 [09:46:29]
 
 事件ID: 10 [远程登入]

@@ -40,19 +40,19 @@ Before I leave, you should know I've finally decrypted the ET-5 case. Finally th
 
 <email recipient="NovaDirector" sender="Maurice Graves" subject="真相">我知道你做了什么
 现在该结束了。</email>
-<email recipient="NovaDirector" sender="Hilda Riegan" subject="Re: 更换监督员">Understood, sir.
-I will oversee Agent #PLAYERNAME# for the time being. However, I do wonder, am I really best suited for this task? Couldn't you ask one of the other overseers?
+<email recipient="NovaDirector" sender="Hilda Riegan" subject="Re: 更换监督员">明白了，长官
+暂时由我来监督#PLAYERNAME#探员的工作 不过，我想知道，我真的最适合做这个任务吗？你就不能问问其他的监督员吗？
 </email>
-<email recipient="NovaDirector" sender="Luke Skylar" subject="月例探员报告">Good day, sir,
-Attached is the latest report on all currently active Nova agents. Please look through the report at your earliest convenience.
+<email recipient="NovaDirector" sender="Luke Skylar" subject="月例探员报告">日安，先生。
+附上所有目前活跃的Nova合作商的最新报告。请您尽早查看报告。
 
-Sincerely, Luke Skylar
-Head of Analytics, Nova</email>
-<email recipient="NovaDirector" sender="EnTech International" subject="合约更新 2020">Greetings, George
-As you are aware, EnTech has recently pushed an update to its investigation suite. As you rely on this partnership, we have felt these
-recent developments require an update to our original agreement. We believe this will benefit both of our organizations.
+诚挚的， Luke Skylar
+分析主管, Nova</email>
+<email recipient="NovaDirector" sender="EnTech International" subject="合约更新 2020">你好, George
+如您所知，EnTech最近对其调查套件进行了更新。由于您依赖这种合作关系，我们觉得这些
+最近的事态发展要求对我们的原始协议进行更新。我们相信，这对我们两个组织都有好处。
 
-Yours sincerely,
+诚挚的,
 David Leatrou</email>
 
 </mailServer>

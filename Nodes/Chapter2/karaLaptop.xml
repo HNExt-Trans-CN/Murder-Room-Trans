@@ -10,7 +10,7 @@
 <portsForCrack val="2"/>
 <firewall level="6" solution="OLIVER"/>
 
-<file path="home" name="看啥子.txt">Bloodlines of Conquest (annette喜欢这个，但她告诉我不要看第八季了)
+<file path="home" name="what_to_watch.txt">Bloodlines of Conquest (annette喜欢这个，但她告诉我不要看第八季了)
 Inspector Spacetime
 Meth and Mayhem
 The Man Without Fear
@@ -24,8 +24,8 @@ IT Department
 My Immortal
 
 天啊，我有这么多的东西要看</file>
-<file path="home" name="NYPD_简报_2020年2月.pdf">#BINARY#</file>
-<file path="home" name="歌词稿草稿.doc">The</file>
+<file path="home" name="NYPD_Newsletter_Feb2020.pdf">#BINARY#</file>
+<file path="home" name="song_lyrics_draft.doc">The</file>
 <memoryDumpFile name="canadian_go_weee.png" path="home">
 <Memory>
 <Images>

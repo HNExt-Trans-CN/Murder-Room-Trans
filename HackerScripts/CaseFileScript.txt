@@ -4,9 +4,9 @@ clearTerminal $#%#$
 
 delay 0.5 $#%#$
 
-writel Analyzing $#%#$
+writel 正在 $#%#$
 delay 0.1 $#%#$
-write_silent contents. $#%#$
+write_silent 分析中. $#%#$
 delay 0.1 $#%#$
 write_silent . $#%#$
 delay 0.1 $#%#$
@@ -28,9 +28,9 @@ delay 0.1 $#%#$
 writel_silent $#%#$
 delay 0.5 $#%#$
 
-writel Case $#%#$
+writel 案件 $#%#$
 delay 0.1 $#%#$
-write_silent 文件 $#%#$
+write_silent 档案 $#%#$
 delay 0.1 $#%#$
 write_silent 已更新 $#%#$
 
