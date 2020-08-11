@@ -1,27 +1,27 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Person id="G_Yularen" handle="Grandmaster" firstName="George" lastName="Yularen" isMale="true">
+<Person id="G_Yularen" handle="棋圣" firstName="George" lastName="Yularen" isMale="true">
   <Birthplace name="Portland" />
   <Degrees>
-    <Degree uni="Harvard University" gpa="3.7">Masters of Law</Degree>
-    <Degree uni="Harvard University" gpa="3.5">Bachelor of Cyber Security</Degree>
-    <Degree uni="Harvard University" gpa="3.5">Bachelor of Law</Degree>
+    <Degree uni="Harvard University" gpa="3.7">法学硕士</Degree>
+    <Degree uni="Harvard University" gpa="3.5">网络安全研究生</Degree>
+    <Degree uni="Harvard University" gpa="3.5">法律研究生</Degree>
   </Degrees>
   <DOB>05/02/1963 22:00:00</DOB>
   <Medical>
     <Blood>O-</Blood>
     <Height>181</Height>
     <Allergies>NONE</Allergies>
-    <Perscription>Ivermectin x35 monthly :: Heartrate regulation</Perscription>
-    <Notes>Due to reccuring and critical arrythmetic problems in the patient's heart, they have been fitted with a pacemaker that can allow some fine tuning to account for unknown variables without invasive surgery.
+    <Perscription>每月 伊维菌素x35::心律调节</Perscription>
+    <Notes>由于患者复发心脏病和严重的心律失常，其已被安装了起搏器，可以进行一些微调以解决未知变量，而无需进行侵入性手术。
     
-References:
-. 
-. 
-Pacemaker connection ID: 222.44.125.49
-. 
+参考文献：
 .
-Extra Details:
-Before taking any action that might disrupt the pacemaker, or performing any invasive surgery, contact the manufacturers to confirm it's stability.
+.
+起搏器连接IP：222.44.125.49
+.
+.
+额外详情：
+在采取可能破坏起搏器的任何措施或进行任何侵入性手术之前，请与制造商联系以确认其稳定性。
     </Notes>
   </Medical>
 </Person>

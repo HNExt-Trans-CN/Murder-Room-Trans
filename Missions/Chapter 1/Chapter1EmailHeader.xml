@@ -7,11 +7,12 @@
 
 <email>
 <sender>G</sender>
-<subject>Email Headers</subject>
-<body>This is the victim's work email, huh?
-Doesn't seem like it connects to the rest of the DLabs network. Not that I think you'll need to.
-But you might be able to find a connection from another node here. Remember how you uploaded Staleski's email address and it revealed the email node IP?
-Well, the Forensic Analyzer can take things a step above that and analyze email headers and reveal the source IPs of emails. This is apparently useful for finding nodes outside of a certain network. Give it a go, see what you can dig up.
+<subject>邮件头</subject>
+<body>这是受害者的工作邮箱，不是么？
+它好像没有连接到DLabs网络的其他地方，我觉得你不需要连接。
+但你也许能从另一个节点找到连接点。还记得你上传了Staleski的电子邮件地址，然后它显示了电子邮件节点的IP吗?
+好吧，取证分析器可以做到更多，分析邮件头并输出邮件的源IP。这对于寻找某个网络之外的节点还是很有用的。
+试一试，看看你能挖到什么。
 
 -G</body>
 <attachments>

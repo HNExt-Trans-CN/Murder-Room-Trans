@@ -8,17 +8,17 @@
 
 <email>
 <sender>G</sender>
-<subject>Re: Case File: HS-4</subject>
-<body>Hmm, doesn't look like we can find more from this end.
+<subject>Re: 案件档案: HS-4</subject>
+<body>嗯，看来我们从这头找不到更多的线索了。
 
-Seems the murder weapon's a dead end, too. At least we managed to discover a more concrete time of death - January 9th or later.
-That means the girlfriend didn't kill him when she left his apartment January 7th. That doesn't completely clear her of suspicion yet, there's still January 10th she's unaccounted for.
-Based on this login log, someone got into Staleski's computer after he was killed.
+也许凶器也是个死结。至少我们发现了一个更具体的死亡时——1月9日或之后。
+也就是说，他女友在1月7日离开他的公寓时，并没有杀他。但这还不能完全排除她的嫌疑，还有1月10日她下落不明。
+根据这个登录日志，有人在Staleski被杀后进入了他的电脑。
 
-Since it doesn't look like we can get much more out of what we have here, let me show you another function of the Forensic Analyzer.
-Upload an email account file to the analyzer. If you don't have it on your netmap yet, the analyzer will determine the IP of the email server uploaded and add it to your netmap.
+既然看起来我们在这里得不到更多的信息，那我就给你展示一下取证分析器的另一个功能。
+将电子邮件账户文件上传到分析器中。如果你的证物图片上还没有它，分析器会确定上传的邮件服务器的IP，并将其添加到你的证物图片上。
 
-Seems like Staleski had a couple email accounts on his phone. Try uploading them.
+看起来Staleski的手机上有几个电子邮件账户。试着上传它们。
 -G
 </body>
 <attachments>

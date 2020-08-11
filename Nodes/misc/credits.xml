@@ -98,7 +98,7 @@ Murder Room可能是我构思过的最独特的扩展之一，也是我这几年
 下一次再见
 - Kwiper</file>
 
-<CreditsDaemon Title="Murder Room Credits" ButtonText="Complete" ConditionalActionSetToRunOnButtonPressPath="Actions/CreditsActions.xml"/>
+<CreditsDaemon Title="Murder Room 职员表" ButtonText="Complete" ConditionalActionSetToRunOnButtonPressPath="Actions/CreditsActions.xml"/>
 
 
 </Computer>
