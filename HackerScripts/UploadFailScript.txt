@@ -4,9 +4,9 @@ clearTerminal $#%#$
 
 delay 0.5 $#%#$
 
-writel 分析 $#%#$
+writel 正在 $#%#$
 delay 0.1 $#%#$
-write_silent 文本中. $#%#$
+write_silent 分析中. $#%#$
 delay 0.1 $#%#$
 write_silent . $#%#$
 delay 0.1 $#%#$
