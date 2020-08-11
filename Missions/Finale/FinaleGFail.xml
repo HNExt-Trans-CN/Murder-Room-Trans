@@ -8,12 +8,12 @@
 
 <email>
 <sender>H</sender>
-<subject>Resistance is Futile</subject>
-<body>It's too late for you now, #PLAYERNAME#.
-Gideon Mahler has been apprehended. We have your place surrounded.
-Make things easier for us and surrender.
+<subject>抵抗是徒劳的</subject>
+<body>现在对你来说太迟了, #PLAYERNAME#.
+Gideon Mahler已被逮捕。我们已经包围了你的所在地。
+让大家都好过一点，投降吧。
 
-Goodbye, traitor.</body>
+再见了，叛徒。</body>
 <attachments>
 <link comp="credits"/>
 </attachments>
