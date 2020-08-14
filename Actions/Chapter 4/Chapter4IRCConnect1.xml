@@ -23,7 +23,7 @@
 <AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="59.0">不过我可能知道怎么才能知道是谁干的。</AddIRCMessage>
 <AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="64.0">!ATTACHMENT:link#%#通用医疗#%#208.93.170.15</AddIRCMessage>
 <AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="67.0">我们也许能找到负责人的医疗信息。</AddIRCMessage>
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="70.0">为了不惊动Nova，我认为最好不要使用案件档案和取证分析器。</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="70.0">为了不惊动Nova，我认为最好不要使用案件档案和取证分析仪。</AddIRCMessage>
 <AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="73.0">总之，我们来解决这个案子吧。</AddIRCMessage>
 </OnConnect>
 

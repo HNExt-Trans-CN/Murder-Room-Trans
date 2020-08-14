@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="forensic"
-          name="取证分析器"
+          name="取证分析仪"
           security="2"
           allowsDefaultBootModule="true"
           icon="chip"
@@ -8,6 +8,6 @@
 
 <dlink target="caseFile"/>
 
-<uploadServerDaemon name="取证分析器" folder="Drop" needsAuth="false" color="3,157,252"/>
+<uploadServerDaemon name="取证分析仪" folder="Drop" needsAuth="false" color="3,157,252"/>
 
 </Computer>

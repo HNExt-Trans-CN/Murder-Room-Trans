@@ -1,5 +1,5 @@
 <ConditionalActions>
-<!--第三章，这个任务少了很多那种取证分析器和案卷的东西，但就调查本身而言，可能是最深的。但愿如此。-->
+<!--第三章，这个任务少了很多那种取证分析仪和案卷的东西，但就调查本身而言，可能是最深的。但愿如此。-->
 <Instantly>
 
 <AddConditionalActions Filepath="Actions/Chapter 3/Chapter3SterlingGetAdmin.xml"/>
