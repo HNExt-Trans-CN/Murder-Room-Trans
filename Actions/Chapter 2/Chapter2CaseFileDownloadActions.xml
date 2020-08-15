@@ -3,7 +3,7 @@
 <Instantly>
 <LaunchHackScript Filepath="HackerScripts/CaseFileScript.txt" DelayHost="delay" Delay="0.5" SourceComp="caseFile" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
 <DeleteFile TargetComp="playerComp" FilePath="home" FileName="et-5.rec" DelayHost="delay" Delay="0.0"/>
-<AppendToFile DelayHost="delay" Delay="2.0" TargetComp="caseFile" TargetFolderpath="home/Suspects" TargetFilename="Ingrid_Miles.doc">- Involved in a redacted case the victim was investigating.</AppendToFile>
+<AppendToFile DelayHost="delay" Delay="2.0" TargetComp="caseFile" TargetFolderpath="home/Suspects" TargetFilename="Ingrid_Miles.doc">- 牵涉到被害人正在调查的一起被删减的案件中。</AppendToFile>
 <AddAsset FileName="SMTPOverflow.exe" FileContents="#SMTP_CRACK#" TargetComp="playerComp" TargetFolderpath="bin"/>
 </Instantly>
 

@@ -12,7 +12,7 @@
 <firewall level="-1"/>
 <!--译注：公司名与姓名统一不做翻译-->>
 <!--Database Daemon-->
-<DatabaseDaemon Permission="private" DataType="TextRecord" FolderName="database" Color="235,158,52" 姓名="基本储蓄银行数据库">
+<DatabaseDaemon Permission="private" DataType="TextRecord" Foldername="database" Color="235,158,52" 姓名="基本储蓄银行数据库">
 <TextRecord>
 <Title>2400132</Title>
 <Data>姓名: Lisa Reyes
