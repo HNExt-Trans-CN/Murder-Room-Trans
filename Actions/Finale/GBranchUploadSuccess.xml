@@ -8,7 +8,7 @@
 <AppendToFile DelayHost="delay" Delay="0.0" TargetComp="credits" TargetFolderpath="home" TargetFilename="CreditsData.txt"></AppendToFile>
 <AppendToFile DelayHost="delay" Delay="0.0" TargetComp="credits" TargetFolderpath="home" TargetFilename="CreditsData.txt">%结束</AppendToFile>
 
-<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="5.0">@#PLAYERNAME# 文件以及上传到那边去了！</AddIRCMessage>
+<AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="5.0">@#PLAYERNAME# 文件已经上传到那边去了！</AddIRCMessage>
 <AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="8.0">Cytix正在准备推送报道!!</AddIRCMessage>
 <AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="11.0">Nova现在可能会来找我们的麻烦了。</AddIRCMessage>
 <AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="14.0">但我不觉得他们现在还能够骚扰我们这么长时间了。甚至Nova可能就此迎来他的终结！</AddIRCMessage>

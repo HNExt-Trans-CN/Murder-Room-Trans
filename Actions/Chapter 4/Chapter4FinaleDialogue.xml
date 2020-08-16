@@ -30,7 +30,7 @@
 <AddConditionalActions Filepath="Actions/Chapter 4/Chapter4Hilda2Load.xml" DelayHost="delay" Delay="61.0"/>
 <ChangeAlertIcon Target="finaleIRC" Type="irchub" DelayHost="delay" Delay="64.0"/>
 
-<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="65.0"听听你自己说的话。你的口气开始像你想摧毁的这个计划了。</AddIRCMessage>
+<AddIRCMessage Author="Graves" TargetComp="finaleIRC" Delay="65.0">听听你自己说的话。你的口气开始像你想摧毁的这个计划了。</AddIRCMessage>
 <AddIRCMessage Author="G" TargetComp="finaleIRC" Delay="68.0">@#PLAYERNAME# ，我们可以结束这一切！</AddIRCMessage>
 <ChangeAlertIcon Target="jmail" Type="mail" DelayHost="delay" Delay="70.0"/>
 <AddConditionalActions Filepath="Actions/Chapter 4/Chapter4Hilda3Load.xml" DelayHost="delay" Delay="71.0"/>
