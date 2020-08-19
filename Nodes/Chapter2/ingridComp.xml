@@ -18,7 +18,7 @@
 
 我的名字是Reggie，如果你正在阅读这封邮件，那意味着我已经死了. </file>
 
-<file path="sys" name="Cysco_Network_Link.dll">#BINARY#</file><!--译注：特殊DLL不做翻译，应该谁都没见过这些玩意还翻译的吧 -->>
+<file path="sys" name="Cysco_Network_Link.dll">#BINARY#</file><!--译注：特殊DLL不做翻译，应该谁都没见过这些玩意还翻译的吧 -->
 
 <eosDevice name="Ingrid Miles ePhone" id="ingridPhone" icon="ePhone" empty="false">
 <mail username="imiles@nypd.gov" pass="Valkyrie"/>
